@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: 7c035e4c437729141b532de40bc74783
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1558428751708560245
+    second: Semar_0011_0
+  - first:
+      213: 1754812385940127838
+    second: Semar_0011_1
+  - first:
+      213: 2676144908453374719
+    second: Semar_0011_2
+  - first:
+      213: 7596199701859417308
+    second: Semar_0011_3
+  - first:
+      213: 6910302801166335783
+    second: Semar_0011_4
+  - first:
+      213: -3046476704134813262
+    second: Semar_0011_5
+  - first:
+      213: -5182530648564109394
+    second: Semar_0011_6
+  - first:
+      213: -7251034716625736221
+    second: Semar_0011_7
+  - first:
+      213: 2909801306740656525
+    second: Semar_0011_8
+  - first:
+      213: -5305415143404167134
+    second: Semar_0011_9
+  - first:
+      213: 6150455499912879348
+    second: Semar_0011_10
+  - first:
+      213: -6025236788735643031
+    second: Semar_0011_11
+  - first:
+      213: -227487766302620672
+    second: Semar_0011_12
+  - first:
+      213: -9030370486697628696
+    second: Semar_0011_13
+  - first:
+      213: -7746352981497956919
+    second: Semar_0011_14
+  - first:
+      213: 5762916104299569129
+    second: Semar_0011_15
+  - first:
+      213: -9207620615158978488
+    second: Semar_0011_16
+  - first:
+      213: -6276537997389420168
+    second: Semar_0011_17
+  - first:
+      213: -8780481778370774810
+    second: Semar_0011_18
+  - first:
+      213: -8451756146001553649
+    second: Semar_0011_19
+  - first:
+      213: 1491168670314255632
+    second: Semar_0011_20
+  - first:
+      213: -7774795963564024688
+    second: Semar_0011_21
+  - first:
+      213: -7907384843388507030
+    second: Semar_0011_22
+  - first:
+      213: 7858529306412866340
+    second: Semar_0011_23
+  - first:
+      213: -7731405131811751455
+    second: Semar_0011_24
+  - first:
+      213: -4266217335992645388
+    second: Semar_0011_25
+  - first:
+      213: -3369987903984093266
+    second: Semar_0011_26
+  - first:
+      213: -3052895905409000375
+    second: Semar_0011_27
+  - first:
+      213: -2993590666098422333
+    second: Semar_0011_28
+  - first:
+      213: -362557884567606562
+    second: Semar_0011_29
+  - first:
+      213: 2346915351677122362
+    second: Semar_0011_30
+  - first:
+      213: 7825862176158256277
+    second: Semar_0011_31
+  - first:
+      213: 8585579678176421954
+    second: Semar_0011_32
+  - first:
+      213: -8771022497851215115
+    second: Semar_0011_33
+  - first:
+      213: -1300711315114081521
+    second: Semar_0011_34
+  - first:
+      213: 7774378126911783132
+    second: Semar_0011_35
+  - first:
+      213: 1349391172049993434
+    second: Semar_0011_36
+  - first:
+      213: 296873610346962507
+    second: Semar_0011_37
+  - first:
+      213: -604077082903558760
+    second: Semar_0011_38
+  - first:
+      213: -1232349020168839560
+    second: Semar_0011_39
+  - first:
+      213: -5309300954304150977
+    second: Semar_0011_40
+  - first:
+      213: -6099279478481131283
+    second: Semar_0011_41
+  - first:
+      213: 8420388641323704288
+    second: Semar_0011_42
+  - first:
+      213: 2829563747095645322
+    second: Semar_0011_43
+  - first:
+      213: -2655999926679560384
+    second: Semar_0011_44
+  - first:
+      213: 6756202986062478809
+    second: Semar_0011_45
+  - first:
+      213: -3431487649579024088
+    second: Semar_0011_46
+  - first:
+      213: -528743099866057855
+    second: Semar_0011_47
+  - first:
+      213: 4135828772023482654
+    second: Semar_0011_48
+  - first:
+      213: 5068867751463303682
+    second: Semar_0011_49
+  - first:
+      213: 6386077118849532173
+    second: Semar_0011_50
+  - first:
+      213: -3082980341795394896
+    second: Semar_0011_51
+  - first:
+      213: -5348346328319839290
+    second: Semar_0011_52
+  - first:
+      213: -1618949231695750603
+    second: Semar_0011_53
+  - first:
+      213: -6772269394678858010
+    second: Semar_0011_54
+  - first:
+      213: -3929366481320522330
+    second: Semar_0011_55
+  - first:
+      213: 3537688286913424930
+    second: Semar_0011_56
+  - first:
+      213: -4693886693265688102
+    second: Semar_0011_57
+  - first:
+      213: 8478182328216991178
+    second: Semar_0011_58
+  - first:
+      213: 3015269262845111849
+    second: Semar_0011_59
+  - first:
+      213: -5120020092118757919
+    second: Semar_0011_60
+  - first:
+      213: 1629403797589296189
+    second: Semar_0011_61
+  - first:
+      213: 2899032680562333209
+    second: Semar_0011_62
+  - first:
+      213: -4502305204990672227
+    second: Semar_0011_63
+  - first:
+      213: 6281784758404032561
+    second: Semar_0011_64
+  - first:
+      213: -2190021246414702483
+    second: Semar_0011_65
+  - first:
+      213: -9190743550867981733
+    second: Semar_0011_66
+  - first:
+      213: 822834562754718760
+    second: Semar_0011_67
+  - first:
+      213: 3341026017585386481
+    second: Semar_0011_68
+  - first:
+      213: -2752491595527423176
+    second: Semar_0011_69
+  - first:
+      213: 894942479064426827
+    second: Semar_0011_70
+  - first:
+      213: 3041663149796881216
+    second: Semar_0011_71
+  - first:
+      213: -3261954532208775981
+    second: Semar_0011_72
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Semar_0011_0
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 550
+        width: 79
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84e7a6ae495f5ae0800000000000000
+      internalID: -1558428751708560245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_1
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 540
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50ca6f41985a5810800000000000000
+      internalID: 1754812385940127838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_2
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 528
+        width: 162
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa65db8d93932520800000000000000
+      internalID: 2676144908453374719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 488
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc3248e16f1b6960800000000000000
+      internalID: 7596199701859417308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_4
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 527
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ff7e909c356ef50800000000000000
+      internalID: 6910302801166335783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_5
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 526
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9aa89149db8b5d0800000000000000
+      internalID: -3046476704134813262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_6
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 518
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafe2c655d3f318b0800000000000000
+      internalID: -5182530648564109394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_7
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 506
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed6f75c7562f5b90800000000000000
+      internalID: -7251034716625736221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_8
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 525
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d898e372fd0b16820800000000000000
+      internalID: 2909801306740656525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_9
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 353
+        width: 317
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220aa6f49016f56b0800000000000000
+      internalID: -5305415143404167134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_10
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 481
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc972fc0beca5550800000000000000
+      internalID: 6150455499912879348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_11
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 490
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962fbcf401f026ca0800000000000000
+      internalID: -6025236788735643031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_12
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 439
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00409c2f41dc7dcf0800000000000000
+      internalID: -227487766302620672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_13
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 455
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb673623edada280800000000000000
+      internalID: -9030370486697628696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_14
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 387
+        width: 88
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5b609510d6f7490800000000000000
+      internalID: -7746352981497956919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 412
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef5723e9adf9ff40800000000000000
+      internalID: 5762916104299569129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_16
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 435
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848a2e6a5d5f73080800000000000000
+      internalID: -9207620615158978488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_17
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 435
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879ac5622f145e8a0800000000000000
+      internalID: -6276537997389420168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_18
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 424
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e87b63f756752680800000000000000
+      internalID: -8780481778370774810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_19
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 427
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f075a55809455ba80800000000000000
+      internalID: -8451756146001553649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_20
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 391
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015d54e4102b1b410800000000000000
+      internalID: 1491168670314255632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_21
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 339
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c10a683406a1490800000000000000
+      internalID: -7774795963564024688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_22
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 381
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c258b4163534290800000000000000
+      internalID: -7907384843388507030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_23
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 374
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b5cb594ca1f0d60800000000000000
+      internalID: 7858529306412866340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_24
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 344
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e97abfcef784b490800000000000000
+      internalID: -7731405131811751455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_25
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 330
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f88b81bfe95bc4c0800000000000000
+      internalID: -4266217335992645388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_26
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 363
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea73aa53bd56b31d0800000000000000
+      internalID: -3369987903984093266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_27
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 359
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c1ad5595fe1a5d0800000000000000
+      internalID: -3052895905409000375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_28
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 356
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd47406621a476d0800000000000000
+      internalID: -2993590666098422333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_29
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 344
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edaa4df568fe7faf0800000000000000
+      internalID: -362557884567606562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_30
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 342
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3730aee31be19020800000000000000
+      internalID: 2346915351677122362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_31
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 340
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c041f9f2c0b9c60800000000000000
+      internalID: 7825862176158256277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_32
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 347
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248a48c9a3b162770800000000000000
+      internalID: 8585579678176421954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_33
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 351
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f27e925281174680800000000000000
+      internalID: -8771022497851215115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_34
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 352
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f034b4b43f1f2fde0800000000000000
+      internalID: -1300711315114081521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_35
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 283
+        width: 105
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0c42c47b324eb60800000000000000
+      internalID: 7774378126911783132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_36
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 345
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade76112f100ab210800000000000000
+      internalID: 1349391172049993434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_37
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 342
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e1be7c9f4be1400800000000000000
+      internalID: 296873610346962507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_38
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 336
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8954498f713ed97f0800000000000000
+      internalID: -604077082903558760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_39
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 331
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e198d6811d5eee0800000000000000
+      internalID: -1232349020168839560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_40
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 337
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f320f0579e29156b0800000000000000
+      internalID: -5309300954304150977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_41
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 319
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de86d4331a10b5ba0800000000000000
+      internalID: -6099279478481131283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_42
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 331
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef55dc2bda3bd470800000000000000
+      internalID: 8420388641323704288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_43
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 308
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c85fe7c31a44720800000000000000
+      internalID: 2829563747095645322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_44
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 334
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f1dc6832ef32bd0800000000000000
+      internalID: -2655999926679560384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_45
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 299
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddffa6e1dad2cd50800000000000000
+      internalID: 6756202986062478809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_46
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 317
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821c3bbd928e060d0800000000000000
+      internalID: -3431487649579024088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_47
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 252
+        width: 160
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1837b0bb3f689a8f0800000000000000
+      internalID: -528743099866057855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_48
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 257
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19bc480b5a656930800000000000000
+      internalID: 4135828772023482654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_49
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 300
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a376b2d5c385640800000000000000
+      internalID: 5068867751463303682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_50
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 192
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01c6410e47ef9850800000000000000
+      internalID: 6386077118849532173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_51
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 269
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bae5c5a6bd0735d0800000000000000
+      internalID: -3082980341795394896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_52
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 249
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c33bb4e95bd6c5b0800000000000000
+      internalID: -5348346328319839290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_53
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 243
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a126750465889e0800000000000000
+      internalID: -1618949231695750603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_54
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 241
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eebae6ddd01402a0800000000000000
+      internalID: -6772269394678858010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_55
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 246
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad409001061879c0800000000000000
+      internalID: -3929366481320522330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_56
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 243
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ee883e0c4681130800000000000000
+      internalID: 3537688286913424930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_57
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 237
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad937f7fbe6fbdeb0800000000000000
+      internalID: -4693886693265688102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_58
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 197
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac53e5e78ed88a570800000000000000
+      internalID: 8478182328216991178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_59
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 233
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e69024b6368d920800000000000000
+      internalID: 3015269262845111849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_60
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 207
+        width: 54
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed066e6ad802f8b0800000000000000
+      internalID: -5120020092118757919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_61
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 226
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d348bf6fe1ecc9610800000000000000
+      internalID: 1629403797589296189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_62
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 225
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9169a2dfcde6b3820800000000000000
+      internalID: 2899032680562333209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_63
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 222
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92832235499481c0800000000000000
+      internalID: -4502305204990672227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_64
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 221
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138a22894f16d2750800000000000000
+      internalID: 6281784758404032561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_65
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 184
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68b4e4974b7b91e0800000000000000
+      internalID: -2190021246414702483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_66
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 175
+        width: 139
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a3dc46f6be37080800000000000000
+      internalID: -9190743550867981733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_67
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 213
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ca8eddcab4b6b00800000000000000
+      internalID: 822834562754718760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_68
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 197
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3d3832675bd5e20800000000000000
+      internalID: 3341026017585386481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_69
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 202
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bf6592a7f2dc9d0800000000000000
+      internalID: -2752491595527423176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_70
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 176
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49ea0f61797b6c00800000000000000
+      internalID: 894942479064426827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_71
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 176
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043f902f488263a20800000000000000
+      internalID: 3041663149796881216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0011_72
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 183
+        width: 47
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc6832b2a53bb2d0800000000000000
+      internalID: -3261954532208775981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Semar_0011_0: -1558428751708560245
+      Semar_0011_1: 1754812385940127838
+      Semar_0011_10: 6150455499912879348
+      Semar_0011_11: -6025236788735643031
+      Semar_0011_12: -227487766302620672
+      Semar_0011_13: -9030370486697628696
+      Semar_0011_14: -7746352981497956919
+      Semar_0011_15: 5762916104299569129
+      Semar_0011_16: -9207620615158978488
+      Semar_0011_17: -6276537997389420168
+      Semar_0011_18: -8780481778370774810
+      Semar_0011_19: -8451756146001553649
+      Semar_0011_2: 2676144908453374719
+      Semar_0011_20: 1491168670314255632
+      Semar_0011_21: -7774795963564024688
+      Semar_0011_22: -7907384843388507030
+      Semar_0011_23: 7858529306412866340
+      Semar_0011_24: -7731405131811751455
+      Semar_0011_25: -4266217335992645388
+      Semar_0011_26: -3369987903984093266
+      Semar_0011_27: -3052895905409000375
+      Semar_0011_28: -2993590666098422333
+      Semar_0011_29: -362557884567606562
+      Semar_0011_3: 7596199701859417308
+      Semar_0011_30: 2346915351677122362
+      Semar_0011_31: 7825862176158256277
+      Semar_0011_32: 8585579678176421954
+      Semar_0011_33: -8771022497851215115
+      Semar_0011_34: -1300711315114081521
+      Semar_0011_35: 7774378126911783132
+      Semar_0011_36: 1349391172049993434
+      Semar_0011_37: 296873610346962507
+      Semar_0011_38: -604077082903558760
+      Semar_0011_39: -1232349020168839560
+      Semar_0011_4: 6910302801166335783
+      Semar_0011_40: -5309300954304150977
+      Semar_0011_41: -6099279478481131283
+      Semar_0011_42: 8420388641323704288
+      Semar_0011_43: 2829563747095645322
+      Semar_0011_44: -2655999926679560384
+      Semar_0011_45: 6756202986062478809
+      Semar_0011_46: -3431487649579024088
+      Semar_0011_47: -528743099866057855
+      Semar_0011_48: 4135828772023482654
+      Semar_0011_49: 5068867751463303682
+      Semar_0011_5: -3046476704134813262
+      Semar_0011_50: 6386077118849532173
+      Semar_0011_51: -3082980341795394896
+      Semar_0011_52: -5348346328319839290
+      Semar_0011_53: -1618949231695750603
+      Semar_0011_54: -6772269394678858010
+      Semar_0011_55: -3929366481320522330
+      Semar_0011_56: 3537688286913424930
+      Semar_0011_57: -4693886693265688102
+      Semar_0011_58: 8478182328216991178
+      Semar_0011_59: 3015269262845111849
+      Semar_0011_6: -5182530648564109394
+      Semar_0011_60: -5120020092118757919
+      Semar_0011_61: 1629403797589296189
+      Semar_0011_62: 2899032680562333209
+      Semar_0011_63: -4502305204990672227
+      Semar_0011_64: 6281784758404032561
+      Semar_0011_65: -2190021246414702483
+      Semar_0011_66: -9190743550867981733
+      Semar_0011_67: 822834562754718760
+      Semar_0011_68: 3341026017585386481
+      Semar_0011_69: -2752491595527423176
+      Semar_0011_7: -7251034716625736221
+      Semar_0011_70: 894942479064426827
+      Semar_0011_71: 3041663149796881216
+      Semar_0011_72: -3261954532208775981
+      Semar_0011_8: 2909801306740656525
+      Semar_0011_9: -5305415143404167134
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

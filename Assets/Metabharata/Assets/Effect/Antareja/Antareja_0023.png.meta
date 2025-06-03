@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: cbb7abdc1749f354586ff83384d0d586
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9195792376772278201
+    second: Antareja_0023_0
+  - first:
+      213: -5775846157471260606
+    second: Antareja_0023_1
+  - first:
+      213: -1934294948113541971
+    second: Antareja_0023_2
+  - first:
+      213: 751123161736820580
+    second: Antareja_0023_3
+  - first:
+      213: -7121114331517207393
+    second: Antareja_0023_4
+  - first:
+      213: 2457096729662975945
+    second: Antareja_0023_5
+  - first:
+      213: 6439109258114484538
+    second: Antareja_0023_6
+  - first:
+      213: 8234841578109257688
+    second: Antareja_0023_7
+  - first:
+      213: 2229450245198298494
+    second: Antareja_0023_8
+  - first:
+      213: 4521809949538916037
+    second: Antareja_0023_9
+  - first:
+      213: 3488678756095398690
+    second: Antareja_0023_10
+  - first:
+      213: 4257158709724505505
+    second: Antareja_0023_11
+  - first:
+      213: -1719086283263960586
+    second: Antareja_0023_12
+  - first:
+      213: -7865497631128153101
+    second: Antareja_0023_13
+  - first:
+      213: -7591194587011254093
+    second: Antareja_0023_14
+  - first:
+      213: 5546748024351187112
+    second: Antareja_0023_15
+  - first:
+      213: -1779816179429365976
+    second: Antareja_0023_16
+  - first:
+      213: 8139635671228449944
+    second: Antareja_0023_17
+  - first:
+      213: 4224472398406376786
+    second: Antareja_0023_18
+  - first:
+      213: -8269884530874281971
+    second: Antareja_0023_19
+  - first:
+      213: -113570495899969738
+    second: Antareja_0023_20
+  - first:
+      213: -3046759139219500986
+    second: Antareja_0023_21
+  - first:
+      213: 6883520454284586862
+    second: Antareja_0023_22
+  - first:
+      213: -6551586115954866870
+    second: Antareja_0023_23
+  - first:
+      213: -3217138455395648341
+    second: Antareja_0023_24
+  - first:
+      213: -5403695248241443014
+    second: Antareja_0023_25
+  - first:
+      213: -5548591315011639113
+    second: Antareja_0023_26
+  - first:
+      213: -3663816584739737937
+    second: Antareja_0023_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Antareja_0023_0
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 233
+        width: 73
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7b1cdf1740e9f70800000000000000
+      internalID: 9195792376772278201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_1
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 197
+        width: 221
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240ee92858218dfa0800000000000000
+      internalID: -5775846157471260606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_2
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 221
+        width: 108
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da41cd63ef00825e0800000000000000
+      internalID: -1934294948113541971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_3
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 102
+        width: 132
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46734e539868c6a00800000000000000
+      internalID: 751123161736820580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_4
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 252
+        width: 102
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c39f8ae38bc2d90800000000000000
+      internalID: -7121114331517207393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_5
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 192
+        width: 23
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfe556157c591220800000000000000
+      internalID: 2457096729662975945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_6
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 85
+        width: 96
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39c7df11cf4c5950800000000000000
+      internalID: 6439109258114484538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_7
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 144
+        width: 107
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7c1d409c8084270800000000000000
+      internalID: 8234841578109257688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_8
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 116
+        width: 151
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7db3759f2990fe10800000000000000
+      internalID: 2229450245198298494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_9
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 26
+        width: 205
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c618180132b0ce30800000000000000
+      internalID: 4521809949538916037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_10
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 168
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223948848d64a6030800000000000000
+      internalID: 3488678756095398690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_11
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 135
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5e6958a47741b30800000000000000
+      internalID: 4257158709724505505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_12
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 147
+        width: 6
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f91ecb22249428e0800000000000000
+      internalID: -1719086283263960586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_13
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 162
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f31ee2e39328d290800000000000000
+      internalID: -7865497631128153101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_14
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 132
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b873543eb8a6a690800000000000000
+      internalID: -7591194587011254093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_15
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 70
+        width: 55
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a06d02b0f10afc40800000000000000
+      internalID: 5546748024351187112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_16
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 70
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827ae9b5d92dc47e0800000000000000
+      internalID: -1779816179429365976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_17
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 108
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8948ba0748bc5f070800000000000000
+      internalID: 8139635671228449944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_18
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 49
+        width: 71
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d547e934750aa30800000000000000
+      internalID: 4224472398406376786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_19
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 87
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d009dbbb5d77b3d80800000000000000
+      internalID: -8269884530874281971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_20
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 77
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637dae65c348c6ef0800000000000000
+      internalID: -113570495899969738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_21
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 35
+        width: 87
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64095ae84bcb7b5d0800000000000000
+      internalID: -3046759139219500986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_22
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 60
+        width: 159
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fa4c9f16d278f50800000000000000
+      internalID: 6883520454284586862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_23
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 37
+        width: 8
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45012ba3271415a0800000000000000
+      internalID: -6551586115954866870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_24
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 49
+        width: 39
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacb4e4be9d6a53d0800000000000000
+      internalID: -3217138455395648341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_25
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 34
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f3a1e3dc73205b0800000000000000
+      internalID: -5403695248241443014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_26
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 25
+        width: 59
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8e9e0c8917ff2b0800000000000000
+      internalID: -5548591315011639113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Antareja_0023_27
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 26
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae27685a32872dc0800000000000000
+      internalID: -3663816584739737937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Antareja_0023_0: 9195792376772278201
+      Antareja_0023_1: -5775846157471260606
+      Antareja_0023_10: 3488678756095398690
+      Antareja_0023_11: 4257158709724505505
+      Antareja_0023_12: -1719086283263960586
+      Antareja_0023_13: -7865497631128153101
+      Antareja_0023_14: -7591194587011254093
+      Antareja_0023_15: 5546748024351187112
+      Antareja_0023_16: -1779816179429365976
+      Antareja_0023_17: 8139635671228449944
+      Antareja_0023_18: 4224472398406376786
+      Antareja_0023_19: -8269884530874281971
+      Antareja_0023_2: -1934294948113541971
+      Antareja_0023_20: -113570495899969738
+      Antareja_0023_21: -3046759139219500986
+      Antareja_0023_22: 6883520454284586862
+      Antareja_0023_23: -6551586115954866870
+      Antareja_0023_24: -3217138455395648341
+      Antareja_0023_25: -5403695248241443014
+      Antareja_0023_26: -5548591315011639113
+      Antareja_0023_27: -3663816584739737937
+      Antareja_0023_3: 751123161736820580
+      Antareja_0023_4: -7121114331517207393
+      Antareja_0023_5: 2457096729662975945
+      Antareja_0023_6: 6439109258114484538
+      Antareja_0023_7: 8234841578109257688
+      Antareja_0023_8: 2229450245198298494
+      Antareja_0023_9: 4521809949538916037
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

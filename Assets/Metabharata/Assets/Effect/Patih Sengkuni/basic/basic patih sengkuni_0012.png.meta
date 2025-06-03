@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 008c3da69d1499645a0ddb304a738578
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8553932999596478023
+    second: basic patih sengkuni_0012_0
+  - first:
+      213: 2630799089496634719
+    second: basic patih sengkuni_0012_1
+  - first:
+      213: 2244161248186550246
+    second: basic patih sengkuni_0012_2
+  - first:
+      213: -4780486161356130620
+    second: basic patih sengkuni_0012_3
+  - first:
+      213: 3022048234924730932
+    second: basic patih sengkuni_0012_4
+  - first:
+      213: -1319275269572092744
+    second: basic patih sengkuni_0012_5
+  - first:
+      213: 4045233932698469591
+    second: basic patih sengkuni_0012_6
+  - first:
+      213: 4225026268755949400
+    second: basic patih sengkuni_0012_7
+  - first:
+      213: -5670730927151687532
+    second: basic patih sengkuni_0012_8
+  - first:
+      213: -2440071872865940379
+    second: basic patih sengkuni_0012_9
+  - first:
+      213: 6185441334141802268
+    second: basic patih sengkuni_0012_10
+  - first:
+      213: -5861240623400230073
+    second: basic patih sengkuni_0012_11
+  - first:
+      213: 6417145656085045303
+    second: basic patih sengkuni_0012_12
+  - first:
+      213: -8182486009637234846
+    second: basic patih sengkuni_0012_13
+  - first:
+      213: 3251345388480881636
+    second: basic patih sengkuni_0012_14
+  - first:
+      213: 7923249876732049102
+    second: basic patih sengkuni_0012_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 776
+        width: 169
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b17f8ee1435a4980800000000000000
+      internalID: -8553932999596478023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 694
+        width: 98
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f553ed455d9728420800000000000000
+      internalID: 2630799089496634719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 754
+        width: 109
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e74bd0e3ccd42f10800000000000000
+      internalID: 2244161248186550246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 753
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c672b21a2d48adb0800000000000000
+      internalID: -4780486161356130620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 708
+        width: 79
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ae8c0bbd870f920800000000000000
+      internalID: 3022048234924730932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 690
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc9234d12ef0bde0800000000000000
+      internalID: -1319275269572092744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_6
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 601
+        width: 84
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d449d744de832830800000000000000
+      internalID: 4045233932698469591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_7
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 448
+        width: 313
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85774eb910f42aa30800000000000000
+      internalID: 4225026268755949400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_8
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 536
+        width: 152
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4985d4e34448d41b0800000000000000
+      internalID: -5670730927151687532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_9
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 455
+        width: 264
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c47674f8f132ed0800000000000000
+      internalID: -2440071872865940379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_10
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 512
+        width: 104
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c175a8c1f1a17d550800000000000000
+      internalID: 6185441334141802268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 390
+        width: 116
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743e32b05b0b8aea0800000000000000
+      internalID: -5861240623400230073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_12
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 389
+        width: 108
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730e3e689f74e0950800000000000000
+      internalID: 6417145656085045303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 283
+        width: 125
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26718ffa358f17e80800000000000000
+      internalID: -8182486009637234846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_14
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 288
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3e18a87691f1d20800000000000000
+      internalID: 3251345388480881636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic patih sengkuni_0012_15
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 74
+        width: 326
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec67541a8c905fd60800000000000000
+      internalID: 7923249876732049102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      basic patih sengkuni_0012_0: -8553932999596478023
+      basic patih sengkuni_0012_1: 2630799089496634719
+      basic patih sengkuni_0012_10: 6185441334141802268
+      basic patih sengkuni_0012_11: -5861240623400230073
+      basic patih sengkuni_0012_12: 6417145656085045303
+      basic patih sengkuni_0012_13: -8182486009637234846
+      basic patih sengkuni_0012_14: 3251345388480881636
+      basic patih sengkuni_0012_15: 7923249876732049102
+      basic patih sengkuni_0012_2: 2244161248186550246
+      basic patih sengkuni_0012_3: -4780486161356130620
+      basic patih sengkuni_0012_4: 3022048234924730932
+      basic patih sengkuni_0012_5: -1319275269572092744
+      basic patih sengkuni_0012_6: 4045233932698469591
+      basic patih sengkuni_0012_7: 4225026268755949400
+      basic patih sengkuni_0012_8: -5670730927151687532
+      basic patih sengkuni_0012_9: -2440071872865940379
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

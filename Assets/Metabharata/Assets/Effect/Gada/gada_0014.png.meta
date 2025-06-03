@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: 5dee34e0f0881694486db4386ee684c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7263808590228906031
+    second: gada_0014_0
+  - first:
+      213: 7519936379449949988
+    second: gada_0014_1
+  - first:
+      213: 2311763376745942590
+    second: gada_0014_2
+  - first:
+      213: -628124193294272134
+    second: gada_0014_3
+  - first:
+      213: 3791383534158973923
+    second: gada_0014_4
+  - first:
+      213: -7046024348015361521
+    second: gada_0014_5
+  - first:
+      213: -2011047680703763420
+    second: gada_0014_6
+  - first:
+      213: 5121234755574152615
+    second: gada_0014_7
+  - first:
+      213: -7587091420410009916
+    second: gada_0014_8
+  - first:
+      213: -2330366953153548796
+    second: gada_0014_9
+  - first:
+      213: 9041965899196057533
+    second: gada_0014_10
+  - first:
+      213: -527421247048282616
+    second: gada_0014_11
+  - first:
+      213: 5316501416894844471
+    second: gada_0014_12
+  - first:
+      213: 9042441579494605148
+    second: gada_0014_13
+  - first:
+      213: -7217053139515792066
+    second: gada_0014_14
+  - first:
+      213: 5151975647815775075
+    second: gada_0014_15
+  - first:
+      213: 8834417987490340096
+    second: gada_0014_16
+  - first:
+      213: -3727593157187666953
+    second: gada_0014_17
+  - first:
+      213: 2322554025353285354
+    second: gada_0014_18
+  - first:
+      213: -3779026035532961933
+    second: gada_0014_19
+  - first:
+      213: 7863716908165077561
+    second: gada_0014_20
+  - first:
+      213: -8604992936374036271
+    second: gada_0014_21
+  - first:
+      213: -1973157995098659258
+    second: gada_0014_22
+  - first:
+      213: -8479114198407903465
+    second: gada_0014_23
+  - first:
+      213: 1849810796371398820
+    second: gada_0014_24
+  - first:
+      213: -4856848928697682993
+    second: gada_0014_25
+  - first:
+      213: 6952615197439914233
+    second: gada_0014_26
+  - first:
+      213: 7670602999354425721
+    second: gada_0014_27
+  - first:
+      213: -8069943285431807396
+    second: gada_0014_28
+  - first:
+      213: -1780443626697698256
+    second: gada_0014_29
+  - first:
+      213: -7405594214128775081
+    second: gada_0014_30
+  - first:
+      213: 1534680102542740195
+    second: gada_0014_31
+  - first:
+      213: 3211868607471675638
+    second: gada_0014_32
+  - first:
+      213: -5045293328906930022
+    second: gada_0014_33
+  - first:
+      213: -5119400326632678038
+    second: gada_0014_34
+  - first:
+      213: -5670552145157979576
+    second: gada_0014_35
+  - first:
+      213: 7877716969445511004
+    second: gada_0014_36
+  - first:
+      213: -797718903738517253
+    second: gada_0014_37
+  - first:
+      213: 3469062826691975600
+    second: gada_0014_38
+  - first:
+      213: -3569554155610079580
+    second: gada_0014_39
+  - first:
+      213: -7637910071556830805
+    second: gada_0014_40
+  - first:
+      213: -3421603166851576208
+    second: gada_0014_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gada_0014_0
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 581
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df99fe8294c13b90800000000000000
+      internalID: -7263808590228906031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_1
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 481
+        width: 68
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fb6a67b4e2c5860800000000000000
+      internalID: 7519936379449949988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_2
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 512
+        width: 93
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e03bbfa88051020800000000000000
+      internalID: 2311763376745942590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 547
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79bdd7cf547847f0800000000000000
+      internalID: -628124193294272134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_4
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 541
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb8fc89c33bd9430800000000000000
+      internalID: 3791383534158973923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_5
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 567
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f028ac9df2e773e90800000000000000
+      internalID: -7046024348015361521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 536
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c67451ac25714e0800000000000000
+      internalID: -2011047680703763420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 522
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adb16170e7421740800000000000000
+      internalID: 5121234755574152615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_8
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 515
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c62c002d8c35b690800000000000000
+      internalID: -7587091420410009916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_9
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 510
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e29f85a9fd8afd0800000000000000
+      internalID: -2330366953153548796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_10
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 470
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7c6c434148b7d70800000000000000
+      internalID: 9041965899196057533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_11
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 510
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e81b29b293ea8f0800000000000000
+      internalID: -527421247048282616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_12
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 479
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ec0e1eed108c940800000000000000
+      internalID: 5316501416894844471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_13
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 505
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c518ff725b43d7d70800000000000000
+      internalID: 9042441579494605148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_14
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 487
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e352b0e3860e7db90800000000000000
+      internalID: -7217053139515792066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_15
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 482
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363b58b2e8e7f7740800000000000000
+      internalID: 5151975647815775075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 491
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ddea55a582a9a70800000000000000
+      internalID: 8834417987490340096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_17
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 463
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbf6aee5cde44cc0800000000000000
+      internalID: -3727593157187666953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_18
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 472
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee06d4a49e5b3020800000000000000
+      internalID: 2322554025353285354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_19
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 477
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377ea13c7d33e8bc0800000000000000
+      internalID: -3779026035532961933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_20
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 494
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a996d3dd8812d60800000000000000
+      internalID: 7863716908165077561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 458
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d81eacf38ce49880800000000000000
+      internalID: -8604992936374036271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_22
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 446
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6462c68f14fed94e0800000000000000
+      internalID: -1973157995098659258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_23
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 465
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7170de19f82245a80800000000000000
+      internalID: -8479114198407903465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_24
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 469
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0566b5e19dba910800000000000000
+      internalID: 1849810796371398820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_25
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 456
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3fc3dc1a1099cb0800000000000000
+      internalID: -4856848928697682993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_26
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 444
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0736f7fa6ac7060800000000000000
+      internalID: 6952615197439914233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_27
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 445
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971019d89c4737a60800000000000000
+      internalID: 7670602999354425721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_28
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 447
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52d94a965dc10090800000000000000
+      internalID: -8069943285431807396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_29
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 415
+        width: 82
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034531864f79a47e0800000000000000
+      internalID: -1780443626697698256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_30
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 473
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7509a2c7c4b0a3990800000000000000
+      internalID: -7405594214128775081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_31
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 473
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea8be31c674c4510800000000000000
+      internalID: 1534680102542740195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_32
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 414
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8e3953b79d29c20800000000000000
+      internalID: 3211868607471675638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_33
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 455
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98badec2748bf9b0800000000000000
+      internalID: -5045293328906930022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_34
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 438
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d5a04d68c34f8b0800000000000000
+      internalID: -5119400326632678038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_35
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 437
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842878b2ed62e41b0800000000000000
+      internalID: -5670552145157979576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_36
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 456
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fcdd488d5435d60800000000000000
+      internalID: 7877716969445511004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_37
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 76
+        width: 1013
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf83d0032eeede4f0800000000000000
+      internalID: -797718903738517253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_38
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 448
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9dc70d246942030800000000000000
+      internalID: 3469062826691975600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_39
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 444
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae77546865667ec0800000000000000
+      internalID: -3569554155610079580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_40
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 394
+        width: 105
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba90a7ed141b00690800000000000000
+      internalID: -7637910071556830805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gada_0014_41
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 355
+        width: 100
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ec5755c060480d0800000000000000
+      internalID: -3421603166851576208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gada_0014_0: -7263808590228906031
+      gada_0014_1: 7519936379449949988
+      gada_0014_10: 9041965899196057533
+      gada_0014_11: -527421247048282616
+      gada_0014_12: 5316501416894844471
+      gada_0014_13: 9042441579494605148
+      gada_0014_14: -7217053139515792066
+      gada_0014_15: 5151975647815775075
+      gada_0014_16: 8834417987490340096
+      gada_0014_17: -3727593157187666953
+      gada_0014_18: 2322554025353285354
+      gada_0014_19: -3779026035532961933
+      gada_0014_2: 2311763376745942590
+      gada_0014_20: 7863716908165077561
+      gada_0014_21: -8604992936374036271
+      gada_0014_22: -1973157995098659258
+      gada_0014_23: -8479114198407903465
+      gada_0014_24: 1849810796371398820
+      gada_0014_25: -4856848928697682993
+      gada_0014_26: 6952615197439914233
+      gada_0014_27: 7670602999354425721
+      gada_0014_28: -8069943285431807396
+      gada_0014_29: -1780443626697698256
+      gada_0014_3: -628124193294272134
+      gada_0014_30: -7405594214128775081
+      gada_0014_31: 1534680102542740195
+      gada_0014_32: 3211868607471675638
+      gada_0014_33: -5045293328906930022
+      gada_0014_34: -5119400326632678038
+      gada_0014_35: -5670552145157979576
+      gada_0014_36: 7877716969445511004
+      gada_0014_37: -797718903738517253
+      gada_0014_38: 3469062826691975600
+      gada_0014_39: -3569554155610079580
+      gada_0014_4: 3791383534158973923
+      gada_0014_40: -7637910071556830805
+      gada_0014_41: -3421603166851576208
+      gada_0014_5: -7046024348015361521
+      gada_0014_6: -2011047680703763420
+      gada_0014_7: 5121234755574152615
+      gada_0014_8: -7587091420410009916
+      gada_0014_9: -2330366953153548796
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

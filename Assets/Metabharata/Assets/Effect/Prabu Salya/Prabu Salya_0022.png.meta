@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: ec070af695bb06646bca25634a449b59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7117082873491418684
+    second: Prabu Salya_0022_0
+  - first:
+      213: -3930967096218287223
+    second: Prabu Salya_0022_1
+  - first:
+      213: -5473712066940496136
+    second: Prabu Salya_0022_2
+  - first:
+      213: 2098957065205006905
+    second: Prabu Salya_0022_3
+  - first:
+      213: -2459902112335159693
+    second: Prabu Salya_0022_4
+  - first:
+      213: -9143462916114179157
+    second: Prabu Salya_0022_5
+  - first:
+      213: -3746442059404228874
+    second: Prabu Salya_0022_6
+  - first:
+      213: 1784479768072593504
+    second: Prabu Salya_0022_7
+  - first:
+      213: -8767266667927944283
+    second: Prabu Salya_0022_8
+  - first:
+      213: 4184185208049006223
+    second: Prabu Salya_0022_9
+  - first:
+      213: 1014047016827467091
+    second: Prabu Salya_0022_10
+  - first:
+      213: 1419776739156452508
+    second: Prabu Salya_0022_11
+  - first:
+      213: -6870761802919566897
+    second: Prabu Salya_0022_12
+  - first:
+      213: -3021053282950615839
+    second: Prabu Salya_0022_13
+  - first:
+      213: 8293082604476588136
+    second: Prabu Salya_0022_14
+  - first:
+      213: 4410045821436731609
+    second: Prabu Salya_0022_15
+  - first:
+      213: -1075749419651419214
+    second: Prabu Salya_0022_16
+  - first:
+      213: -4812129542832939293
+    second: Prabu Salya_0022_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Prabu Salya_0022_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 557
+        width: 71
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ee87f5a25f4c260800000000000000
+      internalID: 7117082873491418684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 1099
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983092ec0466279c0800000000000000
+      internalID: -3930967096218287223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_2
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 500
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f61e3740e77904b0800000000000000
+      internalID: -5473712066940496136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_3
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 496
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932475e745ef02d10800000000000000
+      internalID: 2098957065205006905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_4
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 450
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e970cdf0cacddd0800000000000000
+      internalID: -2459902112335159693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_5
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 430
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab9e040ce4eb1180800000000000000
+      internalID: -9143462916114179157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_6
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 398
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6c0a5ebc6f10cc0800000000000000
+      internalID: -3746442059404228874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 363
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060a6dcf4eeb3c810800000000000000
+      internalID: 1784479768072593504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 246
+        width: 85
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3480f9a69645680800000000000000
+      internalID: -8767266667927944283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_9
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 252
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8674382746311a30800000000000000
+      internalID: 4184185208049006223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 146
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355bb8f936e921e00800000000000000
+      internalID: 1014047016827467091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_11
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 198
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9468c50c6f04b310800000000000000
+      internalID: 1419776739156452508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_12
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 184
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc128a80b8626a0a0800000000000000
+      internalID: -6870761802919566897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_13
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 123
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec633e9b001316d0800000000000000
+      internalID: -3021053282950615839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_14
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 89
+        width: 58
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8606ccca0b2f61370800000000000000
+      internalID: 8293082604476588136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_15
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 110
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0aee52f41a33d30800000000000000
+      internalID: 4410045821436731609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_16
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 98
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b338563a9b2211f0800000000000000
+      internalID: -1075749419651419214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prabu Salya_0022_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 56
+        width: 130
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee97423da1e73db0800000000000000
+      internalID: -4812129542832939293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Prabu Salya_0022_0: 7117082873491418684
+      Prabu Salya_0022_1: -3930967096218287223
+      Prabu Salya_0022_10: 1014047016827467091
+      Prabu Salya_0022_11: 1419776739156452508
+      Prabu Salya_0022_12: -6870761802919566897
+      Prabu Salya_0022_13: -3021053282950615839
+      Prabu Salya_0022_14: 8293082604476588136
+      Prabu Salya_0022_15: 4410045821436731609
+      Prabu Salya_0022_16: -1075749419651419214
+      Prabu Salya_0022_17: -4812129542832939293
+      Prabu Salya_0022_2: -5473712066940496136
+      Prabu Salya_0022_3: 2098957065205006905
+      Prabu Salya_0022_4: -2459902112335159693
+      Prabu Salya_0022_5: -9143462916114179157
+      Prabu Salya_0022_6: -3746442059404228874
+      Prabu Salya_0022_7: 1784479768072593504
+      Prabu Salya_0022_8: -8767266667927944283
+      Prabu Salya_0022_9: 4184185208049006223
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

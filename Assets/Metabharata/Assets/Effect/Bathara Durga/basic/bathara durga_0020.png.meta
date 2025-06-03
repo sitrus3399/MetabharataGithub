@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: f5778b52bc2d01142838789ec0539700
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7305433390828580006
+    second: ' bathara durga_0020_0'
+  - first:
+      213: 4421177974664400684
+    second: ' bathara durga_0020_1'
+  - first:
+      213: -6299642659051735295
+    second: ' bathara durga_0020_2'
+  - first:
+      213: -8119228380223157889
+    second: ' bathara durga_0020_3'
+  - first:
+      213: -1669694047342090045
+    second: ' bathara durga_0020_4'
+  - first:
+      213: -4693343068273547664
+    second: ' bathara durga_0020_5'
+  - first:
+      213: -7425323400174887038
+    second: ' bathara durga_0020_6'
+  - first:
+      213: 3557896846793097618
+    second: ' bathara durga_0020_7'
+  - first:
+      213: -3976313045586676460
+    second: ' bathara durga_0020_8'
+  - first:
+      213: -7492799301183265277
+    second: ' bathara durga_0020_9'
+  - first:
+      213: 7494875691674967277
+    second: ' bathara durga_0020_10'
+  - first:
+      213: -5436898176907347199
+    second: ' bathara durga_0020_11'
+  - first:
+      213: 4992146235620243898
+    second: ' bathara durga_0020_12'
+  - first:
+      213: 8143925257352234772
+    second: ' bathara durga_0020_13'
+  - first:
+      213: 8209517494457712557
+    second: ' bathara durga_0020_14'
+  - first:
+      213: -9020818207742991553
+    second: ' bathara durga_0020_15'
+  - first:
+      213: -8572146981296864677
+    second: ' bathara durga_0020_16'
+  - first:
+      213: 3813769125977855201
+    second: ' bathara durga_0020_17'
+  - first:
+      213: 7270395270333382805
+    second: ' bathara durga_0020_18'
+  - first:
+      213: -2519306206272695591
+    second: ' bathara durga_0020_19'
+  - first:
+      213: -761323402567794526
+    second: ' bathara durga_0020_20'
+  - first:
+      213: 5803285410484641960
+    second: ' bathara durga_0020_21'
+  - first:
+      213: -5079987187778714012
+    second: ' bathara durga_0020_22'
+  - first:
+      213: -857471078699657837
+    second: ' bathara durga_0020_23'
+  - first:
+      213: 4123604112500733538
+    second: ' bathara durga_0020_24'
+  - first:
+      213: 123229152819126980
+    second: ' bathara durga_0020_25'
+  - first:
+      213: 8820985937794211460
+    second: ' bathara durga_0020_26'
+  - first:
+      213: 7731689253212573477
+    second: ' bathara durga_0020_27'
+  - first:
+      213: 9053329939652137089
+    second: ' bathara durga_0020_28'
+  - first:
+      213: -2715339006987469811
+    second: ' bathara durga_0020_29'
+  - first:
+      213: -2732983929025058857
+    second: ' bathara durga_0020_30'
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ' bathara durga_0020_0'
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 715
+        width: 70
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5392617903ed9a90800000000000000
+      internalID: -7305433390828580006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_1'
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 588
+        width: 179
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f07ac81fd2b5d30800000000000000
+      internalID: 4421177974664400684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_2'
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 574
+        width: 243
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107f257e06c2398a0800000000000000
+      internalID: -6299642659051735295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_3'
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 691
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7947824ec4b25f80800000000000000
+      internalID: -8119228380223157889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_4'
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 644
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c827904c1e04d8e0800000000000000
+      internalID: -1669694047342090045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_5'
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 664
+        width: 9
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07663868855eddeb0800000000000000
+      internalID: -4693343068273547664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_6'
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 673
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f1e2665b3f3f890800000000000000
+      internalID: -7425323400174887038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_7'
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 609
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291c594e450306130800000000000000
+      internalID: 3557896846793097618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_8'
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 519
+        width: 59
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415fd0a3a5c41d8c0800000000000000
+      internalID: -3976313045586676460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_9'
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 453
+        width: 76
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3062dafebba340890800000000000000
+      internalID: -7492799301183265277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_10'
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 569
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec1ff56bb5230860800000000000000
+      internalID: 7494875691674967277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_11'
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 495
+        width: 85
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10bf77df9e14c84b0800000000000000
+      internalID: -5436898176907347199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_12'
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 533
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9b2f04d8aa74540800000000000000
+      internalID: 4992146235620243898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_13'
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 504
+        width: 154
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417cfc98fd8050170800000000000000
+      internalID: 8143925257352234772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_14'
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 332
+        width: 343
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafb1825aa01ee170800000000000000
+      internalID: 8209517494457712557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_15'
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 507
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f336a1862ad9fc280800000000000000
+      internalID: -9020818207742991553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_16'
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 324
+        width: 340
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b520d59dcbd990980800000000000000
+      internalID: -8572146981296864677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_17'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 229
+        width: 134
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4134950da3de430800000000000000
+      internalID: 3813769125977855201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_18'
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 233
+        width: 245
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590c6e86af1a5e460800000000000000
+      internalID: 7270395270333382805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_19'
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 327
+        width: 52
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2ddae6a50a90dd0800000000000000
+      internalID: -2519306206272695591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_20'
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 306
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a041c6266c3f65f0800000000000000
+      internalID: -761323402567794526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_21'
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 234
+        width: 186
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0e42e6559698050800000000000000
+      internalID: 5803285410484641960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_22'
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 329
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4660ae051924089b0800000000000000
+      internalID: -5079987187778714012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_23'
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 255
+        width: 211
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3959fe4d896a914f0800000000000000
+      internalID: -857471078699657837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_24'
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 98
+        width: 301
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26632ffa71cf93930800000000000000
+      internalID: 4123604112500733538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_25'
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 268
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2a1c7f24cc5b100800000000000000
+      internalID: 123229152819126980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_26'
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 216
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e90fe89ff6a6a70800000000000000
+      internalID: 8820985937794211460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_27'
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 180
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fc07b596a7c4b60800000000000000
+      internalID: 7731689253212573477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_28'
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 170
+        width: 199
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180df5f0d93e3ad70800000000000000
+      internalID: 9053329939652137089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_29'
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 143
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cffb34f8d215ad0800000000000000
+      internalID: -2715339006987469811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ' bathara durga_0020_30'
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 51
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d72c95b89d721ad0800000000000000
+      internalID: -2732983929025058857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ' bathara durga_0020_0': -7305433390828580006
+      ' bathara durga_0020_1': 4421177974664400684
+      ' bathara durga_0020_10': 7494875691674967277
+      ' bathara durga_0020_11': -5436898176907347199
+      ' bathara durga_0020_12': 4992146235620243898
+      ' bathara durga_0020_13': 8143925257352234772
+      ' bathara durga_0020_14': 8209517494457712557
+      ' bathara durga_0020_15': -9020818207742991553
+      ' bathara durga_0020_16': -8572146981296864677
+      ' bathara durga_0020_17': 3813769125977855201
+      ' bathara durga_0020_18': 7270395270333382805
+      ' bathara durga_0020_19': -2519306206272695591
+      ' bathara durga_0020_2': -6299642659051735295
+      ' bathara durga_0020_20': -761323402567794526
+      ' bathara durga_0020_21': 5803285410484641960
+      ' bathara durga_0020_22': -5079987187778714012
+      ' bathara durga_0020_23': -857471078699657837
+      ' bathara durga_0020_24': 4123604112500733538
+      ' bathara durga_0020_25': 123229152819126980
+      ' bathara durga_0020_26': 8820985937794211460
+      ' bathara durga_0020_27': 7731689253212573477
+      ' bathara durga_0020_28': 9053329939652137089
+      ' bathara durga_0020_29': -2715339006987469811
+      ' bathara durga_0020_3': -8119228380223157889
+      ' bathara durga_0020_30': -2732983929025058857
+      ' bathara durga_0020_4': -1669694047342090045
+      ' bathara durga_0020_5': -4693343068273547664
+      ' bathara durga_0020_6': -7425323400174887038
+      ' bathara durga_0020_7': 3557896846793097618
+      ' bathara durga_0020_8': -3976313045586676460
+      ' bathara durga_0020_9': -7492799301183265277
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

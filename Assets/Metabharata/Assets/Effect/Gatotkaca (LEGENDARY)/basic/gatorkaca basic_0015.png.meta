@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: cdaad8267fd758c499a1785be80d9682
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8434134478812699413
+    second: gatorkaca basic_0015_0
+  - first:
+      213: -4519221254274560677
+    second: gatorkaca basic_0015_1
+  - first:
+      213: -5485831240277951198
+    second: gatorkaca basic_0015_2
+  - first:
+      213: -4505017067147413414
+    second: gatorkaca basic_0015_3
+  - first:
+      213: -5580355151655134263
+    second: gatorkaca basic_0015_4
+  - first:
+      213: 7527010759378383694
+    second: gatorkaca basic_0015_5
+  - first:
+      213: 1580312407443197886
+    second: gatorkaca basic_0015_6
+  - first:
+      213: 1077733434304728284
+    second: gatorkaca basic_0015_7
+  - first:
+      213: -9172209863626596564
+    second: gatorkaca basic_0015_8
+  - first:
+      213: -9069839890913757016
+    second: gatorkaca basic_0015_9
+  - first:
+      213: 2588605150514028867
+    second: gatorkaca basic_0015_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gatorkaca basic_0015_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 306
+        width: 174
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4ae72a06fe3fa80800000000000000
+      internalID: -8434134478812699413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatorkaca basic_0015_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 482
+        width: 154
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5dc19d86308841c0800000000000000
+      internalID: -4519221254274560677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatorkaca basic_0015_2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 379
+        width: 142
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dfd795d896ed3b0800000000000000
+      internalID: -5485831240277951198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatorkaca basic_0015_3
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 123
+        width: 252
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a583b9598d6fa71c0800000000000000
+      internalID: -4505017067147413414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatorkaca basic_0015_4
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 302
+        width: 179
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb13193e889e82b0800000000000000
+      internalID: -5580355151655134263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatorkaca basic_0015_5
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 290
+        width: 185
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43ba45e760557860800000000000000
+      internalID: 7527010759378383694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatorkaca basic_0015_6
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 283
+        width: 112
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf4bcff2c56ee510800000000000000
+      internalID: 1580312407443197886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatorkaca basic_0015_7
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 292
+        width: 179
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc8b4239d0e4fe00800000000000000
+      internalID: 1077733434304728284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatorkaca basic_0015_8
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 324
+        width: 175
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fd339b9b3c5b080800000000000000
+      internalID: -9172209863626596564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatorkaca basic_0015_9
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 210
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8fa6c5ca4712280800000000000000
+      internalID: -9069839890913757016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatorkaca basic_0015_10
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 202
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341a22c5ba29ce320800000000000000
+      internalID: 2588605150514028867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gatorkaca basic_0015_0: -8434134478812699413
+      gatorkaca basic_0015_1: -4519221254274560677
+      gatorkaca basic_0015_10: 2588605150514028867
+      gatorkaca basic_0015_2: -5485831240277951198
+      gatorkaca basic_0015_3: -4505017067147413414
+      gatorkaca basic_0015_4: -5580355151655134263
+      gatorkaca basic_0015_5: 7527010759378383694
+      gatorkaca basic_0015_6: 1580312407443197886
+      gatorkaca basic_0015_7: 1077733434304728284
+      gatorkaca basic_0015_8: -9172209863626596564
+      gatorkaca basic_0015_9: -9069839890913757016
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

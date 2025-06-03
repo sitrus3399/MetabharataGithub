@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 15e3bcdfac6dbe84da55452f94a72178
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4974790652992313979
+    second: Sadewa_0007_0
+  - first:
+      213: 2438246210277844311
+    second: Sadewa_0007_1
+  - first:
+      213: -4606904435252477806
+    second: Sadewa_0007_2
+  - first:
+      213: 274079783889990012
+    second: Sadewa_0007_3
+  - first:
+      213: 1834139330905152065
+    second: Sadewa_0007_4
+  - first:
+      213: -2764436935374053768
+    second: Sadewa_0007_5
+  - first:
+      213: -3465501577251583793
+    second: Sadewa_0007_6
+  - first:
+      213: -7517995621220980795
+    second: Sadewa_0007_7
+  - first:
+      213: 7431100763363889021
+    second: Sadewa_0007_8
+  - first:
+      213: -7021232626208615947
+    second: Sadewa_0007_9
+  - first:
+      213: 5218788320526579831
+    second: Sadewa_0007_10
+  - first:
+      213: -5469608212371742223
+    second: Sadewa_0007_11
+  - first:
+      213: -6519519523701516657
+    second: Sadewa_0007_12
+  - first:
+      213: 6762527140854962390
+    second: Sadewa_0007_13
+  - first:
+      213: 5063278463579212137
+    second: Sadewa_0007_14
+  - first:
+      213: -8748163325872876437
+    second: Sadewa_0007_15
+  - first:
+      213: 2515035166109616067
+    second: Sadewa_0007_16
+  - first:
+      213: 2099018168715600413
+    second: Sadewa_0007_17
+  - first:
+      213: -3344223196130964792
+    second: Sadewa_0007_18
+  - first:
+      213: 7669139548056852764
+    second: Sadewa_0007_19
+  - first:
+      213: 455354934923418546
+    second: Sadewa_0007_20
+  - first:
+      213: -3258356310580819022
+    second: Sadewa_0007_21
+  - first:
+      213: -2766095032462273676
+    second: Sadewa_0007_22
+  - first:
+      213: -5636862211302788113
+    second: Sadewa_0007_23
+  - first:
+      213: -1442760792022460023
+    second: Sadewa_0007_24
+  - first:
+      213: -2318111184091713971
+    second: Sadewa_0007_25
+  - first:
+      213: 947600635128109763
+    second: Sadewa_0007_26
+  - first:
+      213: 1335056946746295347
+    second: Sadewa_0007_27
+  - first:
+      213: -8483891062576986358
+    second: Sadewa_0007_28
+  - first:
+      213: 2813841877535688122
+    second: Sadewa_0007_29
+  - first:
+      213: 13492414415688431
+    second: Sadewa_0007_30
+  - first:
+      213: 6829876399162108270
+    second: Sadewa_0007_31
+  - first:
+      213: -5688794759564725065
+    second: Sadewa_0007_32
+  - first:
+      213: -3684220035298697016
+    second: Sadewa_0007_33
+  - first:
+      213: 8118801148934194648
+    second: Sadewa_0007_34
+  - first:
+      213: -2138325238011587325
+    second: Sadewa_0007_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sadewa_0007_0
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 735
+        width: 68
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585a578324ef5fab0800000000000000
+      internalID: -4974790652992313979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 840
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755ad86820466d120800000000000000
+      internalID: 2438246210277844311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_2
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 703
+        width: 103
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290ca9613dcf010c0800000000000000
+      internalID: -4606904435252477806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_3
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 843
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71f0ee7c1abdc300800000000000000
+      internalID: 274079783889990012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 748
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a9c27f00c247910800000000000000
+      internalID: 1834139330905152065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_5
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 784
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e5f0ff04fb2a9d0800000000000000
+      internalID: -2764436935374053768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 786
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc80d5f2da018efc0800000000000000
+      internalID: -3465501577251583793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 737
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c76e2680d6baa790800000000000000
+      internalID: -7517995621220980795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_8
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 760
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f407ac5c2902760800000000000000
+      internalID: 7431100763363889021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_9
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 671
+        width: 128
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1d37560229f8e90800000000000000
+      internalID: -7021232626208615947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 598
+        width: 32
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778b1f2c35cdc6840800000000000000
+      internalID: 5218788320526579831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_11
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 627
+        width: 13
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1e5016f4c0814b0800000000000000
+      internalID: -5469608212371742223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_12
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 682
+        width: 25
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f861c8bf8830685a0800000000000000
+      internalID: -6519519523701516657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_13
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 666
+        width: 37
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8199eea9259dd50800000000000000
+      internalID: 6762527140854962390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_14
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 716
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969468cafe0644640800000000000000
+      internalID: 5063278463579212137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_15
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 688
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b645f3c0ec7489680800000000000000
+      internalID: -8748163325872876437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_16
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 692
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c74499882337e220800000000000000
+      internalID: 2515035166109616067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_17
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 463
+        width: 44
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12626347e5312d10800000000000000
+      internalID: 2099018168715600413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 530
+        width: 10
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca0ef8b8bee691d0800000000000000
+      internalID: -3344223196130964792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_19
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 381
+        width: 117
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1914de39c14e6a60800000000000000
+      internalID: 7669139548056852764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_20
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 531
+        width: 265
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbd4d696eeb15600800000000000000
+      internalID: 455354934923418546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_21
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 416
+        width: 781
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb8d24f23ef7c2d0800000000000000
+      internalID: -3258356310580819022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_22
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 332
+        width: 32
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4731d1f293bdc99d0800000000000000
+      internalID: -2766095032462273676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_23
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 380
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe379772fa7d5c1b0800000000000000
+      internalID: -5636862211302788113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_24
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 342
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989d3a724b84afbe0800000000000000
+      internalID: -1442760792022460023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_25
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 271
+        width: 167
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e6a52f82a64dfd0800000000000000
+      internalID: -2318111184091713971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_26
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 328
+        width: 77
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cadebdc1cd862d00800000000000000
+      internalID: 947600635128109763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_27
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 242
+        width: 85
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3340bb93833178210800000000000000
+      internalID: 1335056946746295347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_28
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 336
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07ccf5370a234a80800000000000000
+      internalID: -8483891062576986358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_29
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 310
+        width: 14
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab502ac7746cc0720800000000000000
+      internalID: 2813841877535688122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_30
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 318
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2d868874fef2000800000000000000
+      internalID: 13492414415688431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_31
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 283
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69a1e7166898ce50800000000000000
+      internalID: 6829876399162108270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_32
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 316
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b47a048e475d01b0800000000000000
+      internalID: -5688794759564725065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_33
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 279
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0e4a1d5650fdcc0800000000000000
+      internalID: -3684220035298697016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 233
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5814431a6cba070800000000000000
+      internalID: 8118801148934194648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sadewa_0007_35
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 270
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305111e76842352e0800000000000000
+      internalID: -2138325238011587325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sadewa_0007_0: -4974790652992313979
+      Sadewa_0007_1: 2438246210277844311
+      Sadewa_0007_10: 5218788320526579831
+      Sadewa_0007_11: -5469608212371742223
+      Sadewa_0007_12: -6519519523701516657
+      Sadewa_0007_13: 6762527140854962390
+      Sadewa_0007_14: 5063278463579212137
+      Sadewa_0007_15: -8748163325872876437
+      Sadewa_0007_16: 2515035166109616067
+      Sadewa_0007_17: 2099018168715600413
+      Sadewa_0007_18: -3344223196130964792
+      Sadewa_0007_19: 7669139548056852764
+      Sadewa_0007_2: -4606904435252477806
+      Sadewa_0007_20: 455354934923418546
+      Sadewa_0007_21: -3258356310580819022
+      Sadewa_0007_22: -2766095032462273676
+      Sadewa_0007_23: -5636862211302788113
+      Sadewa_0007_24: -1442760792022460023
+      Sadewa_0007_25: -2318111184091713971
+      Sadewa_0007_26: 947600635128109763
+      Sadewa_0007_27: 1335056946746295347
+      Sadewa_0007_28: -8483891062576986358
+      Sadewa_0007_29: 2813841877535688122
+      Sadewa_0007_3: 274079783889990012
+      Sadewa_0007_30: 13492414415688431
+      Sadewa_0007_31: 6829876399162108270
+      Sadewa_0007_32: -5688794759564725065
+      Sadewa_0007_33: -3684220035298697016
+      Sadewa_0007_34: 8118801148934194648
+      Sadewa_0007_35: -2138325238011587325
+      Sadewa_0007_4: 1834139330905152065
+      Sadewa_0007_5: -2764436935374053768
+      Sadewa_0007_6: -3465501577251583793
+      Sadewa_0007_7: -7517995621220980795
+      Sadewa_0007_8: 7431100763363889021
+      Sadewa_0007_9: -7021232626208615947
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

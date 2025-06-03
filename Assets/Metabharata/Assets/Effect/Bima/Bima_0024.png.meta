@@ -1,0 +1,1144 @@
+fileFormatVersion: 2
+guid: b75c34c50cdcf2b43abc767bd07515d3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8802397556739762208
+    second: Bima_0024_0
+  - first:
+      213: 8670287321096573946
+    second: Bima_0024_1
+  - first:
+      213: -2191303040452253522
+    second: Bima_0024_2
+  - first:
+      213: -6970928341565813877
+    second: Bima_0024_3
+  - first:
+      213: -7019008734675974755
+    second: Bima_0024_4
+  - first:
+      213: 8647787967863898723
+    second: Bima_0024_5
+  - first:
+      213: -6859001172540575125
+    second: Bima_0024_6
+  - first:
+      213: -4633607897796090682
+    second: Bima_0024_7
+  - first:
+      213: -997919627037030050
+    second: Bima_0024_8
+  - first:
+      213: 5118653084781308552
+    second: Bima_0024_9
+  - first:
+      213: -2814005860088517678
+    second: Bima_0024_10
+  - first:
+      213: 2984272309906407260
+    second: Bima_0024_11
+  - first:
+      213: -4838515038003056078
+    second: Bima_0024_12
+  - first:
+      213: -7404221922417029295
+    second: Bima_0024_13
+  - first:
+      213: -4959462406660675706
+    second: Bima_0024_14
+  - first:
+      213: 6781638420186914547
+    second: Bima_0024_15
+  - first:
+      213: 8844753572980172163
+    second: Bima_0024_16
+  - first:
+      213: 7695832709923530379
+    second: Bima_0024_17
+  - first:
+      213: -3073641308608652617
+    second: Bima_0024_18
+  - first:
+      213: 7445755325581257418
+    second: Bima_0024_19
+  - first:
+      213: -5904388851214077611
+    second: Bima_0024_20
+  - first:
+      213: -5596530445894235883
+    second: Bima_0024_21
+  - first:
+      213: -6111225380263570909
+    second: Bima_0024_22
+  - first:
+      213: -6616219689205791655
+    second: Bima_0024_23
+  - first:
+      213: -2582434734824974060
+    second: Bima_0024_24
+  - first:
+      213: 4592701869397325970
+    second: Bima_0024_25
+  - first:
+      213: -2036845246463420242
+    second: Bima_0024_26
+  - first:
+      213: -2484810904499845205
+    second: Bima_0024_27
+  - first:
+      213: -7372836904769153550
+    second: Bima_0024_28
+  - first:
+      213: -6846554194308101752
+    second: Bima_0024_29
+  - first:
+      213: -7752283223103149328
+    second: Bima_0024_30
+  - first:
+      213: -684919618443680682
+    second: Bima_0024_31
+  - first:
+      213: 7088633473971991410
+    second: Bima_0024_32
+  - first:
+      213: 7625393329192485588
+    second: Bima_0024_33
+  - first:
+      213: -952174586529326075
+    second: Bima_0024_34
+  - first:
+      213: -1560116588676748273
+    second: Bima_0024_35
+  - first:
+      213: 489011918030602204
+    second: Bima_0024_36
+  - first:
+      213: -5610340032454589040
+    second: Bima_0024_37
+  - first:
+      213: 3857574184423173832
+    second: Bima_0024_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bima_0024_0
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 611
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0286d35d0f5682a70800000000000000
+      internalID: 8802397556739762208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_1
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 618
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3d882a16c035870800000000000000
+      internalID: 8670287321096573946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_2
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 612
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea82c96ae7de691e0800000000000000
+      internalID: -2191303040452253522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_3
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 607
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b444e5b99424f90800000000000000
+      internalID: -6970928341565813877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_4
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 561
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95464e7eb8779e90800000000000000
+      internalID: -7019008734675974755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_5
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 136
+        width: 335
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362cc6db65d130870800000000000000
+      internalID: 8647787967863898723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_6
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 217
+        width: 286
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b623bbc26ceefc0a0800000000000000
+      internalID: -6859001172540575125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_7
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 540
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c46b67ba2e12bfb0800000000000000
+      internalID: -4633607897796090682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_8
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 511
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59411ce26da622f0800000000000000
+      internalID: -997919627037030050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_9
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 439
+        width: 98
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ae8de5cdb190740800000000000000
+      internalID: 5118653084781308552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_10
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 482
+        width: 62
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db6e895494a2f8d0800000000000000
+      internalID: -2814005860088517678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_11
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 438
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f7101cad34a6920800000000000000
+      internalID: 2984272309906407260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_12
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 447
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232317f55342adcb0800000000000000
+      internalID: -4838515038003056078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_13
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 390
+        width: 91
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f4c2c046bee3990800000000000000
+      internalID: -7404221922417029295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_14
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 410
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687261ea7337c2bb0800000000000000
+      internalID: -4959462406660675706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_15
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 410
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fed16666383d1e50800000000000000
+      internalID: 6781638420186914547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_16
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 51
+        width: 330
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385a95b5380eeba70800000000000000
+      internalID: 8844753572980172163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_17
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 356
+        width: 108
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86e2dd43171dca60800000000000000
+      internalID: 7695832709923530379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_18
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 337
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba1a61c38b3855d0800000000000000
+      internalID: -3073641308608652617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_19
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 267
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca6eb1f403a45760800000000000000
+      internalID: 7445755325581257418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_20
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 253
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551bb936f956f0ea0800000000000000
+      internalID: -5904388851214077611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_21
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 235
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519c0dd06312552b0800000000000000
+      internalID: -5596530445894235883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_22
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 204
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322d90335e0903ba0800000000000000
+      internalID: -6111225380263570909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_23
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 160
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95481f43f377e24a0800000000000000
+      internalID: -6616219689205791655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_24
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 164
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419902f7a49592cd0800000000000000
+      internalID: -2582434734824974060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_25
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 154
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29833bc540e8cbf30800000000000000
+      internalID: 4592701869397325970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_26
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 132
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8da1e3a0cabb3e0800000000000000
+      internalID: -2036845246463420242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_27
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 127
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7054fb5ad248dd0800000000000000
+      internalID: -2484810904499845205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_28
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 134
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f51858e5eb6ea990800000000000000
+      internalID: -7372836904769153550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_29
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 136
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8890ec02c372cf0a0800000000000000
+      internalID: -6846554194308101752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_30
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 110
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa67b06b7b5a6490800000000000000
+      internalID: -7752283223103149328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_31
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 37
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654e7f26c3dae76f0800000000000000
+      internalID: -684919618443680682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_32
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 80
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2733b0f5692ef5260800000000000000
+      internalID: 7088633473971991410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_33
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 76
+        width: 95
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2c623f4d6d2d960800000000000000
+      internalID: 7625393329192485588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_34
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 43
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50cd3c5224239c2f0800000000000000
+      internalID: -952174586529326075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_35
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 41
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c6abb7a3a595ae0800000000000000
+      internalID: -1560116588676748273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_36
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 64
+        width: 87
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf7521afb159c600800000000000000
+      internalID: 489011918030602204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_37
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 25
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095046027711422b0800000000000000
+      internalID: -5610340032454589040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bima_0024_38
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 0
+        width: 67
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cea24d484bd88530800000000000000
+      internalID: 3857574184423173832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bima_0024_0: 8802397556739762208
+      Bima_0024_1: 8670287321096573946
+      Bima_0024_10: -2814005860088517678
+      Bima_0024_11: 2984272309906407260
+      Bima_0024_12: -4838515038003056078
+      Bima_0024_13: -7404221922417029295
+      Bima_0024_14: -4959462406660675706
+      Bima_0024_15: 6781638420186914547
+      Bima_0024_16: 8844753572980172163
+      Bima_0024_17: 7695832709923530379
+      Bima_0024_18: -3073641308608652617
+      Bima_0024_19: 7445755325581257418
+      Bima_0024_2: -2191303040452253522
+      Bima_0024_20: -5904388851214077611
+      Bima_0024_21: -5596530445894235883
+      Bima_0024_22: -6111225380263570909
+      Bima_0024_23: -6616219689205791655
+      Bima_0024_24: -2582434734824974060
+      Bima_0024_25: 4592701869397325970
+      Bima_0024_26: -2036845246463420242
+      Bima_0024_27: -2484810904499845205
+      Bima_0024_28: -7372836904769153550
+      Bima_0024_29: -6846554194308101752
+      Bima_0024_3: -6970928341565813877
+      Bima_0024_30: -7752283223103149328
+      Bima_0024_31: -684919618443680682
+      Bima_0024_32: 7088633473971991410
+      Bima_0024_33: 7625393329192485588
+      Bima_0024_34: -952174586529326075
+      Bima_0024_35: -1560116588676748273
+      Bima_0024_36: 489011918030602204
+      Bima_0024_37: -5610340032454589040
+      Bima_0024_38: 3857574184423173832
+      Bima_0024_4: -7019008734675974755
+      Bima_0024_5: 8647787967863898723
+      Bima_0024_6: -6859001172540575125
+      Bima_0024_7: -4633607897796090682
+      Bima_0024_8: -997919627037030050
+      Bima_0024_9: 5118653084781308552
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

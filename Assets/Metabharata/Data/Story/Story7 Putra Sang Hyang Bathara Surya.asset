@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5296e7c62fb9a1546bcd55ef6ebd1d58, type: 3}
+  m_Name: Story7 Putra Sang Hyang Bathara Surya
+  m_EditorClassIdentifier: 
+  storyName: Putra Sang Hyang Bathara Surya
+  storyNumber: 7
+  storyDescription: Adipati Karna, anak Sang Hyang Bathara Surya yang lahir melalui
+    Dewi Kunti, berpihak pada Kurawa karena merasa dendam pernah dibuang saat masih
+    bayi. Kini, ia harus berduel sengit dengan Arjuna yang kereta perangnya dikusiri
+    oleh Sri Bathara Kresna. Apakah dendam Karna akan mengalahkan takdir yang telah
+    digariskan untuknya?
+  storyIcon: {fileID: 21300000, guid: 84302350482830641819a5751dfcc962, type: 3}
+  characterData: {fileID: 11400000, guid: e78611aabae211040818a0011bbd9049, type: 2}
+  characterLevel: 1
+  enemyBossData: {fileID: 11400000, guid: e0a752968ec9e014a91b0034e3f8b08e, type: 2}
+  stageList:
+  - enemy: {fileID: 11400000, guid: 2153e93ea617b294995f334e3e398ddf, type: 2}
+    level: 3
+    reward: 100
+  - enemy: {fileID: 11400000, guid: 2153e93ea617b294995f334e3e398ddf, type: 2}
+    level: 3
+    reward: 100
+  - enemy: {fileID: 11400000, guid: 2153e93ea617b294995f334e3e398ddf, type: 2}
+    level: 3
+    reward: 100
+  - enemy: {fileID: 11400000, guid: 2153e93ea617b294995f334e3e398ddf, type: 2}
+    level: 3
+    reward: 100
+  - enemy: {fileID: 11400000, guid: e0a752968ec9e014a91b0034e3f8b08e, type: 2}
+    level: 3
+    reward: 500
+  backgroundSprite: {fileID: 21300000, guid: 2357cdaa7dad8974f97a8541d21184e8, type: 3}

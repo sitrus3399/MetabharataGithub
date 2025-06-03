@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 6876b34d64e73b24fa64a2daf80304d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3439089368648225361
+    second: setyaki_0012_0
+  - first:
+      213: 1809391223558728049
+    second: setyaki_0012_1
+  - first:
+      213: 6417601165163274710
+    second: setyaki_0012_2
+  - first:
+      213: 5880112113901208827
+    second: setyaki_0012_3
+  - first:
+      213: 2846362374993139097
+    second: setyaki_0012_4
+  - first:
+      213: -8191949042395568256
+    second: setyaki_0012_5
+  - first:
+      213: -1030956126368358545
+    second: setyaki_0012_6
+  - first:
+      213: 3210673276145795097
+    second: setyaki_0012_7
+  - first:
+      213: -1902030080034145184
+    second: setyaki_0012_8
+  - first:
+      213: -4783877792019344064
+    second: setyaki_0012_9
+  - first:
+      213: -4494052509209037617
+    second: setyaki_0012_10
+  - first:
+      213: -4945146617350112590
+    second: setyaki_0012_11
+  - first:
+      213: -876644375358435339
+    second: setyaki_0012_12
+  - first:
+      213: 7035333618470570893
+    second: setyaki_0012_13
+  - first:
+      213: -4515663074843153206
+    second: setyaki_0012_14
+  - first:
+      213: -4431548187290686642
+    second: setyaki_0012_15
+  - first:
+      213: 8121898119046746411
+    second: setyaki_0012_16
+  - first:
+      213: -154188074671608316
+    second: setyaki_0012_17
+  - first:
+      213: -2814232241315021189
+    second: setyaki_0012_18
+  - first:
+      213: 6723789348505517917
+    second: setyaki_0012_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: setyaki_0012_0
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 527
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15299194f891abf20800000000000000
+      internalID: 3439089368648225361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_1
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 463
+        width: 25
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1796de33bbf3c1910800000000000000
+      internalID: 1809391223558728049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_2
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 502
+        width: 62
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1a0bff146ef0950800000000000000
+      internalID: 6417601165163274710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_3
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 478
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf48d8c30da5a9150800000000000000
+      internalID: 5880112113901208827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_4
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 224
+        width: 240
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995d087df7f408720800000000000000
+      internalID: 2846362374993139097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_5
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 407
+        width: 75
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08729edafb9505e80800000000000000
+      internalID: -8191949042395568256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_6
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 411
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f1dc48dde41b1f0800000000000000
+      internalID: -1030956126368358545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_7
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 399
+        width: 59
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9108282755a9e8c20800000000000000
+      internalID: 3210673276145795097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_8
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 391
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cf47738b1aa95e0800000000000000
+      internalID: -1902030080034145184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_9
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 366
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0459ec58e704c9db0800000000000000
+      internalID: -4783877792019344064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_10
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 368
+        width: 78
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc474aaad0be1a1c0800000000000000
+      internalID: -4494052509209037617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_11
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 393
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba3f9e1a5f4f5bb0800000000000000
+      internalID: -4945146617350112590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_12
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 362
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff8a64d59885d3f0800000000000000
+      internalID: -876644375358435339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_13
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 368
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b4d45b6a682a160800000000000000
+      internalID: 7035333618470570893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_14
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 363
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc20a2cb542551c0800000000000000
+      internalID: -4515663074843153206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_15
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 360
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b238b276aff72c0800000000000000
+      internalID: -4431548187290686642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_16
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 352
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21d1bfbe47c6b070800000000000000
+      internalID: 8121898119046746411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_17
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 232
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ee89453c63cddf0800000000000000
+      internalID: -154188074671608316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_18
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 216
+        width: 45
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e77fcdfa6d1f8d0800000000000000
+      internalID: -2814232241315021189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: setyaki_0012_19
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 123
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ff93ec9c2bf4d50800000000000000
+      internalID: 6723789348505517917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      setyaki_0012_0: 3439089368648225361
+      setyaki_0012_1: 1809391223558728049
+      setyaki_0012_10: -4494052509209037617
+      setyaki_0012_11: -4945146617350112590
+      setyaki_0012_12: -876644375358435339
+      setyaki_0012_13: 7035333618470570893
+      setyaki_0012_14: -4515663074843153206
+      setyaki_0012_15: -4431548187290686642
+      setyaki_0012_16: 8121898119046746411
+      setyaki_0012_17: -154188074671608316
+      setyaki_0012_18: -2814232241315021189
+      setyaki_0012_19: 6723789348505517917
+      setyaki_0012_2: 6417601165163274710
+      setyaki_0012_3: 5880112113901208827
+      setyaki_0012_4: 2846362374993139097
+      setyaki_0012_5: -8191949042395568256
+      setyaki_0012_6: -1030956126368358545
+      setyaki_0012_7: 3210673276145795097
+      setyaki_0012_8: -1902030080034145184
+      setyaki_0012_9: -4783877792019344064
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

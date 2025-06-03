@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: c45c66de593d1224f98c381f73330db9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1229384158152673425
+    second: Contoh Full Frame Upgrade Karakter_0
+  - first:
+      213: -5221253861855546163
+    second: Contoh Full Frame Upgrade Karakter_1
+  - first:
+      213: -5069173884093545994
+    second: Contoh Full Frame Upgrade Karakter_2
+  - first:
+      213: -1549322081397735309
+    second: Contoh Full Frame Upgrade Karakter_3
+  - first:
+      213: -8780280260810376377
+    second: Contoh Full Frame Upgrade Karakter_4
+  - first:
+      213: 3268996263867299922
+    second: Contoh Full Frame Upgrade Karakter_5
+  - first:
+      213: -1303624583212604473
+    second: Contoh Full Frame Upgrade Karakter_6
+  - first:
+      213: -1789758808175246012
+    second: Contoh Full Frame Upgrade Karakter_7
+  - first:
+      213: -8424363113130209722
+    second: Contoh Full Frame Upgrade Karakter_8
+  - first:
+      213: -2005163298287541658
+    second: Contoh Full Frame Upgrade Karakter_9
+  - first:
+      213: 8225026610136032224
+    second: Contoh Full Frame Upgrade Karakter_10
+  - first:
+      213: 2699407362283999928
+    second: Contoh Full Frame Upgrade Karakter_11
+  - first:
+      213: -4370922069033606607
+    second: Contoh Full Frame Upgrade Karakter_12
+  - first:
+      213: 1937564477780476111
+    second: Contoh Full Frame Upgrade Karakter_13
+  - first:
+      213: -4694910206051795337
+    second: Contoh Full Frame Upgrade Karakter_14
+  - first:
+      213: -7073612733130047540
+    second: Contoh Full Frame Upgrade Karakter_15
+  - first:
+      213: 214408305053365366
+    second: Contoh Full Frame Upgrade Karakter_16
+  - first:
+      213: -2970111566591427309
+    second: Contoh Full Frame Upgrade Karakter_17
+  - first:
+      213: 2754754069245034184
+    second: Contoh Full Frame Upgrade Karakter_18
+  - first:
+      213: 5848902408469944499
+    second: Contoh Full Frame Upgrade Karakter_19
+  - first:
+      213: -4001449686760471563
+    second: Contoh Full Frame Upgrade Karakter_20
+  - first:
+      213: -1717716959816524236
+    second: Contoh Full Frame Upgrade Karakter_21
+  - first:
+      213: 2475357874394983725
+    second: Contoh Full Frame Upgrade Karakter_22
+  - first:
+      213: -1165922872430631578
+    second: Contoh Full Frame Upgrade Karakter_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1620
+        width: 816
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198ce27d066af0110800000000000000
+      internalID: 1229384158152673425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_1
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1620
+        width: 816
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4b6f9a6416a87b0800000000000000
+      internalID: -5221253861855546163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_2
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1620
+        width: 816
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1cae5c53da6a9b0800000000000000
+      internalID: -5069173884093545994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_3
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 1620
+        width: 816
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3708e9f86c3bf7ae0800000000000000
+      internalID: -1549322081397735309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_4
+      rect:
+        serializedVersion: 2
+        x: 3787
+        y: 1620
+        width: 815
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bf50a6f9d262680800000000000000
+      internalID: -8780280260810376377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_5
+      rect:
+        serializedVersion: 2
+        x: 4733
+        y: 1620
+        width: 815
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258b3e738cecd5d20800000000000000
+      internalID: 3268996263867299922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1405
+        width: 819
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c36525395898ede0800000000000000
+      internalID: -1303624583212604473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_7
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1405
+        width: 821
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4458615b8df7927e0800000000000000
+      internalID: -1789758808175246012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_8
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1405
+        width: 821
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e48fef166a61b80800000000000000
+      internalID: -8424363113130209722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_9
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 1405
+        width: 821
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662abe0aa9a3c24e0800000000000000
+      internalID: -2005163298287541658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_10
+      rect:
+        serializedVersion: 2
+        x: 3782
+        y: 1405
+        width: 821
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e32b45bf1a252270800000000000000
+      internalID: 8225026610136032224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_11
+      rect:
+        serializedVersion: 2
+        x: 4728
+        y: 1405
+        width: 820
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b21305a1b8367520800000000000000
+      internalID: 2699407362283999928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 212
+        width: 816
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132265e498d5753c0800000000000000
+      internalID: -4370922069033606607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_13
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 212
+        width: 816
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0458b70ac93ea10800000000000000
+      internalID: 1937564477780476111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_14
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 212
+        width: 816
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e3de3da0458deb0800000000000000
+      internalID: -4694910206051795337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_15
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 212
+        width: 816
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf7a1362ba75dd90800000000000000
+      internalID: -7073612733130047540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_16
+      rect:
+        serializedVersion: 2
+        x: 3787
+        y: 212
+        width: 815
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674799ba73bb9f200800000000000000
+      internalID: 214408305053365366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_17
+      rect:
+        serializedVersion: 2
+        x: 4733
+        y: 212
+        width: 815
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31df90a344b08c6d0800000000000000
+      internalID: -2970111566591427309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 819
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce79ec0b3ada3620800000000000000
+      internalID: 2754754069245034184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_19
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 0
+        width: 821
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b817ce60c97b2150800000000000000
+      internalID: 5848902408469944499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_20
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 821
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f34b02e5bef778c0800000000000000
+      internalID: -4001449686760471563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_21
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 0
+        width: 821
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ed871a6817928e0800000000000000
+      internalID: -1717716959816524236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_22
+      rect:
+        serializedVersion: 2
+        x: 3782
+        y: 0
+        width: 821
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d674b2fdc3a5220800000000000000
+      internalID: 2475357874394983725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contoh Full Frame Upgrade Karakter_23
+      rect:
+        serializedVersion: 2
+        x: 4728
+        y: 0
+        width: 820
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665e449235fc1dfe0800000000000000
+      internalID: -1165922872430631578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Contoh Full Frame Upgrade Karakter_0: 1229384158152673425
+      Contoh Full Frame Upgrade Karakter_1: -5221253861855546163
+      Contoh Full Frame Upgrade Karakter_10: 8225026610136032224
+      Contoh Full Frame Upgrade Karakter_11: 2699407362283999928
+      Contoh Full Frame Upgrade Karakter_12: -4370922069033606607
+      Contoh Full Frame Upgrade Karakter_13: 1937564477780476111
+      Contoh Full Frame Upgrade Karakter_14: -4694910206051795337
+      Contoh Full Frame Upgrade Karakter_15: -7073612733130047540
+      Contoh Full Frame Upgrade Karakter_16: 214408305053365366
+      Contoh Full Frame Upgrade Karakter_17: -2970111566591427309
+      Contoh Full Frame Upgrade Karakter_18: 2754754069245034184
+      Contoh Full Frame Upgrade Karakter_19: 5848902408469944499
+      Contoh Full Frame Upgrade Karakter_2: -5069173884093545994
+      Contoh Full Frame Upgrade Karakter_20: -4001449686760471563
+      Contoh Full Frame Upgrade Karakter_21: -1717716959816524236
+      Contoh Full Frame Upgrade Karakter_22: 2475357874394983725
+      Contoh Full Frame Upgrade Karakter_23: -1165922872430631578
+      Contoh Full Frame Upgrade Karakter_3: -1549322081397735309
+      Contoh Full Frame Upgrade Karakter_4: -8780280260810376377
+      Contoh Full Frame Upgrade Karakter_5: 3268996263867299922
+      Contoh Full Frame Upgrade Karakter_6: -1303624583212604473
+      Contoh Full Frame Upgrade Karakter_7: -1789758808175246012
+      Contoh Full Frame Upgrade Karakter_8: -8424363113130209722
+      Contoh Full Frame Upgrade Karakter_9: -2005163298287541658
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

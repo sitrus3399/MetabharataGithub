@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 523896190b8a4ea4fb33231d02eeb578
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4648798775867933018
+    second: basic prabu salya_0016_0
+  - first:
+      213: 5921852095755870163
+    second: basic prabu salya_0016_1
+  - first:
+      213: 53695257665141590
+    second: basic prabu salya_0016_2
+  - first:
+      213: 8226742662660800504
+    second: basic prabu salya_0016_3
+  - first:
+      213: -1697543116202969655
+    second: basic prabu salya_0016_4
+  - first:
+      213: -8036067613806897206
+    second: basic prabu salya_0016_5
+  - first:
+      213: -5628979452421025178
+    second: basic prabu salya_0016_6
+  - first:
+      213: -6753134499090678954
+    second: basic prabu salya_0016_7
+  - first:
+      213: 6059852978641313516
+    second: basic prabu salya_0016_8
+  - first:
+      213: -7190195820648078918
+    second: basic prabu salya_0016_9
+  - first:
+      213: -8730094449233436145
+    second: basic prabu salya_0016_10
+  - first:
+      213: -3183213931285046879
+    second: basic prabu salya_0016_11
+  - first:
+      213: -483710335364948925
+    second: basic prabu salya_0016_12
+  - first:
+      213: -2120749539953038494
+    second: basic prabu salya_0016_13
+  - first:
+      213: 7277446586892161820
+    second: basic prabu salya_0016_14
+  - first:
+      213: -6157333511012498895
+    second: basic prabu salya_0016_15
+  - first:
+      213: 2823872316046231678
+    second: basic prabu salya_0016_16
+  - first:
+      213: -6365608913793362491
+    second: basic prabu salya_0016_17
+  - first:
+      213: -6644123534157667181
+    second: basic prabu salya_0016_18
+  - first:
+      213: -7067551048644348501
+    second: basic prabu salya_0016_19
+  - first:
+      213: -1471588903089511712
+    second: basic prabu salya_0016_20
+  - first:
+      213: 7683465896276990673
+    second: basic prabu salya_0016_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: basic prabu salya_0016_0
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 632
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5101e33bd9d38040800000000000000
+      internalID: 4648798775867933018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_1
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 611
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df5ee31b15ae2250800000000000000
+      internalID: 5921852095755870163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_2
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 608
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bf0476d83ceb000800000000000000
+      internalID: 53695257665141590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_3
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 568
+        width: 6
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffb2725dd24b2270800000000000000
+      internalID: 8226742662660800504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_4
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 575
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5ffcf978d1178e0800000000000000
+      internalID: -1697543116202969655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_5
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 573
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7d40805172a7090800000000000000
+      internalID: -8036067613806897206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_6
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 591
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662d87af209d1e1b0800000000000000
+      internalID: -5628979452421025178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 557
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bb345e3fb0842a0800000000000000
+      internalID: -6753134499090678954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_8
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 524
+        width: 16
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee12077d2ce81450800000000000000
+      internalID: 6059852978641313516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_9
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 555
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1e5c41ffa473c90800000000000000
+      internalID: -7190195820648078918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_10
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 23
+        width: 587
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02e4d93a5978d680800000000000000
+      internalID: -8730094449233436145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 467
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a91ead7bc3f2d3d0800000000000000
+      internalID: -3183213931285046879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_12
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 453
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c136643048949f0800000000000000
+      internalID: -483710335364948925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_13
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 478
+        width: 15
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ba68597859192e0800000000000000
+      internalID: -2120749539953038494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_14
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 456
+        width: 16
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13169bfc1faef460800000000000000
+      internalID: 7277446586892161820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_15
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 461
+        width: 16
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132cd707bc1cc8aa0800000000000000
+      internalID: -6157333511012498895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_16
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 379
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78cef0f8e8603720800000000000000
+      internalID: 2823872316046231678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_17
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 305
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5594a5b60d8a7a0800000000000000
+      internalID: -6365608913793362491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_18
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 291
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39428b609d45bc3a0800000000000000
+      internalID: -6644123534157667181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_19
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 264
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba53d9944c30bed90800000000000000
+      internalID: -7067551048644348501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_20
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 269
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e261ff70bdd39be0800000000000000
+      internalID: -1471588903089511712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic prabu salya_0016_21
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 226
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da1b6f168721aa60800000000000000
+      internalID: 7683465896276990673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      basic prabu salya_0016_0: 4648798775867933018
+      basic prabu salya_0016_1: 5921852095755870163
+      basic prabu salya_0016_10: -8730094449233436145
+      basic prabu salya_0016_11: -3183213931285046879
+      basic prabu salya_0016_12: -483710335364948925
+      basic prabu salya_0016_13: -2120749539953038494
+      basic prabu salya_0016_14: 7277446586892161820
+      basic prabu salya_0016_15: -6157333511012498895
+      basic prabu salya_0016_16: 2823872316046231678
+      basic prabu salya_0016_17: -6365608913793362491
+      basic prabu salya_0016_18: -6644123534157667181
+      basic prabu salya_0016_19: -7067551048644348501
+      basic prabu salya_0016_2: 53695257665141590
+      basic prabu salya_0016_20: -1471588903089511712
+      basic prabu salya_0016_21: 7683465896276990673
+      basic prabu salya_0016_3: 8226742662660800504
+      basic prabu salya_0016_4: -1697543116202969655
+      basic prabu salya_0016_5: -8036067613806897206
+      basic prabu salya_0016_6: -5628979452421025178
+      basic prabu salya_0016_7: -6753134499090678954
+      basic prabu salya_0016_8: 6059852978641313516
+      basic prabu salya_0016_9: -7190195820648078918
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

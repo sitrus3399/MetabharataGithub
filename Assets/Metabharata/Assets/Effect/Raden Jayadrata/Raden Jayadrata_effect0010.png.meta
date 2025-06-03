@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 35add3e3d23e5d847b8f0e1b7ce0c787
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5383392806348467064
+    second: RadenDjayadarta_effect0010_0
+  - first:
+      213: 2826640518928205222
+    second: RadenDjayadarta_effect0010_1
+  - first:
+      213: -3034376874311862322
+    second: RadenDjayadarta_effect0010_2
+  - first:
+      213: 5737247832022837161
+    second: RadenDjayadarta_effect0010_3
+  - first:
+      213: 162414634074007622
+    second: RadenDjayadarta_effect0010_4
+  - first:
+      213: 1064685731660263789
+    second: RadenDjayadarta_effect0010_5
+  - first:
+      213: -8015633129298395311
+    second: RadenDjayadarta_effect0010_6
+  - first:
+      213: 3447915230071911221
+    second: RadenDjayadarta_effect0010_7
+  - first:
+      213: -5076744327332818906
+    second: RadenDjayadarta_effect0010_8
+  - first:
+      213: 5419829613952798975
+    second: RadenDjayadarta_effect0010_9
+  - first:
+      213: 7863412769759755492
+    second: RadenDjayadarta_effect0010_10
+  - first:
+      213: 3601085382823086673
+    second: RadenDjayadarta_effect0010_11
+  - first:
+      213: 2690907610198890400
+    second: RadenDjayadarta_effect0010_12
+  - first:
+      213: -3471856577546022831
+    second: RadenDjayadarta_effect0010_13
+  - first:
+      213: 2655373143309927987
+    second: RadenDjayadarta_effect0010_14
+  - first:
+      213: -167328266408199108
+    second: RadenDjayadarta_effect0010_15
+  - first:
+      213: 2118638873399590959
+    second: RadenDjayadarta_effect0010_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_0
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 567
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884d43bd3c85a45b0800000000000000
+      internalID: -5383392806348467064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_1
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 515
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a50176639e3a3720800000000000000
+      internalID: 2826640518928205222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_2
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 470
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec73bf34f4ab3e5d0800000000000000
+      internalID: -3034376874311862322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_3
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 490
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7e918818cce9f40800000000000000
+      internalID: 5737247832022837161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_4
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 495
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6486e4acf33014200800000000000000
+      internalID: 162414634074007622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_5
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 440
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d617901380686ce00800000000000000
+      internalID: 1064685731660263789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 122
+        width: 287
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ff0563320c2c090800000000000000
+      internalID: -8015633129298395311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 193
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533781842a479df20800000000000000
+      internalID: 3447915230071911221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_8
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 170
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62019d99ee7cb89b0800000000000000
+      internalID: -5076744327332818906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_9
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 201
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff09cc2815a173b40800000000000000
+      internalID: 5419829613952798975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 204
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecfccf7044702d60800000000000000
+      internalID: 7863412769759755492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_11
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 136
+        width: 513
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a85098310a9f130800000000000000
+      internalID: 3601085382823086673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_12
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 196
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7dc45e636085520800000000000000
+      internalID: 2690907610198890400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_13
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 168
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150144066dc71dfc0800000000000000
+      internalID: -3471856577546022831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_14
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 158
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336c9191ec7c9d420800000000000000
+      internalID: 2655373143309927987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_15
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 132
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c7bd704d78dadf0800000000000000
+      internalID: -167328266408199108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RadenDjayadarta_effect0010_16
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 92
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20015094dae66d10800000000000000
+      internalID: 2118638873399590959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RadenDjayadarta_effect0010_0: -5383392806348467064
+      RadenDjayadarta_effect0010_1: 2826640518928205222
+      RadenDjayadarta_effect0010_10: 7863412769759755492
+      RadenDjayadarta_effect0010_11: 3601085382823086673
+      RadenDjayadarta_effect0010_12: 2690907610198890400
+      RadenDjayadarta_effect0010_13: -3471856577546022831
+      RadenDjayadarta_effect0010_14: 2655373143309927987
+      RadenDjayadarta_effect0010_15: -167328266408199108
+      RadenDjayadarta_effect0010_16: 2118638873399590959
+      RadenDjayadarta_effect0010_2: -3034376874311862322
+      RadenDjayadarta_effect0010_3: 5737247832022837161
+      RadenDjayadarta_effect0010_4: 162414634074007622
+      RadenDjayadarta_effect0010_5: 1064685731660263789
+      RadenDjayadarta_effect0010_6: -8015633129298395311
+      RadenDjayadarta_effect0010_7: 3447915230071911221
+      RadenDjayadarta_effect0010_8: -5076744327332818906
+      RadenDjayadarta_effect0010_9: 5419829613952798975
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

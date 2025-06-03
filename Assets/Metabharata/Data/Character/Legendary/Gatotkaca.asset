@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd7aea1d74ca523428af384810752d7e, type: 3}
+  m_Name: Gatotkaca
+  m_EditorClassIdentifier: 
+  characterName: Gatotkaca
+  characterNickName: Gatotkaca
+  characterDescription: Gatotkaca Adalah
+  characterQuotes: Ini Quotes Character
+  characterSprite: {fileID: -4167478585972235958, guid: 6b1a571b889cc3747bd0a4a74a244235, type: 3}
+  characterLegendarySprite: {fileID: 4117022378547493280, guid: 2c3ce424dec3efb4498a6eb76f452287, type: 3}
+  characterPortrait: {fileID: 21300000, guid: e0ba22012c5914b44b1248323f877548, type: 3}
+  characterVideo: {fileID: 32900000, guid: ef87d09c434561045ada17cf9ce56fda, type: 3}
+  characterVideoLegendary: {fileID: 32900000, guid: becba7c6c0db21245a794d1ebd2133d3, type: 3}
+  characterAnimator: {fileID: 22100000, guid: 5190ca2fe2ba45a42959ac6f5c0439fb, type: 2}
+  characterLegendaryAnimator: {fileID: 22100000, guid: 7bdb980692628334fb5703ea629c27d7, type: 2}
+  previewAnimator: {fileID: 22100000, guid: 1971d552a9ecc914c9f331ce3e262d63, type: 2}
+  characterType: 4
+  damagePukul: 0e0000000f0000001000000011000000
+  damagePukulLegendary: 12000000130000001400000015000000
+  damageTendang: 0e0000000f0000001000000011000000
+  damageTendangLegendary: 12000000130000001400000015000000
+  damageSenjata: 1c0000001e0000002000000022000000
+  damageSenjataLegendary: 2400000026000000280000002a000000
+  damageSpecialSkill: 380000003c0000004000000044000000
+  damageSpecialLegendary: 480000004c0000005000000054000000
+  defend: 380000003c0000004000000044000000
+  defendLegendary: 480000004c0000005000000054000000
+  punchHitBoxLocation: {x: 2.51, y: 2.3}
+  punchComboHitBoxLocation: {x: 2.51, y: 2.3}
+  kickHitBoxLocation: {x: 3.78, y: 1.5}
+  weaponHitBoxLocation: {x: 0, y: 0}
+  specialAttackHitBoxLocation: {x: 0, y: 0}
+  punchBullet: {fileID: 853442373884576933, guid: 351a3b679476eb741b869189eed00b73, type: 3}
+  punchBulletLegendary: {fileID: 853442373884576933, guid: 351a3b679476eb741b869189eed00b73, type: 3}
+  punchComboBullet: {fileID: 853442373884576933, guid: 351a3b679476eb741b869189eed00b73, type: 3}
+  punchComboBulletLegendary: {fileID: 853442373884576933, guid: 351a3b679476eb741b869189eed00b73, type: 3}
+  kickBullet: {fileID: -4375921168363976477, guid: fd236bc61a435e64b89c650e79ec7923, type: 3}
+  kickBulletLegendary: {fileID: -4375921168363976477, guid: fd236bc61a435e64b89c650e79ec7923, type: 3}
+  weaponBullet: {fileID: 602989597886643228, guid: 9651d881ed13b654b8804f3527808cdf, type: 3}
+  weaponSound: {fileID: 8300000, guid: dfaafa1fcf450af49bea5972d26339ed, type: 3}
+  weaponBulletLegendary: {fileID: 6526773931343080056, guid: 52d28a7f277a4ab488c2aa8fa6bee0d8, type: 3}
+  weaponLegendarySound: {fileID: 8300000, guid: b2d736f1ad9509744bbee4af64237454, type: 3}
+  specialAttackBullet: {fileID: 8460038752977379228, guid: ece307b310584534aa50562ab8c86c33, type: 3}
+  specialSound: {fileID: 8300000, guid: 8d95289d650245d498d3c24750b82503, type: 3}
+  specialAttackBulletLegendary: {fileID: 8263471142460242236, guid: eb6b7d54316138540a91f17298614a7f, type: 3}
+  specialLegendarySound: {fileID: 8300000, guid: ceb7382e4cb99f844acc99252896d405, type: 3}
+  hargaBeli: 0
+  hargaEquip: 

@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: c7ddce9506d94e74a83291f87389df9a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3009488771621285485
+    second: Bathara kresna LEGENDARY_0016_0
+  - first:
+      213: -1082011045418338956
+    second: Bathara kresna LEGENDARY_0016_1
+  - first:
+      213: 4498000227834776306
+    second: Bathara kresna LEGENDARY_0016_2
+  - first:
+      213: -8636455699167329359
+    second: Bathara kresna LEGENDARY_0016_3
+  - first:
+      213: 2276469829568561407
+    second: Bathara kresna LEGENDARY_0016_4
+  - first:
+      213: -82409696649248981
+    second: Bathara kresna LEGENDARY_0016_5
+  - first:
+      213: -3856073425961178347
+    second: Bathara kresna LEGENDARY_0016_6
+  - first:
+      213: -3087708837290694025
+    second: Bathara kresna LEGENDARY_0016_7
+  - first:
+      213: -2215218591018903033
+    second: Bathara kresna LEGENDARY_0016_8
+  - first:
+      213: 4172409221694043552
+    second: Bathara kresna LEGENDARY_0016_9
+  - first:
+      213: 3442677326822229584
+    second: Bathara kresna LEGENDARY_0016_10
+  - first:
+      213: -4024402705289407046
+    second: Bathara kresna LEGENDARY_0016_11
+  - first:
+      213: -4386501492691565697
+    second: Bathara kresna LEGENDARY_0016_12
+  - first:
+      213: -3212430805420765634
+    second: Bathara kresna LEGENDARY_0016_13
+  - first:
+      213: 3489232040651880162
+    second: Bathara kresna LEGENDARY_0016_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_0
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 410
+        width: 128
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3919cfb38e52c36d0800000000000000
+      internalID: -3009488771621285485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_1
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 401
+        width: 223
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4757acadfacebf0f0800000000000000
+      internalID: -1082011045418338956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_2
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 370
+        width: 194
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fac7b3306b1c6e30800000000000000
+      internalID: 4498000227834776306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 342
+        width: 257
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3cbbcac45252880800000000000000
+      internalID: -8636455699167329359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_4
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 356
+        width: 166
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0045daf35a79f10800000000000000
+      internalID: 2276469829568561407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_5
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 323
+        width: 121
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f7c2941d83bdef0800000000000000
+      internalID: -82409696649248981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_6
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 305
+        width: 226
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ba2c146a97c7ac0800000000000000
+      internalID: -3856073425961178347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_7
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 260
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a247ffb214625d0800000000000000
+      internalID: -3087708837290694025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_8
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 253
+        width: 288
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a1a7e9d66f141e0800000000000000
+      internalID: -2215218591018903033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_9
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 243
+        width: 410
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a533aca41067e930800000000000000
+      internalID: 4172409221694043552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_10
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 214
+        width: 280
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056c785e9c8d6cf20800000000000000
+      internalID: 3442677326822229584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_11
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 200
+        width: 173
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab59a1ecf037628c0800000000000000
+      internalID: -4024402705289407046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_12
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 171
+        width: 318
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73066112240023c0800000000000000
+      internalID: -4386501492691565697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_13
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 160
+        width: 179
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e8f51e3372b63d0800000000000000
+      internalID: -3212430805420765634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathara kresna LEGENDARY_0016_14
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 109
+        width: 217
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e677f1ed0e3c6030800000000000000
+      internalID: 3489232040651880162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bathara kresna LEGENDARY_0016_0: -3009488771621285485
+      Bathara kresna LEGENDARY_0016_1: -1082011045418338956
+      Bathara kresna LEGENDARY_0016_10: 3442677326822229584
+      Bathara kresna LEGENDARY_0016_11: -4024402705289407046
+      Bathara kresna LEGENDARY_0016_12: -4386501492691565697
+      Bathara kresna LEGENDARY_0016_13: -3212430805420765634
+      Bathara kresna LEGENDARY_0016_14: 3489232040651880162
+      Bathara kresna LEGENDARY_0016_2: 4498000227834776306
+      Bathara kresna LEGENDARY_0016_3: -8636455699167329359
+      Bathara kresna LEGENDARY_0016_4: 2276469829568561407
+      Bathara kresna LEGENDARY_0016_5: -82409696649248981
+      Bathara kresna LEGENDARY_0016_6: -3856073425961178347
+      Bathara kresna LEGENDARY_0016_7: -3087708837290694025
+      Bathara kresna LEGENDARY_0016_8: -2215218591018903033
+      Bathara kresna LEGENDARY_0016_9: 4172409221694043552
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

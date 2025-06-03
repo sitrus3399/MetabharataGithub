@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5296e7c62fb9a1546bcd55ef6ebd1d58, type: 3}
+  m_Name: Story6 Sumpah Bima dan Drupadi
+  m_EditorClassIdentifier: 
+  storyName: Sumpah Bima dan Drupadi
+  storyNumber: 6
+  storyDescription: Punggawa Kurawa, Wikata dan Wikateleng, kehilangan nyawa karena
+    tertimpa kaki Bima. Mendidihlah darah Dursasana. Perang tanding antara keduanya
+    pun berlangsung sengit. Dapatkah Bima melaksanakan sumpahnya meminum darah Dursasana?
+    Dan, mampukah ia membantu mewujudkan sumpah Dewi Drupadi untuk merendam rambutnya
+    dengan darah Dursasana?
+  storyIcon: {fileID: 21300000, guid: 84302350482830641819a5751dfcc962, type: 3}
+  characterData: {fileID: 11400000, guid: b2a157467d8bfe74890af46ae952f923, type: 2}
+  characterLevel: 1
+  enemyBossData: {fileID: 11400000, guid: 51219023fd1213c42a7576705ac9ef17, type: 2}
+  stageList:
+  - enemy: {fileID: 11400000, guid: 2153e93ea617b294995f334e3e398ddf, type: 2}
+    level: 2
+    reward: 100
+  - enemy: {fileID: 11400000, guid: 2153e93ea617b294995f334e3e398ddf, type: 2}
+    level: 2
+    reward: 100
+  - enemy: {fileID: 11400000, guid: 2153e93ea617b294995f334e3e398ddf, type: 2}
+    level: 2
+    reward: 100
+  - enemy: {fileID: 11400000, guid: 2153e93ea617b294995f334e3e398ddf, type: 2}
+    level: 2
+    reward: 100
+  - enemy: {fileID: 11400000, guid: 51219023fd1213c42a7576705ac9ef17, type: 2}
+    level: 2
+    reward: 500
+  backgroundSprite: {fileID: 21300000, guid: 20709c4a5aed1ab4ab9584d99a663e78, type: 3}

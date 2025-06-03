@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 6ee4dfd323313c64cbd96940a4510ec8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4037167155129946251
+    second: bambang irawan_0010_0
+  - first:
+      213: 8451174059160701902
+    second: bambang irawan_0010_1
+  - first:
+      213: 7538952692888353296
+    second: bambang irawan_0010_2
+  - first:
+      213: -477908292501377404
+    second: bambang irawan_0010_3
+  - first:
+      213: -7694190978176731021
+    second: bambang irawan_0010_4
+  - first:
+      213: -2992812796082739612
+    second: bambang irawan_0010_5
+  - first:
+      213: 7071461238224585766
+    second: bambang irawan_0010_6
+  - first:
+      213: -6653368402446133353
+    second: bambang irawan_0010_7
+  - first:
+      213: 3674035795023717765
+    second: bambang irawan_0010_8
+  - first:
+      213: 2249690838368830512
+    second: bambang irawan_0010_9
+  - first:
+      213: -5401431391183270708
+    second: bambang irawan_0010_10
+  - first:
+      213: -4587558407747087792
+    second: bambang irawan_0010_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bambang irawan_0010_0
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 589
+        width: 114
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fea9bbcd919f7c0800000000000000
+      internalID: -4037167155129946251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bambang irawan_0010_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 349
+        width: 116
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb0543d70a984570800000000000000
+      internalID: 8451174059160701902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bambang irawan_0010_2
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 659
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ab516f78dbf9860800000000000000
+      internalID: 7538952692888353296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bambang irawan_0010_3
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 656
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48eed36a0f02e59f0800000000000000
+      internalID: -477908292501377404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bambang irawan_0010_4
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 362
+        width: 835
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378b2c7221eb83590800000000000000
+      internalID: -7694190978176731021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bambang irawan_0010_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 103
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466ae3a5e946776d0800000000000000
+      internalID: -2992812796082739612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bambang irawan_0010_6
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 405
+        width: 55
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624025ba780e22260800000000000000
+      internalID: 7071461238224585766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bambang irawan_0010_7
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 634
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797d36460bc7aa3a0800000000000000
+      internalID: -6653368402446133353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bambang irawan_0010_8
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 519
+        width: 112
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5856576f61cccf230800000000000000
+      internalID: 3674035795023717765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bambang irawan_0010_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 537
+        width: 98
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034cc6be5e1883f10800000000000000
+      internalID: 2249690838368830512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bambang irawan_0010_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 474
+        width: 233
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc80e984c24a05b0800000000000000
+      internalID: -5401431391183270708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bambang irawan_0010_11
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 453
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052d0ef1fe7b550c0800000000000000
+      internalID: -4587558407747087792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bambang irawan_0010_0: -4037167155129946251
+      bambang irawan_0010_1: 8451174059160701902
+      bambang irawan_0010_10: -5401431391183270708
+      bambang irawan_0010_11: -4587558407747087792
+      bambang irawan_0010_2: 7538952692888353296
+      bambang irawan_0010_3: -477908292501377404
+      bambang irawan_0010_4: -7694190978176731021
+      bambang irawan_0010_5: -2992812796082739612
+      bambang irawan_0010_6: 7071461238224585766
+      bambang irawan_0010_7: -6653368402446133353
+      bambang irawan_0010_8: 3674035795023717765
+      bambang irawan_0010_9: 2249690838368830512
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

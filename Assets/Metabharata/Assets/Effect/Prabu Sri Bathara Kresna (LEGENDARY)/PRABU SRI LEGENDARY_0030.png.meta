@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: ec58ce8de9221f346852c66efbdcc0f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6356276067990582268
+    second: PRABU SRI LEGENDARY_0030_0
+  - first:
+      213: 3251539225775055318
+    second: PRABU SRI LEGENDARY_0030_1
+  - first:
+      213: 1724520097150194000
+    second: PRABU SRI LEGENDARY_0030_2
+  - first:
+      213: 5370985737807478543
+    second: PRABU SRI LEGENDARY_0030_3
+  - first:
+      213: -3407745527170081315
+    second: PRABU SRI LEGENDARY_0030_4
+  - first:
+      213: -2132709640153794719
+    second: PRABU SRI LEGENDARY_0030_5
+  - first:
+      213: 620325398771465626
+    second: PRABU SRI LEGENDARY_0030_6
+  - first:
+      213: -7382550839500487367
+    second: PRABU SRI LEGENDARY_0030_7
+  - first:
+      213: 969726202202725659
+    second: PRABU SRI LEGENDARY_0030_8
+  - first:
+      213: -7301253815261023922
+    second: PRABU SRI LEGENDARY_0030_9
+  - first:
+      213: 6937951132819626606
+    second: PRABU SRI LEGENDARY_0030_10
+  - first:
+      213: -2323438891877728891
+    second: PRABU SRI LEGENDARY_0030_11
+  - first:
+      213: 5800812566263273281
+    second: PRABU SRI LEGENDARY_0030_12
+  - first:
+      213: -3320102829796685135
+    second: PRABU SRI LEGENDARY_0030_13
+  - first:
+      213: -1692855438441915507
+    second: PRABU SRI LEGENDARY_0030_14
+  - first:
+      213: -1620169707997359334
+    second: PRABU SRI LEGENDARY_0030_15
+  - first:
+      213: -4324989855837193646
+    second: PRABU SRI LEGENDARY_0030_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_0
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 709
+        width: 25
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf335e62867063850800000000000000
+      internalID: 6356276067990582268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_1
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 697
+        width: 15
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1229dc2b9cf1d20800000000000000
+      internalID: 3251539225775055318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 57
+        width: 503
+        height: 645
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051d8a634e9bee710800000000000000
+      internalID: 1724520097150194000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_3
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 606
+        width: 278
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f34b36213998a40800000000000000
+      internalID: 5370985737807478543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_4
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 512
+        width: 364
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddd9108f7145b0d0800000000000000
+      internalID: -3407745527170081315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_5
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 474
+        width: 241
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167f491c1e71762e0800000000000000
+      internalID: -2132709640153794719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 418
+        width: 262
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9dfceed9a6db9800800000000000000
+      internalID: 620325398771465626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_7
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 375
+        width: 204
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935cf4b3029eb8990800000000000000
+      internalID: -7382550839500487367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_8
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 316
+        width: 288
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d9ea3d7d8257d00800000000000000
+      internalID: 969726202202725659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_9
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 281
+        width: 164
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41b666b65cbcaa90800000000000000
+      internalID: -7301253815261023922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_10
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 241
+        width: 184
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a9bb4ebcd884060800000000000000
+      internalID: 6937951132819626606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_11
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 172
+        width: 211
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dfc4053ac71cfd0800000000000000
+      internalID: -2323438891877728891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_12
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 86
+        width: 107
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1479eb48b40a08050800000000000000
+      internalID: 5800812566263273281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_13
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 66
+        width: 87
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba03342110ace1d0800000000000000
+      internalID: -3320102829796685135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_14
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 12
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bd497a2f4c188e0800000000000000
+      internalID: -1692855438441915507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 22
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1318fe0c300489e0800000000000000
+      internalID: -1620169707997359334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRABU SRI LEGENDARY_0030_16
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 28
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25af7a114ac8af3c0800000000000000
+      internalID: -4324989855837193646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PRABU SRI LEGENDARY_0030_0: 6356276067990582268
+      PRABU SRI LEGENDARY_0030_1: 3251539225775055318
+      PRABU SRI LEGENDARY_0030_10: 6937951132819626606
+      PRABU SRI LEGENDARY_0030_11: -2323438891877728891
+      PRABU SRI LEGENDARY_0030_12: 5800812566263273281
+      PRABU SRI LEGENDARY_0030_13: -3320102829796685135
+      PRABU SRI LEGENDARY_0030_14: -1692855438441915507
+      PRABU SRI LEGENDARY_0030_15: -1620169707997359334
+      PRABU SRI LEGENDARY_0030_16: -4324989855837193646
+      PRABU SRI LEGENDARY_0030_2: 1724520097150194000
+      PRABU SRI LEGENDARY_0030_3: 5370985737807478543
+      PRABU SRI LEGENDARY_0030_4: -3407745527170081315
+      PRABU SRI LEGENDARY_0030_5: -2132709640153794719
+      PRABU SRI LEGENDARY_0030_6: 620325398771465626
+      PRABU SRI LEGENDARY_0030_7: -7382550839500487367
+      PRABU SRI LEGENDARY_0030_8: 969726202202725659
+      PRABU SRI LEGENDARY_0030_9: -7301253815261023922
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

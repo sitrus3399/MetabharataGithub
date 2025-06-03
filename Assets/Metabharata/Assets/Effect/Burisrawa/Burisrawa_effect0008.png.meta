@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: a16ddf3d22157fe47975d60599f7d173
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3830451840970410291
+    second: Burisrawa_effect0008_0
+  - first:
+      213: 1945031464792712088
+    second: Burisrawa_effect0008_1
+  - first:
+      213: -4876765637120897783
+    second: Burisrawa_effect0008_2
+  - first:
+      213: -7476247836817786955
+    second: Burisrawa_effect0008_3
+  - first:
+      213: -4613294398290629896
+    second: Burisrawa_effect0008_4
+  - first:
+      213: 662414428972988341
+    second: Burisrawa_effect0008_5
+  - first:
+      213: -2592087927549966568
+    second: Burisrawa_effect0008_6
+  - first:
+      213: 999967671286083563
+    second: Burisrawa_effect0008_7
+  - first:
+      213: -4222992740459627542
+    second: Burisrawa_effect0008_8
+  - first:
+      213: 3754832667309280271
+    second: Burisrawa_effect0008_9
+  - first:
+      213: 8490240055967056923
+    second: Burisrawa_effect0008_10
+  - first:
+      213: -2549300015603364156
+    second: Burisrawa_effect0008_11
+  - first:
+      213: -8365461937388627403
+    second: Burisrawa_effect0008_12
+  - first:
+      213: -4668270100798153368
+    second: Burisrawa_effect0008_13
+  - first:
+      213: 1845075498199241439
+    second: Burisrawa_effect0008_14
+  - first:
+      213: -4481798690047686231
+    second: Burisrawa_effect0008_15
+  - first:
+      213: 8819509752140684995
+    second: Burisrawa_effect0008_16
+  - first:
+      213: -328207808928817015
+    second: Burisrawa_effect0008_17
+  - first:
+      213: 2085167061122213098
+    second: Burisrawa_effect0008_18
+  - first:
+      213: 3629121841345870231
+    second: Burisrawa_effect0008_19
+  - first:
+      213: -5760682821258036829
+    second: Burisrawa_effect0008_20
+  - first:
+      213: -6105563682689586940
+    second: Burisrawa_effect0008_21
+  - first:
+      213: -3875302198845166863
+    second: Burisrawa_effect0008_22
+  - first:
+      213: 1657727851819373314
+    second: Burisrawa_effect0008_23
+  - first:
+      213: -6134197142372995431
+    second: Burisrawa_effect0008_24
+  - first:
+      213: -7336919252888465292
+    second: Burisrawa_effect0008_25
+  - first:
+      213: 5915303093586176281
+    second: Burisrawa_effect0008_26
+  - first:
+      213: -359512942815469356
+    second: Burisrawa_effect0008_27
+  - first:
+      213: -269447351058794407
+    second: Burisrawa_effect0008_28
+  - first:
+      213: -6962776650680054247
+    second: Burisrawa_effect0008_29
+  - first:
+      213: -1265896961206348450
+    second: Burisrawa_effect0008_30
+  - first:
+      213: -5027199552784501602
+    second: Burisrawa_effect0008_31
+  - first:
+      213: -4756433982764942448
+    second: Burisrawa_effect0008_32
+  - first:
+      213: -8090641573729593277
+    second: Burisrawa_effect0008_33
+  - first:
+      213: 7236268618538615113
+    second: Burisrawa_effect0008_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_0
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 481
+        width: 220
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339484e97af782530800000000000000
+      internalID: 3830451840970410291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_1
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 482
+        width: 102
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8936defdfc32efa10800000000000000
+      internalID: 1945031464792712088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_2
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 523
+        width: 75
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90dc392cd7f325cb0800000000000000
+      internalID: -4876765637120897783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_3
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 484
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b771b904380f3890800000000000000
+      internalID: -7476247836817786955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_4
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 479
+        width: 123
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa6691ef294affb0800000000000000
+      internalID: -4613294398290629896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_5
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 523
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7370dd96e513900800000000000000
+      internalID: 662414428972988341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_6
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 462
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8174ecb63cd070cd0800000000000000
+      internalID: -2592087927549966568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_7
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 414
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befa1e98c4990ed00800000000000000
+      internalID: 999967671286083563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 471
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebb9d71a7ae465c0800000000000000
+      internalID: -4222992740459627542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_9
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 466
+        width: 116
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c800eba68db1430800000000000000
+      internalID: 3754832667309280271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_10
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 447
+        width: 74
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1485b1095463d570800000000000000
+      internalID: 8490240055967056923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_11
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 456
+        width: 104
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce401084211f9cd0800000000000000
+      internalID: -2549300015603364156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_12
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 433
+        width: 70
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a56e7a0b8e7eb80800000000000000
+      internalID: -8365461937388627403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_13
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 471
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d595ea319f63fb0800000000000000
+      internalID: -4668270100798153368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_14
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 284
+        width: 193
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd251f5d3660b9910800000000000000
+      internalID: 1845075498199241439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_15
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 380
+        width: 294
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a985e446d37dc1c0800000000000000
+      internalID: -4481798690047686231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_16
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 407
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce507d4461356a70800000000000000
+      internalID: 8819509752140684995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_17
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 421
+        width: 67
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980e9489cb8f17bf0800000000000000
+      internalID: -328207808928817015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_18
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 383
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4e887f46000fc10800000000000000
+      internalID: 2085167061122213098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_19
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 373
+        width: 150
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7993808361b3d5230800000000000000
+      internalID: 3629121841345870231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_20
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 371
+        width: 52
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a93837de71fd00b0800000000000000
+      internalID: -5760682821258036829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_21
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 351
+        width: 140
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409e2c3ed2ea44ba0800000000000000
+      internalID: -6105563682689586940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_22
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 337
+        width: 104
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa2b80be29283ac0800000000000000
+      internalID: -3875302198845166863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_23
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 349
+        width: 248
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20317fdb2be610710800000000000000
+      internalID: 1657727851819373314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_24
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 342
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e24aa0334fedaa0800000000000000
+      internalID: -6134197142372995431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_25
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 356
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470dbd9efc60e2a90800000000000000
+      internalID: -7336919252888465292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_26
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 353
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91929ffa2d0671250800000000000000
+      internalID: 5915303093586176281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_27
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 344
+        width: 98
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0245f12e0c20bf0800000000000000
+      internalID: -359512942815469356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_28
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 325
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9587872df0bb24cf0800000000000000
+      internalID: -269447351058794407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_29
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 331
+        width: 131
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ec4ddc68f3f5f90800000000000000
+      internalID: -6962776650680054247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_30
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 304
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e559c09bb61ae6ee0800000000000000
+      internalID: -1265896961206348450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_31
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 291
+        width: 191
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94f64954accb3ab0800000000000000
+      internalID: -5027199552784501602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_32
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 269
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09bf2bb4e70cdfdb0800000000000000
+      internalID: -4756433982764942448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_33
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 266
+        width: 83
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34817d0da5448bf80800000000000000
+      internalID: -8090641573729593277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burisrawa_effect0008_34
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 265
+        width: 210
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9410d4b18f36c6460800000000000000
+      internalID: 7236268618538615113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Burisrawa_effect0008_0: 3830451840970410291
+      Burisrawa_effect0008_1: 1945031464792712088
+      Burisrawa_effect0008_10: 8490240055967056923
+      Burisrawa_effect0008_11: -2549300015603364156
+      Burisrawa_effect0008_12: -8365461937388627403
+      Burisrawa_effect0008_13: -4668270100798153368
+      Burisrawa_effect0008_14: 1845075498199241439
+      Burisrawa_effect0008_15: -4481798690047686231
+      Burisrawa_effect0008_16: 8819509752140684995
+      Burisrawa_effect0008_17: -328207808928817015
+      Burisrawa_effect0008_18: 2085167061122213098
+      Burisrawa_effect0008_19: 3629121841345870231
+      Burisrawa_effect0008_2: -4876765637120897783
+      Burisrawa_effect0008_20: -5760682821258036829
+      Burisrawa_effect0008_21: -6105563682689586940
+      Burisrawa_effect0008_22: -3875302198845166863
+      Burisrawa_effect0008_23: 1657727851819373314
+      Burisrawa_effect0008_24: -6134197142372995431
+      Burisrawa_effect0008_25: -7336919252888465292
+      Burisrawa_effect0008_26: 5915303093586176281
+      Burisrawa_effect0008_27: -359512942815469356
+      Burisrawa_effect0008_28: -269447351058794407
+      Burisrawa_effect0008_29: -6962776650680054247
+      Burisrawa_effect0008_3: -7476247836817786955
+      Burisrawa_effect0008_30: -1265896961206348450
+      Burisrawa_effect0008_31: -5027199552784501602
+      Burisrawa_effect0008_32: -4756433982764942448
+      Burisrawa_effect0008_33: -8090641573729593277
+      Burisrawa_effect0008_34: 7236268618538615113
+      Burisrawa_effect0008_4: -4613294398290629896
+      Burisrawa_effect0008_5: 662414428972988341
+      Burisrawa_effect0008_6: -2592087927549966568
+      Burisrawa_effect0008_7: 999967671286083563
+      Burisrawa_effect0008_8: -4222992740459627542
+      Burisrawa_effect0008_9: 3754832667309280271
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

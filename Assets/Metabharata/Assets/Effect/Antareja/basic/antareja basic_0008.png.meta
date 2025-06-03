@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 1ee3358194acac540b4fd716a108fbce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8661786074864550724
+    second: antareja basic_0008_0
+  - first:
+      213: -2417095288800087007
+    second: antareja basic_0008_1
+  - first:
+      213: 6325242436418170100
+    second: antareja basic_0008_2
+  - first:
+      213: 2996308108979274004
+    second: antareja basic_0008_3
+  - first:
+      213: 2169667801341213579
+    second: antareja basic_0008_4
+  - first:
+      213: 6398946662875760776
+    second: antareja basic_0008_5
+  - first:
+      213: -1353626051183403072
+    second: antareja basic_0008_6
+  - first:
+      213: -5080117611757657736
+    second: antareja basic_0008_7
+  - first:
+      213: 4291489549124691231
+    second: antareja basic_0008_8
+  - first:
+      213: 1494419512430763494
+    second: antareja basic_0008_9
+  - first:
+      213: 3898657696492404289
+    second: antareja basic_0008_10
+  - first:
+      213: -1338781659934876554
+    second: antareja basic_0008_11
+  - first:
+      213: 8368759771226033979
+    second: antareja basic_0008_12
+  - first:
+      213: 8691735073453186698
+    second: antareja basic_0008_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: antareja basic_0008_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 44
+        width: 1044
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4430ab00b88d43870800000000000000
+      internalID: 8661786074864550724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antareja basic_0008_1
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 166
+        width: 202
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124fcc224a0c47ed0800000000000000
+      internalID: -2417095288800087007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antareja basic_0008_2
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 260
+        width: 101
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc6eecbb76c7c750800000000000000
+      internalID: 6325242436418170100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antareja basic_0008_3
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 196
+        width: 87
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41105599956059920800000000000000
+      internalID: 2996308108979274004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antareja basic_0008_4
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 275
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bbb83be553c1e10800000000000000
+      internalID: 2169667801341213579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antareja basic_0008_5
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 136
+        width: 161
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88881693610adc850800000000000000
+      internalID: 6398946662875760776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antareja basic_0008_6
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 119
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf9f7c3744f63de0800000000000000
+      internalID: -1353626051183403072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antareja basic_0008_7
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 156
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871aafd92fbcf79b0800000000000000
+      internalID: -5080117611757657736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antareja basic_0008_8
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 130
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15e0e4f10f6e8b30800000000000000
+      internalID: 4291489549124691231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antareja basic_0008_9
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 69
+        width: 106
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed19d7f0ae3db410800000000000000
+      internalID: 1494419512430763494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antareja basic_0008_10
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 66
+        width: 73
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14eb54cd480da1630800000000000000
+      internalID: 3898657696492404289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antareja basic_0008_11
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 81
+        width: 53
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c16c76c21bb6de0800000000000000
+      internalID: -1338781659934876554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antareja basic_0008_12
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 76
+        width: 92
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fc18e1caec32470800000000000000
+      internalID: 8368759771226033979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antareja basic_0008_13
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 47
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e1bfe9ffe3f9870800000000000000
+      internalID: 8691735073453186698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      antareja basic_0008_0: 8661786074864550724
+      antareja basic_0008_1: -2417095288800087007
+      antareja basic_0008_10: 3898657696492404289
+      antareja basic_0008_11: -1338781659934876554
+      antareja basic_0008_12: 8368759771226033979
+      antareja basic_0008_13: 8691735073453186698
+      antareja basic_0008_2: 6325242436418170100
+      antareja basic_0008_3: 2996308108979274004
+      antareja basic_0008_4: 2169667801341213579
+      antareja basic_0008_5: 6398946662875760776
+      antareja basic_0008_6: -1353626051183403072
+      antareja basic_0008_7: -5080117611757657736
+      antareja basic_0008_8: 4291489549124691231
+      antareja basic_0008_9: 1494419512430763494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

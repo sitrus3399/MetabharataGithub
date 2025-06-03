@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: a7927576260af154bb751d6d40eb80d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2640519725715028309
+    second: Win 1_0
+  - first:
+      213: -5230327127100096381
+    second: Win 1_1
+  - first:
+      213: -3803958073942272917
+    second: Win 1_2
+  - first:
+      213: -4254209475378104738
+    second: Win 1_3
+  - first:
+      213: -147568764146830227
+    second: Win 1_4
+  - first:
+      213: 7603743006609042321
+    second: Win 1_5
+  - first:
+      213: 4068121563435476678
+    second: Win 1_6
+  - first:
+      213: 5593946605091794464
+    second: Win 1_7
+  - first:
+      213: -1051656806870880644
+    second: Win 1_8
+  - first:
+      213: 9073358978168738910
+    second: Win 1_9
+  - first:
+      213: -3846222024212724368
+    second: Win 1_10
+  - first:
+      213: -3130575372975418264
+    second: Win 1_11
+  - first:
+      213: -8197036454739368606
+    second: Win 1_12
+  - first:
+      213: -5165462880533437038
+    second: Win 1_13
+  - first:
+      213: -6472242996168523588
+    second: Win 1_14
+  - first:
+      213: 5879218551421491802
+    second: Win 1_15
+  - first:
+      213: -7147675939367978491
+    second: Win 1_16
+  - first:
+      213: -2944345004405557913
+    second: Win 1_17
+  - first:
+      213: 1912098556800498289
+    second: Win 1_18
+  - first:
+      213: 5881139706504337462
+    second: Win 1_19
+  - first:
+      213: -7748666750308647603
+    second: Win 1_20
+  - first:
+      213: 3259279127343234848
+    second: Win 1_21
+  - first:
+      213: -2713378732620675333
+    second: Win 1_22
+  - first:
+      213: 6301628813845593545
+    second: Win 1_23
+  - first:
+      213: -1192962167400243112
+    second: Win 1_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Win 1_0
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2306
+        width: 130
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6085eac4dfa5bd0800000000000000
+      internalID: -2640519725715028309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_1
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 171
+        width: 2073
+        height: 2229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3800c1a70352a67b0800000000000000
+      internalID: -5230327127100096381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_2
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 2268
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6411363940a53bc0800000000000000
+      internalID: -3803958073942272917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_3
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 2029
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56bcfb950306f4c0800000000000000
+      internalID: -4254209475378104738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_4
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1946
+        width: 99
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64b519adfab3fdf0800000000000000
+      internalID: -147568764146830227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1850
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bea486afbe58960800000000000000
+      internalID: 7603743006609042321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_6
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1779
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6ada3120fd47830800000000000000
+      internalID: 4068121563435476678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_7
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1603
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02eaff0acc0b1ad40800000000000000
+      internalID: 5593946605091794464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1486
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ee6d0c4b3c761f0800000000000000
+      internalID: -1051656806870880644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_9
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 1459
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54595dfaeb0bed70800000000000000
+      internalID: 9073358978168738910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_10
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 1442
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075448772797f9ac0800000000000000
+      internalID: -3846222024212724368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_11
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 1390
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864d637e846fd84d0800000000000000
+      internalID: -3130575372975418264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_12
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1281
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265255036c64e3e80800000000000000
+      internalID: -8197036454739368606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_13
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 1231
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295a651c0e69058b0800000000000000
+      internalID: -5165462880533437038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1061
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb08d515949fd26a0800000000000000
+      internalID: -6472242996168523588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_15
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 1060
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a5d528f1e279150800000000000000
+      internalID: 5879218551421491802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_16
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 1018
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a7d586a9a5ecc90800000000000000
+      internalID: -7147675939367978491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_17
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 890
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765f53c71d59327d0800000000000000
+      internalID: -2944345004405557913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 660
+        width: 58
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a71a5b183298a10800000000000000
+      internalID: 1912098556800498289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_19
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 231
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638d2a847610e9150800000000000000
+      internalID: 5881139706504337462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_20
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 150
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4df8f015a4377490800000000000000
+      internalID: -7748666750308647603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_21
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 147
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f732119194b3d20800000000000000
+      internalID: 3259279127343234848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_22
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 43
+        width: 104
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf68b053b64285ad0800000000000000
+      internalID: -2713378732620675333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_23
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 0
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdf1abc402e37750800000000000000
+      internalID: 6301628813845593545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win 1_24
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 0
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850e0a5ba3fb17fe0800000000000000
+      internalID: -1192962167400243112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Win 1_0: -2640519725715028309
+      Win 1_1: -5230327127100096381
+      Win 1_10: -3846222024212724368
+      Win 1_11: -3130575372975418264
+      Win 1_12: -8197036454739368606
+      Win 1_13: -5165462880533437038
+      Win 1_14: -6472242996168523588
+      Win 1_15: 5879218551421491802
+      Win 1_16: -7147675939367978491
+      Win 1_17: -2944345004405557913
+      Win 1_18: 1912098556800498289
+      Win 1_19: 5881139706504337462
+      Win 1_2: -3803958073942272917
+      Win 1_20: -7748666750308647603
+      Win 1_21: 3259279127343234848
+      Win 1_22: -2713378732620675333
+      Win 1_23: 6301628813845593545
+      Win 1_24: -1192962167400243112
+      Win 1_3: -4254209475378104738
+      Win 1_4: -147568764146830227
+      Win 1_5: 7603743006609042321
+      Win 1_6: 4068121563435476678
+      Win 1_7: 5593946605091794464
+      Win 1_8: -1051656806870880644
+      Win 1_9: 9073358978168738910
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

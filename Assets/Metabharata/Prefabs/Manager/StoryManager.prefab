@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &379646481720729120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1592148407327404617}
+  - component: {fileID: 6566314534205925597}
+  m_Layer: 0
+  m_Name: StoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1592148407327404617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379646481720729120}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1100.6248, y: 715.61847, z: 1.4900551}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6566314534205925597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379646481720729120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c716c76f07fa646ae44abdd68b28d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story:
+  - storyName: Prajurit Perempuan
+    data: {fileID: 11400000, guid: 044db591129927c41a725d53ff23258c, type: 2}
+    isCleared: 0
+    isUnlocked: 0
+  - storyName: Pengorbanan Darah
+    data: {fileID: 11400000, guid: 00ef8ce660a7c1746881e62bbca52fad, type: 2}
+    isCleared: 0
+    isUnlocked: 0
+  - storyName: Pati Obong
+    data: {fileID: 11400000, guid: b93b33910d4d53347b203306befe611d, type: 2}
+    isCleared: 0
+    isUnlocked: 0
+  - storyName: Bima Kerdil
+    data: {fileID: 11400000, guid: bb3d1d06f2978aa49805060c5f5c9e82, type: 2}
+    isCleared: 0
+    isUnlocked: 0
+  - storyName: Trik Psikologis
+    data: {fileID: 11400000, guid: 6470aa40eb948e04c8b79f5ce5ec3f3e, type: 2}
+    isCleared: 0
+    isUnlocked: 0
+  - storyName: Sumpah Bima dan Drupadi
+    data: {fileID: 11400000, guid: 6434d61ac1f91764ab623ae3abbcd380, type: 2}
+    isCleared: 0
+    isUnlocked: 0
+  - storyName: Putra Sang Hyang Bathara Surya
+    data: {fileID: 11400000, guid: fb53d1633f97b894f9dfb44151b0eef0, type: 2}
+    isCleared: 0
+    isUnlocked: 0
+  - storyName: Jamus Kalimasada
+    data: {fileID: 11400000, guid: 4eb2dd28d4b41054bbd66bc376bbaac5, type: 2}
+    isCleared: 0
+    isUnlocked: 0
+  - storyName: Minyak Tala
+    data: {fileID: 11400000, guid: c0ac121e561768c45950f36cbef56336, type: 2}
+    isCleared: 0
+    isUnlocked: 0
+  - storyName: Duel Akhir
+    data: {fileID: 11400000, guid: 85e0880170441c845aff96786023f2d4, type: 2}
+    isCleared: 0
+    isUnlocked: 0

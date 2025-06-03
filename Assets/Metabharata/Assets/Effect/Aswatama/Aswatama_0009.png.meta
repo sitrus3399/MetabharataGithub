@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: b6da209a49ef1b842a800584c1883fd3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2573715655840324945
+    second: Aswatama_0009_0
+  - first:
+      213: -2861690924844756694
+    second: Aswatama_0009_1
+  - first:
+      213: 2455402651359847549
+    second: Aswatama_0009_2
+  - first:
+      213: 7054224374571992386
+    second: Aswatama_0009_3
+  - first:
+      213: 4637013165238197516
+    second: Aswatama_0009_4
+  - first:
+      213: -5164097137774033991
+    second: Aswatama_0009_5
+  - first:
+      213: -974007669971423571
+    second: Aswatama_0009_6
+  - first:
+      213: -2999529748010506228
+    second: Aswatama_0009_7
+  - first:
+      213: 5025366682525761084
+    second: Aswatama_0009_8
+  - first:
+      213: 3513162530180127569
+    second: Aswatama_0009_9
+  - first:
+      213: 8079261275832142152
+    second: Aswatama_0009_10
+  - first:
+      213: -3721436863962142583
+    second: Aswatama_0009_11
+  - first:
+      213: 333117440160204512
+    second: Aswatama_0009_12
+  - first:
+      213: -5620096211178522825
+    second: Aswatama_0009_13
+  - first:
+      213: -6659438073558162545
+    second: Aswatama_0009_14
+  - first:
+      213: -159113464203150228
+    second: Aswatama_0009_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aswatama_0009_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 645
+        width: 72
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2a6c44f33584cd0800000000000000
+      internalID: -2573715655840324945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 630
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a215ba7044b3948d0800000000000000
+      internalID: -2861690924844756694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 651
+        width: 176
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d742bdeb3b7531220800000000000000
+      internalID: 2455402651359847549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 667
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245044c91b3a5e160800000000000000
+      internalID: 7054224374571992386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 201
+        width: 1642
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d15d4e7eaf95040800000000000000
+      internalID: 4637013165238197516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 601
+        width: 72
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b30e5583017558b0800000000000000
+      internalID: -5164097137774033991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 78
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daee8d64f21ab72f0800000000000000
+      internalID: -974007669971423571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 547
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08ed9c16978f56d0800000000000000
+      internalID: -2999529748010506228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 544
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ef70a4f50bdb540800000000000000
+      internalID: 5025366682525761084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 516
+        width: 52
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b599925b241c030800000000000000
+      internalID: 3513162530180127569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 444
+        width: 83
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8494b89135d4f1070800000000000000
+      internalID: 8079261275832142152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 107
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9882e75a3ecca5cc0800000000000000
+      internalID: -3721436863962142583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 387
+        width: 71
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e68c310c887f9400800000000000000
+      internalID: 333117440160204512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 352
+        width: 88
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7377f21c5486102b0800000000000000
+      internalID: -5620096211178522825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_14
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 321
+        width: 86
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83aad5fa5ce493a0800000000000000
+      internalID: -6659438073558162545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aswatama_0009_15
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 251
+        width: 129
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c7037b527bacdf0800000000000000
+      internalID: -159113464203150228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Aswatama_0009_0: -2573715655840324945
+      Aswatama_0009_1: -2861690924844756694
+      Aswatama_0009_10: 8079261275832142152
+      Aswatama_0009_11: -3721436863962142583
+      Aswatama_0009_12: 333117440160204512
+      Aswatama_0009_13: -5620096211178522825
+      Aswatama_0009_14: -6659438073558162545
+      Aswatama_0009_15: -159113464203150228
+      Aswatama_0009_2: 2455402651359847549
+      Aswatama_0009_3: 7054224374571992386
+      Aswatama_0009_4: 4637013165238197516
+      Aswatama_0009_5: -5164097137774033991
+      Aswatama_0009_6: -974007669971423571
+      Aswatama_0009_7: -2999529748010506228
+      Aswatama_0009_8: 5025366682525761084
+      Aswatama_0009_9: 3513162530180127569
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

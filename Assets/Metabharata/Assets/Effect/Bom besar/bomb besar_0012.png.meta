@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 4487a6386796c18469e620aad814b480
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7439181680292721242
+    second: bomb besar_0012_0
+  - first:
+      213: 5479912170803653345
+    second: bomb besar_0012_1
+  - first:
+      213: -5542540638366285923
+    second: bomb besar_0012_2
+  - first:
+      213: 4352926925521146363
+    second: bomb besar_0012_3
+  - first:
+      213: 4005096597666811524
+    second: bomb besar_0012_4
+  - first:
+      213: -3349208931268086941
+    second: bomb besar_0012_5
+  - first:
+      213: -797899130777403345
+    second: bomb besar_0012_6
+  - first:
+      213: 7926789577274898012
+    second: bomb besar_0012_7
+  - first:
+      213: 2263098288011199323
+    second: bomb besar_0012_8
+  - first:
+      213: 4144203727435593304
+    second: bomb besar_0012_9
+  - first:
+      213: 8922364305091871504
+    second: bomb besar_0012_10
+  - first:
+      213: -8444815736379960596
+    second: bomb besar_0012_11
+  - first:
+      213: -4238375251403486451
+    second: bomb besar_0012_12
+  - first:
+      213: -4325230875674941685
+    second: bomb besar_0012_13
+  - first:
+      213: -1233874391562811674
+    second: bomb besar_0012_14
+  - first:
+      213: 1056686467614203739
+    second: bomb besar_0012_15
+  - first:
+      213: 3522825744863309557
+    second: bomb besar_0012_16
+  - first:
+      213: -6090314730842029435
+    second: bomb besar_0012_17
+  - first:
+      213: 9219631305983106226
+    second: bomb besar_0012_18
+  - first:
+      213: -7171820120992392519
+    second: bomb besar_0012_19
+  - first:
+      213: 5225502223974060449
+    second: bomb besar_0012_20
+  - first:
+      213: -6726261752264633730
+    second: bomb besar_0012_21
+  - first:
+      213: 5754695036407626251
+    second: bomb besar_0012_22
+  - first:
+      213: -3768343874176794227
+    second: bomb besar_0012_23
+  - first:
+      213: -8382403263943119610
+    second: bomb besar_0012_24
+  - first:
+      213: -1984990559839586727
+    second: bomb besar_0012_25
+  - first:
+      213: -1196506306592172947
+    second: bomb besar_0012_26
+  - first:
+      213: 7978309970840536045
+    second: bomb besar_0012_27
+  - first:
+      213: 7661685248312019210
+    second: bomb besar_0012_28
+  - first:
+      213: -3546220366468527641
+    second: bomb besar_0012_29
+  - first:
+      213: 2855950402939421955
+    second: bomb besar_0012_30
+  - first:
+      213: -898322310764265651
+    second: bomb besar_0012_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bomb besar_0012_0
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 592
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52f071e2584d3760800000000000000
+      internalID: 7439181680292721242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_1
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 565
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea6715e51f8c0c40800000000000000
+      internalID: 5479912170803653345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_2
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 562
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fb201b7a0f413b0800000000000000
+      internalID: -5542540638366285923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_3
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 567
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1dbe8d9f3b86c30800000000000000
+      internalID: 4352926925521146363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_4
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 543
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e4e0bb226f49730800000000000000
+      internalID: 4005096597666811524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_5
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 565
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363333dc8383581d0800000000000000
+      internalID: -3349208931268086941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_6
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 540
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f208b6fc7fa4de4f0800000000000000
+      internalID: -797899130777403345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_7
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 543
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c563db26f1d910e60800000000000000
+      internalID: 7926789577274898012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_8
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 537
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53c3bc07e3286f10800000000000000
+      internalID: 2263098288011199323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_9
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 502
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856f5aa455b238930800000000000000
+      internalID: 4144203727435593304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 507
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01340a1101b92db70800000000000000
+      internalID: 8922364305091871504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_11
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 495
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2917f84dcfdca80800000000000000
+      internalID: -8444815736379960596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_12
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 508
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bc94b2a244e25c0800000000000000
+      internalID: -4238375251403486451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_13
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 317
+        width: 66
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07e7d34f61b9f3c0800000000000000
+      internalID: -4325230875674941685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_14
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 503
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6827937c560eee0800000000000000
+      internalID: -1233874391562811674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_15
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 414
+        width: 165
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f5b156eba1aae00800000000000000
+      internalID: 1056686467614203739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 470
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fead28a95793e030800000000000000
+      internalID: 3522825744863309557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_17
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 483
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58205d9250bda7ba0800000000000000
+      internalID: -6090314730842029435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_18
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 447
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc913933d5b2ff70800000000000000
+      internalID: 9219631305983106226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_19
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 466
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9badf3f0993987c90800000000000000
+      internalID: -7171820120992392519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_20
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 481
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1dcf83696b48840800000000000000
+      internalID: 5225502223974060449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_21
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 429
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7258f5d29487a2a0800000000000000
+      internalID: -6726261752264633730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_22
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 440
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ab7cb55a8ccdf40800000000000000
+      internalID: 5754695036407626251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_23
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 450
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d814c24463724bbc0800000000000000
+      internalID: -3768343874176794227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_24
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 330
+        width: 119
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d6890b4a8bbab80800000000000000
+      internalID: -8382403263943119610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_25
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 107
+        width: 137
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956f14e4a95e374e0800000000000000
+      internalID: -1984990559839586727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_26
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 122
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d641f008ad7256fe0800000000000000
+      internalID: -1196506306592172947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_27
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 126
+        width: 108
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de348e7c5a6a8be60800000000000000
+      internalID: 7978309970840536045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_28
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 96
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a090d76d326c35a60800000000000000
+      internalID: 7661685248312019210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_29
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 62
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e943698d5b49cec0800000000000000
+      internalID: -3546220366468527641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_30
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 65
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305865f82cf52a720800000000000000
+      internalID: 2855950402939421955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb besar_0012_31
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 72
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f761d2e948883f0800000000000000
+      internalID: -898322310764265651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bomb besar_0012_0: 7439181680292721242
+      bomb besar_0012_1: 5479912170803653345
+      bomb besar_0012_10: 8922364305091871504
+      bomb besar_0012_11: -8444815736379960596
+      bomb besar_0012_12: -4238375251403486451
+      bomb besar_0012_13: -4325230875674941685
+      bomb besar_0012_14: -1233874391562811674
+      bomb besar_0012_15: 1056686467614203739
+      bomb besar_0012_16: 3522825744863309557
+      bomb besar_0012_17: -6090314730842029435
+      bomb besar_0012_18: 9219631305983106226
+      bomb besar_0012_19: -7171820120992392519
+      bomb besar_0012_2: -5542540638366285923
+      bomb besar_0012_20: 5225502223974060449
+      bomb besar_0012_21: -6726261752264633730
+      bomb besar_0012_22: 5754695036407626251
+      bomb besar_0012_23: -3768343874176794227
+      bomb besar_0012_24: -8382403263943119610
+      bomb besar_0012_25: -1984990559839586727
+      bomb besar_0012_26: -1196506306592172947
+      bomb besar_0012_27: 7978309970840536045
+      bomb besar_0012_28: 7661685248312019210
+      bomb besar_0012_29: -3546220366468527641
+      bomb besar_0012_3: 4352926925521146363
+      bomb besar_0012_30: 2855950402939421955
+      bomb besar_0012_31: -898322310764265651
+      bomb besar_0012_4: 4005096597666811524
+      bomb besar_0012_5: -3349208931268086941
+      bomb besar_0012_6: -797899130777403345
+      bomb besar_0012_7: 7926789577274898012
+      bomb besar_0012_8: 2263098288011199323
+      bomb besar_0012_9: 4144203727435593304
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

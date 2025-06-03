@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3670191786207829573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6938905970038998368}
+  - component: {fileID: 700316477254007332}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6938905970038998368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3670191786207829573}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2112.2097, y: 673.61127, z: -0.4215137}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &700316477254007332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3670191786207829573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01c87e7e8665d945bc07e1cdea1a08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _BGMSounds: []
+  _SFXSounds:
+  - soundName: Arrow
+    soundType: 2
+    klip: {fileID: 8300000, guid: 2eaa343503e57314abff0b5d9dc355c0, type: 3}
+    vol: 0.5
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  - soundName: AudioBattle
+    soundType: 2
+    klip: {fileID: 8300000, guid: 91ee036857336eb4099b74a6c37d9649, type: 3}
+    vol: 0.5
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  - soundName: Boom
+    soundType: 2
+    klip: {fileID: 8300000, guid: 2cfbaefa7bc907249ae05de3ef67021e, type: 3}
+    vol: 0.5
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  - soundName: GameOver
+    soundType: 2
+    klip: {fileID: 8300000, guid: 8a4c9dd7d37b7c34e9735879d703ea8b, type: 3}
+    vol: 0.5
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  - soundName: Hit
+    soundType: 2
+    klip: {fileID: 8300000, guid: aa719d16d0ce59c448dcd25ac5fa8c10, type: 3}
+    vol: 0.5
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  - soundName: Jump
+    soundType: 2
+    klip: {fileID: 8300000, guid: c3ab078b861304a4db101fbc660039a7, type: 3}
+    vol: 0.5
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  - soundName: SwordSlash
+    soundType: 2
+    klip: {fileID: 8300000, guid: 411120e982f55e14fbf8e3840a788bfd, type: 3}
+    vol: 0.5
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  - soundName: WinGame
+    soundType: 2
+    klip: {fileID: 8300000, guid: 40e7fa757b1f2ba4aae88c6677ce78fe, type: 3}
+    vol: 0.5
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  _VOSounds: []
+  _VideoVOSounds: []
+  masterAudioMixer: {fileID: 24300002, guid: 459a16fac342d984f942d389c4bb8580, type: 2}
+  bgmAudioMixer: {fileID: 8770069585027915369, guid: 459a16fac342d984f942d389c4bb8580, type: 2}
+  sfxAudioMixer: {fileID: -3522299355448199919, guid: 459a16fac342d984f942d389c4bb8580, type: 2}
+  voAudioMixer: {fileID: -9174777074069713760, guid: 459a16fac342d984f942d389c4bb8580, type: 2}
+  videoVOAudioMixer: {fileID: -1104039725947929836, guid: 459a16fac342d984f942d389c4bb8580, type: 2}

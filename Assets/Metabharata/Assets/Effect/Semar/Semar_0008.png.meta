@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: f0157af29c794a441beddd645e143176
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 243782572698293898
+    second: Semar_0008_0
+  - first:
+      213: -8345221723721576289
+    second: Semar_0008_1
+  - first:
+      213: 1765789897886142217
+    second: Semar_0008_2
+  - first:
+      213: 8451995953974683680
+    second: Semar_0008_3
+  - first:
+      213: 2352311085292568236
+    second: Semar_0008_4
+  - first:
+      213: -5948482483460161409
+    second: Semar_0008_5
+  - first:
+      213: -81631162343442483
+    second: Semar_0008_6
+  - first:
+      213: 504913180224469381
+    second: Semar_0008_7
+  - first:
+      213: -3738276538093658256
+    second: Semar_0008_8
+  - first:
+      213: -6136346957758640887
+    second: Semar_0008_9
+  - first:
+      213: 37321730102523495
+    second: Semar_0008_10
+  - first:
+      213: 8206378070765616471
+    second: Semar_0008_11
+  - first:
+      213: -244856441839574859
+    second: Semar_0008_12
+  - first:
+      213: -608242913050435734
+    second: Semar_0008_13
+  - first:
+      213: -2789335519908127024
+    second: Semar_0008_14
+  - first:
+      213: -6609740321444184936
+    second: Semar_0008_15
+  - first:
+      213: -6499265268651337227
+    second: Semar_0008_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Semar_0008_0
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 220
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86dc1055f6126300800000000000000
+      internalID: 243782572698293898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 231
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90d3b1ae01df2c80800000000000000
+      internalID: -8345221723721576289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 246
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f0a7b7e88518810800000000000000
+      internalID: 1765789897886142217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 117
+        width: 690
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02823bf1a858b4570800000000000000
+      internalID: 8451995953974683680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_4
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 226
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caeb310187615a020800000000000000
+      internalID: 2352311085292568236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_5
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 208
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7049bc92beb27da0800000000000000
+      internalID: -5948482483460161409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_6
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 210
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7baede3ecfddef0800000000000000
+      internalID: -81631162343442483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 186
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58931bdbcdfc10700800000000000000
+      internalID: 504913180224469381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 177
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f10ca7b49fe1cc0800000000000000
+      internalID: -3738276538093658256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_9
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 168
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d4f3424f057daa0800000000000000
+      internalID: -6136346957758640887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 158
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766f9217ae7948000800000000000000
+      internalID: 37321730102523495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_11
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 153
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d3a884069e2e170800000000000000
+      internalID: 8206378070765616471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_12
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 158
+        width: 54
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0af2b0d581a9cf0800000000000000
+      internalID: -244856441839574859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_13
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 152
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fda7e0b461f87f0800000000000000
+      internalID: -608242913050435734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_14
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 152
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de1f788f1a4a49d0800000000000000
+      internalID: -2789335519908127024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_15
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 153
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c3eb2923c7544a0800000000000000
+      internalID: -6609740321444184936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semar_0008_16
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 160
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9d0093ca8fdc5a0800000000000000
+      internalID: -6499265268651337227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Semar_0008_0: 243782572698293898
+      Semar_0008_1: -8345221723721576289
+      Semar_0008_10: 37321730102523495
+      Semar_0008_11: 8206378070765616471
+      Semar_0008_12: -244856441839574859
+      Semar_0008_13: -608242913050435734
+      Semar_0008_14: -2789335519908127024
+      Semar_0008_15: -6609740321444184936
+      Semar_0008_16: -6499265268651337227
+      Semar_0008_2: 1765789897886142217
+      Semar_0008_3: 8451995953974683680
+      Semar_0008_4: 2352311085292568236
+      Semar_0008_5: -5948482483460161409
+      Semar_0008_6: -81631162343442483
+      Semar_0008_7: 504913180224469381
+      Semar_0008_8: -3738276538093658256
+      Semar_0008_9: -6136346957758640887
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

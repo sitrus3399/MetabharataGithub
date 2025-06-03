@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 4b86ef8a0901d2241bd57894e7715e49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 739501478859238555
+    second: GATOTKACA LEGENDARY_0012_0
+  - first:
+      213: 7204815819840118402
+    second: GATOTKACA LEGENDARY_0012_1
+  - first:
+      213: -6540693293925203143
+    second: GATOTKACA LEGENDARY_0012_2
+  - first:
+      213: -7465287488164639037
+    second: GATOTKACA LEGENDARY_0012_3
+  - first:
+      213: -6184343714883611913
+    second: GATOTKACA LEGENDARY_0012_4
+  - first:
+      213: 5835330752944419031
+    second: GATOTKACA LEGENDARY_0012_5
+  - first:
+      213: -220535497591879632
+    second: GATOTKACA LEGENDARY_0012_6
+  - first:
+      213: -7382036509432492119
+    second: GATOTKACA LEGENDARY_0012_7
+  - first:
+      213: 4516518213091055631
+    second: GATOTKACA LEGENDARY_0012_8
+  - first:
+      213: 733331783571103009
+    second: GATOTKACA LEGENDARY_0012_9
+  - first:
+      213: -7019247540245459249
+    second: GATOTKACA LEGENDARY_0012_10
+  - first:
+      213: 2318644636332895803
+    second: GATOTKACA LEGENDARY_0012_11
+  - first:
+      213: -5468308672928878781
+    second: GATOTKACA LEGENDARY_0012_12
+  - first:
+      213: 4871630725666444241
+    second: GATOTKACA LEGENDARY_0012_13
+  - first:
+      213: -7175825353820923220
+    second: GATOTKACA LEGENDARY_0012_14
+  - first:
+      213: 1511145037990618050
+    second: GATOTKACA LEGENDARY_0012_15
+  - first:
+      213: 9124551321930265543
+    second: GATOTKACA LEGENDARY_0012_16
+  - first:
+      213: -7576071737301909611
+    second: GATOTKACA LEGENDARY_0012_17
+  - first:
+      213: -775512369323002856
+    second: GATOTKACA LEGENDARY_0012_18
+  - first:
+      213: -8922860269671495857
+    second: GATOTKACA LEGENDARY_0012_19
+  - first:
+      213: 248945120042874815
+    second: GATOTKACA LEGENDARY_0012_20
+  - first:
+      213: -2516460969615178286
+    second: GATOTKACA LEGENDARY_0012_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 122
+        width: 327
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ce74e4dac334a00800000000000000
+      internalID: 739501478859238555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_1
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 131
+        width: 328
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e5fadb0d5acf360800000000000000
+      internalID: 7204815819840118402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_2
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 266
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9330fce6a1aca35a0800000000000000
+      internalID: -6540693293925203143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_3
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 112
+        width: 417
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce47c11598f56890800000000000000
+      internalID: -7465287488164639037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 219
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f25179482ccc2aa0800000000000000
+      internalID: -6184343714883611913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 191
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d03a2427624bf050800000000000000
+      internalID: 5835330752944419031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 204
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0380ca5222080fcf0800000000000000
+      internalID: -220535497591879632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_7
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 204
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afcf4808ecbd8990800000000000000
+      internalID: -7382036509432492119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_8
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 194
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08dfd0a265edae30800000000000000
+      internalID: 4516518213091055631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_9
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 198
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d524e2f515d2a00800000000000000
+      internalID: 733331783571103009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_10
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 207
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce822d3d8f969e90800000000000000
+      internalID: -7019247540245459249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 171
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3eacf4130b7d2020800000000000000
+      internalID: 2318644636332895803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_12
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 164
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fe2ebfb3aac14b0800000000000000
+      internalID: -5468308672928878781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 157
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d31a3085528b9340800000000000000
+      internalID: 4871630725666444241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_14
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 163
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa134f1cd85a6c90800000000000000
+      internalID: -7175825353820923220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 157
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c36689d76aa8f410800000000000000
+      internalID: 1511145037990618050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_16
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 141
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c37976551be0ae70800000000000000
+      internalID: 9124551321930265543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_17
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 144
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f3e3905e26cd690800000000000000
+      internalID: -7576071737301909611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_18
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 105
+        width: 109
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814b493eb93dc35f0800000000000000
+      internalID: -775512369323002856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_19
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 128
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47c8cd2cd1ab2480800000000000000
+      internalID: -8922860269671495857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_20
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 130
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7f8b8844e647300800000000000000
+      internalID: 248945120042874815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATOTKACA LEGENDARY_0012_21
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 88
+        width: 155
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5c3f6b41cb31dd0800000000000000
+      internalID: -2516460969615178286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GATOTKACA LEGENDARY_0012_0: 739501478859238555
+      GATOTKACA LEGENDARY_0012_1: 7204815819840118402
+      GATOTKACA LEGENDARY_0012_10: -7019247540245459249
+      GATOTKACA LEGENDARY_0012_11: 2318644636332895803
+      GATOTKACA LEGENDARY_0012_12: -5468308672928878781
+      GATOTKACA LEGENDARY_0012_13: 4871630725666444241
+      GATOTKACA LEGENDARY_0012_14: -7175825353820923220
+      GATOTKACA LEGENDARY_0012_15: 1511145037990618050
+      GATOTKACA LEGENDARY_0012_16: 9124551321930265543
+      GATOTKACA LEGENDARY_0012_17: -7576071737301909611
+      GATOTKACA LEGENDARY_0012_18: -775512369323002856
+      GATOTKACA LEGENDARY_0012_19: -8922860269671495857
+      GATOTKACA LEGENDARY_0012_2: -6540693293925203143
+      GATOTKACA LEGENDARY_0012_20: 248945120042874815
+      GATOTKACA LEGENDARY_0012_21: -2516460969615178286
+      GATOTKACA LEGENDARY_0012_3: -7465287488164639037
+      GATOTKACA LEGENDARY_0012_4: -6184343714883611913
+      GATOTKACA LEGENDARY_0012_5: 5835330752944419031
+      GATOTKACA LEGENDARY_0012_6: -220535497591879632
+      GATOTKACA LEGENDARY_0012_7: -7382036509432492119
+      GATOTKACA LEGENDARY_0012_8: 4516518213091055631
+      GATOTKACA LEGENDARY_0012_9: 733331783571103009
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

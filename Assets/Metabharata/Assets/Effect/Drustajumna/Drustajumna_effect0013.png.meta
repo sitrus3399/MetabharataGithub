@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 8197ea103f7b5a44784d8f22d6da40b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1974390395447211918
+    second: Drustajumna_effect0013_0
+  - first:
+      213: 3078396866070281177
+    second: Drustajumna_effect0013_1
+  - first:
+      213: -26013486096130397
+    second: Drustajumna_effect0013_2
+  - first:
+      213: 6918182159005687077
+    second: Drustajumna_effect0013_3
+  - first:
+      213: -1637547755902691695
+    second: Drustajumna_effect0013_4
+  - first:
+      213: -2875261719378480610
+    second: Drustajumna_effect0013_5
+  - first:
+      213: -3602944502973558384
+    second: Drustajumna_effect0013_6
+  - first:
+      213: 2465336841070526914
+    second: Drustajumna_effect0013_7
+  - first:
+      213: 4139374589835502782
+    second: Drustajumna_effect0013_8
+  - first:
+      213: -7085476122719684090
+    second: Drustajumna_effect0013_9
+  - first:
+      213: -3067645110552038008
+    second: Drustajumna_effect0013_10
+  - first:
+      213: -267700135382780081
+    second: Drustajumna_effect0013_11
+  - first:
+      213: -4660013211846675966
+    second: Drustajumna_effect0013_12
+  - first:
+      213: -1277510259164411577
+    second: Drustajumna_effect0013_13
+  - first:
+      213: 1338988143353482049
+    second: Drustajumna_effect0013_14
+  - first:
+      213: -3657333600790992597
+    second: Drustajumna_effect0013_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_0
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 282
+        width: 384
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2780d67656e8994e0800000000000000
+      internalID: -1974390395447211918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_1
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 300
+        width: 46
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db7bcfb3a9a8ba20800000000000000
+      internalID: 3078396866070281177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_2
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 318
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aeded94fd493aff0800000000000000
+      internalID: -26013486096130397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_3
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 316
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d9afef402520060800000000000000
+      internalID: 6918182159005687077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_4
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 311
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1969eaafdf24649e0800000000000000
+      internalID: -1637547755902691695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_5
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 320
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12ba2433b40918d0800000000000000
+      internalID: -2875261719378480610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_6
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 179
+        width: 288
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09190d25015cffdc0800000000000000
+      internalID: -3602944502973558384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_7
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 289
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c141b78bc2a63220800000000000000
+      internalID: 2465336841070526914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_8
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 300
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb46c631243027930800000000000000
+      internalID: 4139374589835502782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_9
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 268
+        width: 364
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60af7c0c1055bad90800000000000000
+      internalID: -7085476122719684090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_10
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 286
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885f49866098d65d0800000000000000
+      internalID: -3067645110552038008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_11
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 288
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f477f2c2520f84cf0800000000000000
+      internalID: -267700135382780081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_12
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 278
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20270437cae445fb0800000000000000
+      internalID: -4660013211846675966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_13
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 283
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7498695103f554ee0800000000000000
+      internalID: -1277510259164411577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_14
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 288
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b4b034f9a059210800000000000000
+      internalID: 1338988143353482049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drustajumna_effect0013_15
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 270
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29a0cba77a8e3dc0800000000000000
+      internalID: -3657333600790992597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Drustajumna_effect0013_0: -1974390395447211918
+      Drustajumna_effect0013_1: 3078396866070281177
+      Drustajumna_effect0013_10: -3067645110552038008
+      Drustajumna_effect0013_11: -267700135382780081
+      Drustajumna_effect0013_12: -4660013211846675966
+      Drustajumna_effect0013_13: -1277510259164411577
+      Drustajumna_effect0013_14: 1338988143353482049
+      Drustajumna_effect0013_15: -3657333600790992597
+      Drustajumna_effect0013_2: -26013486096130397
+      Drustajumna_effect0013_3: 6918182159005687077
+      Drustajumna_effect0013_4: -1637547755902691695
+      Drustajumna_effect0013_5: -2875261719378480610
+      Drustajumna_effect0013_6: -3602944502973558384
+      Drustajumna_effect0013_7: 2465336841070526914
+      Drustajumna_effect0013_8: 4139374589835502782
+      Drustajumna_effect0013_9: -7085476122719684090
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

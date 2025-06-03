@@ -1,0 +1,421 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2846809107493432086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7296751908200056594}
+  - component: {fileID: 8533237823344510422}
+  m_Layer: 0
+  m_Name: CharacterManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7296751908200056594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846809107493432086}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 262.62552, y: 485.30988, z: -2.4166775}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8533237823344510422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846809107493432086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f6996d50b8f1a46aea7c16d630e7c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterDatas:
+  - nama: Prajurit
+    data: {fileID: 11400000, guid: 2153e93ea617b294995f334e3e398ddf, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 1
+  - nama: Resi Bima
+    data: {fileID: 11400000, guid: dfb11e0822694ea42a78b44708223baf, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Lesmana Mandrakumara
+    data: {fileID: 11400000, guid: 261bb8e4e31ae1940a5cd222bbec594c, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Raden Jayadrata
+    data: {fileID: 11400000, guid: a054425c1d8d9f144a48fe196607ad8f, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Burisrawa
+    data: {fileID: 11400000, guid: 53a450fbee592fb46b13490758e41a63, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Pandhita Durna
+    data: {fileID: 11400000, guid: 00fdfcd8bf48e144686f010a6876935b, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Dursasana
+    data: {fileID: 11400000, guid: 51219023fd1213c42a7576705ac9ef17, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Adipati Karna
+    data: {fileID: 11400000, guid: e0a752968ec9e014a91b0034e3f8b08e, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Prabu Salya
+    data: {fileID: 11400000, guid: d535ef9430255774f85db8e465c7f1b7, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Patih Sengkuni
+    data: {fileID: 11400000, guid: 88f6ec90021e58d4dbab90805824dfc5, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Prabu Duryudana
+    data: {fileID: 11400000, guid: 56a1e6b748b41d94bb142efb910f2474, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Yudhistira
+    data: {fileID: 11400000, guid: be3f8d7e51f3337499c4a0ed57ae6334, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Bima
+    data: {fileID: 11400000, guid: b2a157467d8bfe74890af46ae952f923, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Arjuna
+    data: {fileID: 11400000, guid: e78611aabae211040818a0011bbd9049, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Nakula
+    data: {fileID: 11400000, guid: 2c4ea18f3519a174495dfc7158ca1cbc, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Sadewa
+    data: {fileID: 11400000, guid: 08a273cb753e0b04f9395df07ff0f57e, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Abimanyu
+    data: {fileID: 11400000, guid: cf5fc97f25397a54690d1e6a9f75912d, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Aswatama
+    data: {fileID: 11400000, guid: 070625dfdb5731c45ac2924a03c02d20, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Drustajumna
+    data: {fileID: 11400000, guid: c077faf824b2a8a4d81ad1d5e426c80d, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Setyaki
+    data: {fileID: 11400000, guid: 3c5000eb749609245a7c886070fa2654, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Baladewa
+    data: {fileID: 11400000, guid: 75de0d78d445c76429f0a153cbef7e73, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Bambang Irawan
+    data: {fileID: 11400000, guid: 72b47b97137075149a4e5af211c7f0c4, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Drupada
+    data: {fileID: 11400000, guid: 689cd4d3b20380d4c94e98ba5f6c7af1, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Dewi Wara Srikandi
+    data: {fileID: 11400000, guid: 2cb0a21339bb7cd4984eba69ac87ce75, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Bathara Guru
+    data: {fileID: 11400000, guid: a53f28c51005a2d4b8b3d11084cad334, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Bathara Kala
+    data: {fileID: 11400000, guid: c6a3561c94e4c744d9024b0cd2e9721b, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Bathari Durga
+    data: {fileID: 11400000, guid: 9a18261d63a7654488f04c12dd917b8e, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Semar
+    data: {fileID: 11400000, guid: ee871c960fa4e464aad6a15e6f3559f0, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Antareja
+    data: {fileID: 11400000, guid: 489d9eff22bcd7147af5b11d04271e24, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Anoman
+    data: {fileID: 11400000, guid: 504b3ab1a5883c44fa6af197bba58ac4, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Gatotkaca
+    data: {fileID: 11400000, guid: fabefee6261b5b3468c6917fab2f567a, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  - nama: Prabu Sri Bathara Kresna
+    data: {fileID: 11400000, guid: 75360f3b940957d45837a451d39d3a8c, type: 2}
+    characterLevel: 1
+    punchLevel: 1
+    kickLevel: 1
+    weaponLevel: 1
+    specialSkillLevel: 1
+    defendLevel: 1
+    owned: 0
+  characterPrice:
+  - characterType: 0
+    buyPrice: 0
+    upgradePunchLevel2Price: 3000
+    upgradePunchLevel3Price: 4000
+    upgradePunchLevel4Price: 5000
+    upgradeKickLevel2Price: 3000
+    upgradeKickLevel3Price: 4000
+    upgradeKickLevel4Price: 5000
+    upgradeWeaponLevel2Price: 6000
+    upgradeWeaponLevel3Price: 8000
+    upgradeWeaponLevel4Price: 10000
+    upgradeDefenseLevel2Price: 16000
+    upgradeDefenseLevel3Price: 24000
+    upgradeDefenseLevel4Price: 32000
+    upgradeSpecialSkillLevel2Price: 0
+    upgradeSpecialSkillLevel3Price: 0
+    upgradeSpecialSkillLevel4Price: 0
+  - characterType: 1
+    buyPrice: 10000
+    upgradePunchLevel2Price: 7000
+    upgradePunchLevel3Price: 8000
+    upgradePunchLevel4Price: 9000
+    upgradeKickLevel2Price: 7000
+    upgradeKickLevel3Price: 8000
+    upgradeKickLevel4Price: 9000
+    upgradeWeaponLevel2Price: 14000
+    upgradeWeaponLevel3Price: 16000
+    upgradeWeaponLevel4Price: 18000
+    upgradeDefenseLevel2Price: 28000
+    upgradeDefenseLevel3Price: 32000
+    upgradeDefenseLevel4Price: 36000
+    upgradeSpecialSkillLevel2Price: 28000
+    upgradeSpecialSkillLevel3Price: 32000
+    upgradeSpecialSkillLevel4Price: 36000
+  - characterType: 2
+    buyPrice: 15000
+    upgradePunchLevel2Price: 11000
+    upgradePunchLevel3Price: 12000
+    upgradePunchLevel4Price: 13000
+    upgradeKickLevel2Price: 11000
+    upgradeKickLevel3Price: 12000
+    upgradeKickLevel4Price: 13000
+    upgradeWeaponLevel2Price: 22000
+    upgradeWeaponLevel3Price: 24000
+    upgradeWeaponLevel4Price: 26000
+    upgradeDefenseLevel2Price: 44000
+    upgradeDefenseLevel3Price: 48000
+    upgradeDefenseLevel4Price: 52000
+    upgradeSpecialSkillLevel2Price: 44000
+    upgradeSpecialSkillLevel3Price: 48000
+    upgradeSpecialSkillLevel4Price: 52000
+  - characterType: 3
+    buyPrice: 15000
+    upgradePunchLevel2Price: 11000
+    upgradePunchLevel3Price: 12000
+    upgradePunchLevel4Price: 13000
+    upgradeKickLevel2Price: 11000
+    upgradeKickLevel3Price: 12000
+    upgradeKickLevel4Price: 13000
+    upgradeWeaponLevel2Price: 22000
+    upgradeWeaponLevel3Price: 24000
+    upgradeWeaponLevel4Price: 26000
+    upgradeDefenseLevel2Price: 44000
+    upgradeDefenseLevel3Price: 48000
+    upgradeDefenseLevel4Price: 52000
+    upgradeSpecialSkillLevel2Price: 44000
+    upgradeSpecialSkillLevel3Price: 48000
+    upgradeSpecialSkillLevel4Price: 52000
+  - characterType: 4
+    buyPrice: 25000
+    upgradePunchLevel2Price: 19000
+    upgradePunchLevel3Price: 20000
+    upgradePunchLevel4Price: 21000
+    upgradeKickLevel2Price: 19000
+    upgradeKickLevel3Price: 20000
+    upgradeKickLevel4Price: 21000
+    upgradeWeaponLevel2Price: 38000
+    upgradeWeaponLevel3Price: 40000
+    upgradeWeaponLevel4Price: 42000
+    upgradeDefenseLevel2Price: 76000
+    upgradeDefenseLevel3Price: 80000
+    upgradeDefenseLevel4Price: 84000
+    upgradeSpecialSkillLevel2Price: 76000
+    upgradeSpecialSkillLevel3Price: 80000
+    upgradeSpecialSkillLevel4Price: 84000

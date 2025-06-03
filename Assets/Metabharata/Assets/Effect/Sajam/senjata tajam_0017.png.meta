@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 64610bfbc2846844b8e5bbf2addd54db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8944556570098455652
+    second: senjata tajam_0017_0
+  - first:
+      213: 3380764771015955196
+    second: senjata tajam_0017_1
+  - first:
+      213: -8253656313076995121
+    second: senjata tajam_0017_2
+  - first:
+      213: -3521019776447579941
+    second: senjata tajam_0017_3
+  - first:
+      213: -1441684239129778102
+    second: senjata tajam_0017_4
+  - first:
+      213: -4516572835011673984
+    second: senjata tajam_0017_5
+  - first:
+      213: 4669160492449322573
+    second: senjata tajam_0017_6
+  - first:
+      213: 4264400021818315478
+    second: senjata tajam_0017_7
+  - first:
+      213: 6779240524848327650
+    second: senjata tajam_0017_8
+  - first:
+      213: -2516273456253935162
+    second: senjata tajam_0017_9
+  - first:
+      213: -6990634740285610909
+    second: senjata tajam_0017_10
+  - first:
+      213: 8719798857446417049
+    second: senjata tajam_0017_11
+  - first:
+      213: -7126304364190182085
+    second: senjata tajam_0017_12
+  - first:
+      213: -7947550235104936545
+    second: senjata tajam_0017_13
+  - first:
+      213: -2652995807044715562
+    second: senjata tajam_0017_14
+  - first:
+      213: -4251000713251534314
+    second: senjata tajam_0017_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: senjata tajam_0017_0
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 504
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464da1a6fc2712c70800000000000000
+      internalID: 8944556570098455652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 509
+        width: 73
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf29f8da5a3eaee20800000000000000
+      internalID: 3380764771015955196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_2
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 515
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcba2e0205f157d80800000000000000
+      internalID: -8253656313076995121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 493
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd877b12b23d22fc0800000000000000
+      internalID: -3521019776447579941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 486
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48e368a2db1efbe0800000000000000
+      internalID: -1441684239129778102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_5
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 488
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08043f6bfe8e151c0800000000000000
+      internalID: -4516572835011673984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_6
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 477
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46dab7cab03cc040800000000000000
+      internalID: 4669160492449322573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_7
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 476
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d216a0e9313e2b30800000000000000
+      internalID: 4264400021818315478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_8
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 176
+        width: 498
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb6482e653b41e50800000000000000
+      internalID: 6779240524848327650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_9
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 395
+        width: 113
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c16d329f96641dd0800000000000000
+      internalID: -2516273456253935162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_10
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 312
+        width: 359
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36465ceddb64cfe90800000000000000
+      internalID: -6990634740285610909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_11
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 351
+        width: 45
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99263f28cd2f20970800000000000000
+      internalID: 8719798857446417049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_12
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 269
+        width: 45
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35d02300f74a1d90800000000000000
+      internalID: -7126304364190182085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_13
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 261
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d7ff94b21a4b190800000000000000
+      internalID: -7947550235104936545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_14
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 273
+        width: 78
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbbf72ae5aae2bd0800000000000000
+      internalID: -2652995807044715562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: senjata tajam_0017_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 107
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ac5b2cf596105c0800000000000000
+      internalID: -4251000713251534314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      senjata tajam_0017_0: 8944556570098455652
+      senjata tajam_0017_1: 3380764771015955196
+      senjata tajam_0017_10: -6990634740285610909
+      senjata tajam_0017_11: 8719798857446417049
+      senjata tajam_0017_12: -7126304364190182085
+      senjata tajam_0017_13: -7947550235104936545
+      senjata tajam_0017_14: -2652995807044715562
+      senjata tajam_0017_15: -4251000713251534314
+      senjata tajam_0017_2: -8253656313076995121
+      senjata tajam_0017_3: -3521019776447579941
+      senjata tajam_0017_4: -1441684239129778102
+      senjata tajam_0017_5: -4516572835011673984
+      senjata tajam_0017_6: 4669160492449322573
+      senjata tajam_0017_7: 4264400021818315478
+      senjata tajam_0017_8: 6779240524848327650
+      senjata tajam_0017_9: -2516273456253935162
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

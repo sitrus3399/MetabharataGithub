@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sadewa Preview
+  m_Controller: {fileID: 9100000, guid: 83047e822ecfc124d962f5c91113f339, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 44ef93d41451ef54a8a09f30aa66e281, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ea51e796ed4f3014f87e60cbe90e178d, type: 2}

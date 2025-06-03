@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: ffdc973f3b52115448de081c3c04fb22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8746844105245861328
+    second: ANOMAN LEGENDARY_0007_0
+  - first:
+      213: 2509198685190526461
+    second: ANOMAN LEGENDARY_0007_1
+  - first:
+      213: 1601071984932158211
+    second: ANOMAN LEGENDARY_0007_2
+  - first:
+      213: 8544462899605315326
+    second: ANOMAN LEGENDARY_0007_3
+  - first:
+      213: 3918513633692255516
+    second: ANOMAN LEGENDARY_0007_4
+  - first:
+      213: 8895096907037818285
+    second: ANOMAN LEGENDARY_0007_5
+  - first:
+      213: -11365652201928251
+    second: ANOMAN LEGENDARY_0007_6
+  - first:
+      213: -3094575776789374231
+    second: ANOMAN LEGENDARY_0007_7
+  - first:
+      213: 2185916748334753320
+    second: ANOMAN LEGENDARY_0007_8
+  - first:
+      213: 7069474029263050545
+    second: ANOMAN LEGENDARY_0007_9
+  - first:
+      213: -9016642215826019432
+    second: ANOMAN LEGENDARY_0007_10
+  - first:
+      213: -7508295563335839616
+    second: ANOMAN LEGENDARY_0007_11
+  - first:
+      213: 7659610560315018420
+    second: ANOMAN LEGENDARY_0007_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANOMAN LEGENDARY_0007_0
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 647
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d526e6fe58036970800000000000000
+      internalID: 8746844105245861328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANOMAN LEGENDARY_0007_1
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 639
+        width: 9
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df598ade8e672d220800000000000000
+      internalID: 2509198685190526461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANOMAN LEGENDARY_0007_2
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 663
+        width: 11
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30bf5b9cc76283610800000000000000
+      internalID: 1601071984932158211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANOMAN LEGENDARY_0007_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 608
+        width: 9
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe9a779cb7049670800000000000000
+      internalID: 8544462899605315326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANOMAN LEGENDARY_0007_4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 613
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1580cf736b516630800000000000000
+      internalID: 3918513633692255516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANOMAN LEGENDARY_0007_5
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 577
+        width: 13
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad3aaa328bb17b70800000000000000
+      internalID: 8895096907037818285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANOMAN LEGENDARY_0007_6
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 549
+        width: 11
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c90dd1effe97dff0800000000000000
+      internalID: -11365652201928251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANOMAN LEGENDARY_0007_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 555
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ead0fd0abbdd05d0800000000000000
+      internalID: -3094575776789374231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANOMAN LEGENDARY_0007_8
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 572
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826e11d73bfe55e10800000000000000
+      internalID: 2185916748334753320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANOMAN LEGENDARY_0007_9
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 567
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137d2178c21db1260800000000000000
+      internalID: 7069474029263050545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANOMAN LEGENDARY_0007_10
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 571
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b26ea4da37ed280800000000000000
+      internalID: -9016642215826019432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANOMAN LEGENDARY_0007_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 772
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080d9be37fc2dc790800000000000000
+      internalID: -7508295563335839616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANOMAN LEGENDARY_0007_12
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 485
+        width: 21
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc4865e8376c4a60800000000000000
+      internalID: 7659610560315018420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANOMAN LEGENDARY_0007_0: 8746844105245861328
+      ANOMAN LEGENDARY_0007_1: 2509198685190526461
+      ANOMAN LEGENDARY_0007_10: -9016642215826019432
+      ANOMAN LEGENDARY_0007_11: -7508295563335839616
+      ANOMAN LEGENDARY_0007_12: 7659610560315018420
+      ANOMAN LEGENDARY_0007_2: 1601071984932158211
+      ANOMAN LEGENDARY_0007_3: 8544462899605315326
+      ANOMAN LEGENDARY_0007_4: 3918513633692255516
+      ANOMAN LEGENDARY_0007_5: 8895096907037818285
+      ANOMAN LEGENDARY_0007_6: -11365652201928251
+      ANOMAN LEGENDARY_0007_7: -3094575776789374231
+      ANOMAN LEGENDARY_0007_8: 2185916748334753320
+      ANOMAN LEGENDARY_0007_9: 7069474029263050545
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

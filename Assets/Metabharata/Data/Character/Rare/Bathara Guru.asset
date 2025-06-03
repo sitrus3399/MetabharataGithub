@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd7aea1d74ca523428af384810752d7e, type: 3}
+  m_Name: Bathara Guru
+  m_EditorClassIdentifier: 
+  characterName: Bathara Guru
+  characterNickName: Guru
+  characterDescription: Bathara Guru Adalah
+  characterQuotes: Ini Quotes Character
+  characterSprite: {fileID: -368224594987633321, guid: 4876210df1e77c94197adcd17779f81e, type: 3}
+  characterLegendarySprite: {fileID: 0}
+  characterPortrait: {fileID: 21300000, guid: cd57d0a52fea8ea45ae7ef8a3a669a8b, type: 3}
+  characterVideo: {fileID: 32900000, guid: 8c0b5ed5dd46b8044b117eaa11fb3e00, type: 3}
+  characterVideoLegendary: {fileID: 32900000, guid: 8c0b5ed5dd46b8044b117eaa11fb3e00, type: 3}
+  characterAnimator: {fileID: 22100000, guid: 3a0c315db6a865f448633768afdf2b8a, type: 2}
+  characterLegendaryAnimator: {fileID: 22100000, guid: 3a0c315db6a865f448633768afdf2b8a, type: 2}
+  previewAnimator: {fileID: 22100000, guid: e4d8693bac6276344a03bd245691760e, type: 2}
+  characterType: 3
+  damagePukul: 0a0000000b0000000c0000000d000000
+  damagePukulLegendary: 00000000000000000000000000000000
+  damageTendang: 0a0000000b0000000c0000000d000000
+  damageTendangLegendary: 00000000000000000000000000000000
+  damageSenjata: 1400000016000000180000001a000000
+  damageSenjataLegendary: 00000000000000000000000000000000
+  damageSpecialSkill: 280000002c0000003000000034000000
+  damageSpecialLegendary: 00000000000000000000000000000000
+  defend: 
+  defendLegendary: 
+  punchHitBoxLocation: {x: 2.51, y: 2.3}
+  punchComboHitBoxLocation: {x: 2.51, y: 2.3}
+  kickHitBoxLocation: {x: 3.78, y: 1.5}
+  weaponHitBoxLocation: {x: 0, y: 0}
+  specialAttackHitBoxLocation: {x: 0, y: 0}
+  punchBullet: {fileID: 853442373884576933, guid: 351a3b679476eb741b869189eed00b73, type: 3}
+  punchBulletLegendary: {fileID: 0}
+  punchComboBullet: {fileID: 853442373884576933, guid: 351a3b679476eb741b869189eed00b73, type: 3}
+  punchComboBulletLegendary: {fileID: 0}
+  kickBullet: {fileID: -4375921168363976477, guid: fd236bc61a435e64b89c650e79ec7923, type: 3}
+  kickBulletLegendary: {fileID: 0}
+  weaponBullet: {fileID: 602989597886643228, guid: 9651d881ed13b654b8804f3527808cdf, type: 3}
+  weaponSound: {fileID: 8300000, guid: 054ad057e2f4dde49a6c21b2a142acf2, type: 3}
+  weaponBulletLegendary: {fileID: 0}
+  weaponLegendarySound: {fileID: 0}
+  specialAttackBullet: {fileID: 538402569468353500, guid: ef9c4c150a60eed46b9a10ee89d3aac3, type: 3}
+  specialSound: {fileID: 8300000, guid: 356effe577b2c4c438033aa531b37495, type: 3}
+  specialAttackBulletLegendary: {fileID: 0}
+  specialLegendarySound: {fileID: 0}
+  hargaBeli: 0
+  hargaEquip: 
