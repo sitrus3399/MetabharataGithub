@@ -1,0 +1,23 @@
+# ninja log v5
+18	1454	7706412644422263	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	1ef5e6a67e2e8dec
+56	260	7706412632380260	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	760fe33b4064a15
+261	599	7706412635797093	D:/Project/MetabharataGithub/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3u03y3ka/obj/arm64-v8a/libswappywrapper.so	895f7c82c5f25756
+35	1035	7706412640190426	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c22e7286153ff579
+13	1129	7706412641172049	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	b6a7b0011566ddf2
+24	1147	7706412641342669	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	a55ebd28cb9602a6
+42	1132	7706412641182139	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	b8db2a57f74f9b1d
+9	1194	7706412641795399	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	9f5d1973edc20b94
+4	1037	7706412640210532	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	66331acda8305185
+29	1350	7706412643388286	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	97ac0060729df0c9
+1454	1528	7706412645134700	D:/Project/MetabharataGithub/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3u03y3ka/obj/arm64-v8a/libgame.so	3cf0a74c1aa6e12e
+38	200	7706416087269356	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	760fe33b4064a15
+200	355	7706416088598931	D:/Project/MetabharataGithub/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3u03y3ka/obj/arm64-v8a/libswappywrapper.so	895f7c82c5f25756
+11	1009	7706416095311039	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	b6a7b0011566ddf2
+7	1010	7706416095301031	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	66331acda8305185
+22	1011	7706416095301031	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c22e7286153ff579
+33	1077	7706416096010126	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	b8db2a57f74f9b1d
+19	1125	7706416096446718	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	a55ebd28cb9602a6
+3	1142	7706416096678649	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	9f5d1973edc20b94
+28	1332	7706416098566895	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	97ac0060729df0c9
+15	1418	7706416099420815	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	1ef5e6a67e2e8dec
+1419	1491	7706416100152609	D:/Project/MetabharataGithub/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3u03y3ka/obj/arm64-v8a/libgame.so	3cf0a74c1aa6e12e
