@@ -61,6 +61,20 @@ public class CharacterController : NetworkBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         stageType = GameManager.Instance.stageType;
+
+        if (joystick == null)
+        {
+            if (stageType == StageType.Online)
+            {
+                Debug.Log($"Online {IsOwner}");
+                if (IsOwner)
+                {
+                    controller = Instantiate(controllerPrefab, GameplayManager.Manager.MainCanvas.transform);
+                    joystick = controller.joystick;
+                    controller.SetPlayer(this, characterBase);
+                }
+            }
+        }
     }
 
     public override void OnNetworkSpawn()
@@ -185,6 +199,7 @@ public class CharacterController : NetworkBehaviour
 
         if (stageType == StageType.Online)
         {
+            Debug.Log($"Online {IsOwner}");
             if (IsOwner)
             {
                 controller = Instantiate(controllerPrefab, GameplayManager.Manager.MainCanvas.transform);

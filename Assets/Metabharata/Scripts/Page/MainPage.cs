@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -158,4 +159,10 @@ public class MainPage : Page
     {
         base.Hide();
     }
+    
+    public void CloseOnline() //Debug saja bukan bagian gameplay
+    {
+        Array.Resize(ref modeGameName, modeGameName.Length - 1);
+        maxIndexGame = modeGameName.Length;
+    }    
 }

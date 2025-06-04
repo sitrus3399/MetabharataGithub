@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Metabharata/Scenes/OnlineRoom.unity
     guid: bde6d6cf5c7154649beb600935b7eaaa
+  - enabled: 1
+    path: Assets/Metabharata/Scenes/GamePlayTestMultiplayer.unity
+    guid: c9df582e560faee4b91b96733a404b66
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
