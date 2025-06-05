@@ -2880,13 +2880,13 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: Jawa
-    Text: Pause
+    Text: Permainanmu Terjeda
     Object: {fileID: 0}
   - Language: Indonesia
-    Text: Pause
+    Text: Permainanmu Terjeda
     Object: {fileID: 0}
   - Language: English
-    Text: Pause
+    Text: Your Game is Paused
     Object: {fileID: 0}
 --- !u!1 &8614644971749914231
 GameObject:
@@ -3100,13 +3100,13 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: Jawa
-    Text: Lanjut
+    Text: Lanjutkan Permainan
     Object: {fileID: 0}
   - Language: Indonesia
-    Text: Lanjut
+    Text: Lanjutkan Permainan
     Object: {fileID: 0}
   - Language: English
-    Text: Return
+    Text: "Continue Game\t"
     Object: {fileID: 0}
 --- !u!1 &9047312987104561598
 GameObject:

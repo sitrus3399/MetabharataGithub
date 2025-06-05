@@ -8,6 +8,7 @@ public class PauseWidget : Widget
     [SerializeField] Button restartButton;
     [SerializeField] Button settingButton;
     [SerializeField] Button returnButton;
+    [SerializeField] Button closeButton;
 
     void Start()
     {
@@ -15,6 +16,7 @@ public class PauseWidget : Widget
         restartButton.onClick.AddListener(() => { RestartFunction(); });
         settingButton.onClick.AddListener(() => { SettingFunction(); });
         returnButton.onClick.AddListener(() => { ReturnFunction(); });
+        closeButton.onClick.AddListener(() => { ReturnFunction(); });
     }
 
     public override void Show()
