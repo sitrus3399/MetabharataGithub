@@ -97,7 +97,9 @@ public class GameplayManager : MonoBehaviour
                 newCharacterCollect1.specialSkillLevel = GameManager.Instance.storyDataSelected.characterLevel;
                 newCharacterCollect1.defendLevel = GameManager.Instance.storyDataSelected.characterLevel;
 
-                newCharacter1.InitData(GameManager.Instance.storyDataSelected.characterData, newCharacterCollect1, playerPanelLeft);
+                newCharacter1.InitPlayerPanel(playerPanelLeft);
+                newCharacter1.InitData(GameManager.Instance.storyDataSelected.characterData, newCharacterCollect1);
+                
                 newController1.InitController();
                 characterOnGameplay.Add(newCharacter1);
 
@@ -114,7 +116,8 @@ public class GameplayManager : MonoBehaviour
                 newCharacterCollect2.specialSkillLevel = GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].level;
                 newCharacterCollect2.defendLevel = GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].level;
 
-                newCharacter2.InitData(GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].enemy, newCharacterCollect2, playerPanelRight);
+                newCharacter2.InitData(GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].enemy, newCharacterCollect2);
+                newCharacter2.InitPlayerPanel(playerPanelRight);
                 newController2.InitController();
                 characterOnGameplay.Add(newCharacter2);
 
@@ -141,7 +144,9 @@ public class GameplayManager : MonoBehaviour
                 newCharacterCollect1.specialSkillLevel = 1;
                 newCharacterCollect1.defendLevel = 1;
 
-                newCharacter1.InitData(GameManager.Instance.characterDataFreeBattle1, newCharacterCollect1, playerPanelLeft);
+                newCharacter1.InitPlayerPanel(playerPanelLeft);
+                newCharacter1.InitData(GameManager.Instance.characterDataFreeBattle1, newCharacterCollect1);
+                
                 newController1.InitController();
                 characterOnGameplay.Add(newCharacter1);
 
@@ -157,7 +162,9 @@ public class GameplayManager : MonoBehaviour
                 newCharacterCollect2.specialSkillLevel = 1;
                 newCharacterCollect2.defendLevel = 1;
 
-                newCharacter2.InitData(GameManager.Instance.characterDataFreeBattle2, newCharacterCollect2, playerPanelRight);
+                newCharacter2.InitPlayerPanel(playerPanelRight);
+                newCharacter2.InitData(GameManager.Instance.characterDataFreeBattle2, newCharacterCollect2);
+                
                 newController2.InitController();
                 characterOnGameplay.Add(newCharacter2);
 
@@ -334,7 +341,9 @@ public class GameplayManager : MonoBehaviour
         newCharacterCollect2.specialSkillLevel = GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].level;
         newCharacterCollect2.defendLevel = GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].level;
 
-        characterOnGameplay[1].InitData(GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].enemy, newCharacterCollect2, playerPanelRight);
+        characterOnGameplay[1].InitPlayerPanel(playerPanelRight);
+        characterOnGameplay[1].InitData(GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].enemy, newCharacterCollect2);
+        
         characterOnGameplay[1].SetCharacterAttackData(characterOnGameplay[storyNumber - 1]);
     }
 

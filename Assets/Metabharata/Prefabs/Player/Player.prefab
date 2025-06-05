@@ -174,7 +174,7 @@ MonoBehaviour:
   characterController: {fileID: 2766682352547164112}
   characterHealth: {fileID: 8310844813329941107}
   characterAttack: {fileID: 7944968187309561554}
-  baseData: {fileID: 0}
+  baseData: {fileID: 11400000, guid: 2cb0a21339bb7cd4984eba69ac87ce75, type: 2}
   punchLevel: 0
   kickLevel: 0
   weaponLevel: 0

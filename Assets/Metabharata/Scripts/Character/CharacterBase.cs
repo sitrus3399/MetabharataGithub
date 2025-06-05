@@ -127,7 +127,7 @@ public class CharacterBase : NetworkBehaviour
         }
     }
 
-    public void InitData(CharacterData tmpBaseData, CharacterCollect characterCollect, PlayerPanel tmpPlayerPanel)
+    public void InitData(CharacterData tmpBaseData, CharacterCollect characterCollect)
     {
         baseData = tmpBaseData;
 
@@ -153,7 +153,6 @@ public class CharacterBase : NetworkBehaviour
         defend = baseData.defend[defendLevel - 1];
         defendLegendary = baseData.defendLegendary[defendLevel - 1];
 
-        playerPanel = tmpPlayerPanel;
         playerPanel.SetRestart();
         playerPanel.InitData(tmpBaseData);
 
@@ -161,6 +160,11 @@ public class CharacterBase : NetworkBehaviour
         {
             characterController.SetAnimatorController(tmpBaseData.characterAnimator);
         }
+    }
+
+    public void InitPlayerPanel(PlayerPanel tmpPlayerPanel)
+    {
+        playerPanel = tmpPlayerPanel;
     }
 
     public void SetCharacterAttackData(CharacterBase tmpTarget)
