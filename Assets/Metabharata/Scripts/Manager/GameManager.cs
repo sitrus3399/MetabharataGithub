@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     [Header("Online")]
     public string joinCode;
     public string nameRoom;
+    public CharacterData characterDataOnlineHost;
+    public CharacterData characterDataOnlineClient;
 
     private void Awake()
     {

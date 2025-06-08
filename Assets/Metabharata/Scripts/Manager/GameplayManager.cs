@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
@@ -31,7 +30,6 @@ public class GameplayManager : MonoBehaviour
     [SerializeField] private VideoPlayer specialSkillVideoPlayer;
     [SerializeField] private bool videoOn;
     
-
     [Header("Winner")]
     [SerializeField] private CharacterBase winner;
     [SerializeField] private int winnerNumber;
@@ -47,6 +45,11 @@ public class GameplayManager : MonoBehaviour
 
     public Canvas MainCanvas { get { return mainCanvas; } }
     
+    public PlayerPanel PlayerPanelLeft { get { return playerPanelLeft; } }
+    public PlayerPanel PlayerPanelRight { get { return playerPanelRight; } }
+    public Transform CharacterLeftLocation { get { return characterLeftLocation; } }
+    public Transform CharacterRightLocation { get { return characterRightLocation; } }
+
     public List<CharacterBase> CharacterOnGameplay { get { return characterOnGameplay; } }
     public int StoryNumber { get { return storyNumber; } }
     public bool VideoOn { get { return videoOn; } }
@@ -86,9 +89,6 @@ public class GameplayManager : MonoBehaviour
 
                 newCharacter1 = Instantiate(characterPrefab);
                 newController1 = newCharacter1.GetComponent<CharacterController>();
-                newCharacter1.transform.position = characterLeftLocation.position;
-                newCharacter1.isOwned = true;
-                newCharacter1.isAI = false;
 
                 //GameManager.Instance.storyDataSelected.characterLevel
                 newCharacterCollect1.punchLevel = GameManager.Instance.storyDataSelected.characterLevel;
@@ -99,15 +99,14 @@ public class GameplayManager : MonoBehaviour
 
                 newCharacter1.InitPlayerPanel(playerPanelLeft);
                 newCharacter1.InitData(GameManager.Instance.storyDataSelected.characterData, newCharacterCollect1);
-                
+                newCharacter1.InitSpawnLocation(characterLeftLocation.position);
+                newCharacter1.InitOwned(true, false);
+
                 newController1.InitController();
                 characterOnGameplay.Add(newCharacter1);
 
                 newCharacter2 = Instantiate(characterPrefab);
                 newController2 = newCharacter2.GetComponent<CharacterController>();
-                newCharacter2.transform.position = characterRightLocation.position;
-                newCharacter2.isOwned = false;
-                newCharacter2.isAI = true;
 
                 //GameManager.Instance.storyDataSelected.stageList[0].level
                 newCharacterCollect2.punchLevel = GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].level;
@@ -116,8 +115,11 @@ public class GameplayManager : MonoBehaviour
                 newCharacterCollect2.specialSkillLevel = GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].level;
                 newCharacterCollect2.defendLevel = GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].level;
 
-                newCharacter2.InitData(GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].enemy, newCharacterCollect2);
                 newCharacter2.InitPlayerPanel(playerPanelRight);
+                newCharacter2.InitData(GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].enemy, newCharacterCollect2);
+                newCharacter2.InitSpawnLocation(characterRightLocation.position);
+                newCharacter2.InitOwned(false, true);
+
                 newController2.InitController();
                 characterOnGameplay.Add(newCharacter2);
 
@@ -134,9 +136,6 @@ public class GameplayManager : MonoBehaviour
 
                 newCharacter1 = Instantiate(characterPrefab);
                 newController1 = newCharacter1.GetComponent<CharacterController>();
-                newCharacter1.transform.position = characterLeftLocation.position;
-                newCharacter1.isOwned = true;
-                newCharacter1.isAI = false;
 
                 newCharacterCollect1.punchLevel = 1;
                 newCharacterCollect1.kickLevel = 1;
@@ -146,15 +145,14 @@ public class GameplayManager : MonoBehaviour
 
                 newCharacter1.InitPlayerPanel(playerPanelLeft);
                 newCharacter1.InitData(GameManager.Instance.characterDataFreeBattle1, newCharacterCollect1);
-                
+                newCharacter1.InitSpawnLocation(characterLeftLocation.position);
+                newCharacter1.InitOwned(true, false);
+
                 newController1.InitController();
                 characterOnGameplay.Add(newCharacter1);
 
                 newCharacter2 = Instantiate(characterPrefab);
                 newController2 = newCharacter2.GetComponent<CharacterController>();
-                newCharacter2.transform.position = characterRightLocation.position;
-                newCharacter2.isOwned = false;
-                newCharacter2.isAI = true;
 
                 newCharacterCollect2.punchLevel = 1;
                 newCharacterCollect2.kickLevel = 1;
@@ -164,7 +162,9 @@ public class GameplayManager : MonoBehaviour
 
                 newCharacter2.InitPlayerPanel(playerPanelRight);
                 newCharacter2.InitData(GameManager.Instance.characterDataFreeBattle2, newCharacterCollect2);
-                
+                newCharacter2.InitSpawnLocation(characterRightLocation.position);
+                newCharacter2.InitOwned(false, true);
+
                 newController2.InitController();
                 characterOnGameplay.Add(newCharacter2);
 
@@ -177,6 +177,50 @@ public class GameplayManager : MonoBehaviour
                 background.sprite = GameManager.Instance.backgroundFreeBattle;
                 break;
             case StageType.Online:
+                roundNumber = 1;
+                background.sprite = GameManager.Instance.backgroundFreeBattle;
+
+                //newCharacter1 = Instantiate(characterPrefab);
+                //newController1 = newCharacter1.GetComponent<CharacterController>();
+                //newCharacter1.transform.position = characterLeftLocation.position;
+                //newCharacter1.isOwned = true;
+                //newCharacter1.isAI = false;
+
+                //newCharacterCollect1.punchLevel = 1;
+                //newCharacterCollect1.kickLevel = 1;
+                //newCharacterCollect1.weaponLevel = 1;
+                //newCharacterCollect1.specialSkillLevel = 1;
+                //newCharacterCollect1.defendLevel = 1;
+
+                //newCharacter1.InitPlayerPanel(playerPanelLeft);
+                //newCharacter1.InitData(GameManager.Instance.characterDataFreeBattle1, newCharacterCollect1);
+
+                //newController1.InitController();
+                //characterOnGameplay.Add(newCharacter1);
+
+                //newCharacter2 = Instantiate(characterPrefab);
+                //newController2 = newCharacter2.GetComponent<CharacterController>();
+                //newCharacter2.transform.position = characterRightLocation.position;
+                //newCharacter2.isOwned = false;
+                //newCharacter2.isAI = true;
+
+                //newCharacterCollect2.punchLevel = 1;
+                //newCharacterCollect2.kickLevel = 1;
+                //newCharacterCollect2.weaponLevel = 1;
+                //newCharacterCollect2.specialSkillLevel = 1;
+                //newCharacterCollect2.defendLevel = 1;
+
+                //newCharacter2.InitPlayerPanel(playerPanelRight);
+                //newCharacter2.InitData(GameManager.Instance.characterDataFreeBattle2, newCharacterCollect2);
+
+                //newController2.InitController();
+                //characterOnGameplay.Add(newCharacter2);
+
+                //if (characterOnGameplay.Count == 2)
+                //{
+                //    characterOnGameplay[0].SetCharacterAttackData(characterOnGameplay[1]);
+                //    characterOnGameplay[1].SetCharacterAttackData(characterOnGameplay[0]);
+                //}
                 break;
             default:
                 break;
@@ -343,6 +387,8 @@ public class GameplayManager : MonoBehaviour
 
         characterOnGameplay[1].InitPlayerPanel(playerPanelRight);
         characterOnGameplay[1].InitData(GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].enemy, newCharacterCollect2);
+        characterOnGameplay[1].InitSpawnLocation(characterRightLocation.transform.position);
+        characterOnGameplay[1].InitOwned(false, true);
         
         characterOnGameplay[1].SetCharacterAttackData(characterOnGameplay[storyNumber - 1]);
     }

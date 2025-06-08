@@ -821,7 +821,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6574251982207802382, guid: dc44679c3b524d341a4591d36fefa9dc, type: 3}
       propertyPath: stageType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6574251982207802382, guid: dc44679c3b524d341a4591d36fefa9dc, type: 3}
       propertyPath: storyDataSelected

@@ -15,11 +15,13 @@ public class ConnectionButtons : MonoBehaviour
 
     public void StartHost()
     {
+        Debug.Log($"StartHost");
         NetworkManager.Singleton.StartHost();
     }
 
     public void StartClient()
     {
+        Debug.Log($"StartClient");
         NetworkManager.Singleton.StartClient();
     }
 }

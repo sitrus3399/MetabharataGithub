@@ -60,11 +60,61 @@ public class CharacterBase : NetworkBehaviour
     public float DefendLegendary { get { return defendLegendary; } }
     public CharacterData BaseData { get { return baseData; } }
 
+    CharacterCollect newCharacterCollect = new CharacterCollect();
+
     void Start()
     {
         currentHP.Value = maxHP;
         currentSkill.Value = 0;
         //playerPanel = GameplayManager.Manager.GetPlayerPanel(this);
+
+        if (GameManager.Instance.stageType == StageType.Online)
+        {
+            if (GameManager.Instance.characterDataOnlineHost != null && GameManager.Instance.characterDataOnlineClient != null)
+            {
+                if (IsHost && isOwned)
+                {
+                    Debug.Log($"IsHost");
+                    newCharacterCollect.punchLevel = SearchCharacter(GameManager.Instance.characterDataOnlineHost).punchLevel;
+                    newCharacterCollect.kickLevel = SearchCharacter(GameManager.Instance.characterDataOnlineHost).kickLevel;
+                    newCharacterCollect.weaponLevel = SearchCharacter(GameManager.Instance.characterDataOnlineHost).weaponLevel;
+                    newCharacterCollect.specialSkillLevel = SearchCharacter(GameManager.Instance.characterDataOnlineHost).specialSkillLevel;
+                    newCharacterCollect.defendLevel = SearchCharacter(GameManager.Instance.characterDataOnlineHost).defendLevel;
+
+                    InitPlayerPanel(GameplayManager.Manager.PlayerPanelLeft);
+                    InitData(GameManager.Instance.characterDataFreeBattle1, newCharacterCollect);
+                    InitSpawnLocation(GameplayManager.Manager.CharacterLeftLocation.position);
+                    InitOwned(true, false);
+                }
+                else if (IsClient && isOwned)
+                {
+                    Debug.Log($"IsClient");
+                    newCharacterCollect.punchLevel = SearchCharacter(GameManager.Instance.characterDataOnlineClient).punchLevel;
+                    newCharacterCollect.kickLevel = SearchCharacter(GameManager.Instance.characterDataOnlineClient).kickLevel;
+                    newCharacterCollect.weaponLevel = SearchCharacter(GameManager.Instance.characterDataOnlineClient).weaponLevel;
+                    newCharacterCollect.specialSkillLevel = SearchCharacter(GameManager.Instance.characterDataOnlineClient).specialSkillLevel;
+                    newCharacterCollect.defendLevel = SearchCharacter(GameManager.Instance.characterDataOnlineClient).defendLevel;
+
+                    InitPlayerPanel(GameplayManager.Manager.PlayerPanelRight);
+                    InitData(GameManager.Instance.characterDataFreeBattle2, newCharacterCollect);
+                    InitSpawnLocation(GameplayManager.Manager.CharacterRightLocation.position);
+                    InitOwned(true, false);
+                }
+            }
+        }
+    }
+
+    CharacterCollect SearchCharacter(CharacterData tmpCharacter)
+    {
+        foreach (CharacterCollect charData in CharacterManager.Manager.characterDatas)
+        {
+            if (charData.data == tmpCharacter)
+            {
+                return charData;
+            }
+        }
+
+        return null;
     }
 
     private void Update()
@@ -160,6 +210,17 @@ public class CharacterBase : NetworkBehaviour
         {
             characterController.SetAnimatorController(tmpBaseData.characterAnimator);
         }
+    }
+
+    public void InitSpawnLocation(Vector3 spawnLocation)
+    {
+        transform.position = spawnLocation;
+    }
+
+    public void InitOwned(bool tmpIsOwned, bool tmpIsAI)
+    {
+        isOwned = tmpIsOwned;
+        isAI = tmpIsAI;
     }
 
     public void InitPlayerPanel(PlayerPanel tmpPlayerPanel)
