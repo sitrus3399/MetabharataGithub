@@ -21,6 +21,7 @@ public class CameraGameplayManager : MonoBehaviour
 
     void LateUpdate()
     {
+        if (GameplayManager.Manager.CharacterOnGameplay.Count == 0) return;
         if (GameplayManager.Manager.CharacterOnGameplay[0] == null || GameplayManager.Manager.CharacterOnGameplay[1].transform.position == null) return;
 
         // Hitung titik tengah
