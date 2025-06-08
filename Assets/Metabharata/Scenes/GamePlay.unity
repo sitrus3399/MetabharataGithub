@@ -743,26 +743,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
-    - target: {fileID: 6574251982207802382, guid: dc44679c3b524d341a4591d36fefa9dc, type: 3}
-      propertyPath: stageType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6574251982207802382, guid: dc44679c3b524d341a4591d36fefa9dc, type: 3}
-      propertyPath: storyDataSelected
-      value: 
-      objectReference: {fileID: 11400000, guid: 044db591129927c41a725d53ff23258c, type: 2}
-    - target: {fileID: 6574251982207802382, guid: dc44679c3b524d341a4591d36fefa9dc, type: 3}
-      propertyPath: backgroundFreeBattle
-      value: 
-      objectReference: {fileID: 21300000, guid: 20709c4a5aed1ab4ab9584d99a663e78, type: 3}
-    - target: {fileID: 6574251982207802382, guid: dc44679c3b524d341a4591d36fefa9dc, type: 3}
-      propertyPath: characterDataFreeBattle1
-      value: 
-      objectReference: {fileID: 11400000, guid: 75360f3b940957d45837a451d39d3a8c, type: 2}
-    - target: {fileID: 6574251982207802382, guid: dc44679c3b524d341a4591d36fefa9dc, type: 3}
-      propertyPath: characterDataFreeBattle2
-      value: 
-      objectReference: {fileID: 11400000, guid: 2cb0a21339bb7cd4984eba69ac87ce75, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1863,6 +1843,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556839165}
   m_CullTransparentMesh: 1
+--- !u!1001 &561205875
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5120441673112739532, guid: 4caed7f524137ac4e8ef4d2a1ed88a6c, type: 3}
+      propertyPath: m_Name
+      value: PlayerSpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281990678558919047, guid: 4caed7f524137ac4e8ef4d2a1ed88a6c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5235.256
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281990678558919047, guid: 4caed7f524137ac4e8ef4d2a1ed88a6c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1219.8823
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281990678558919047, guid: 4caed7f524137ac4e8ef4d2a1ed88a6c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -80.20876
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281990678558919047, guid: 4caed7f524137ac4e8ef4d2a1ed88a6c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281990678558919047, guid: 4caed7f524137ac4e8ef4d2a1ed88a6c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281990678558919047, guid: 4caed7f524137ac4e8ef4d2a1ed88a6c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281990678558919047, guid: 4caed7f524137ac4e8ef4d2a1ed88a6c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281990678558919047, guid: 4caed7f524137ac4e8ef4d2a1ed88a6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281990678558919047, guid: 4caed7f524137ac4e8ef4d2a1ed88a6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281990678558919047, guid: 4caed7f524137ac4e8ef4d2a1ed88a6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362267900336223745, guid: 4caed7f524137ac4e8ef4d2a1ed88a6c, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3493779089
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362267900336223745, guid: 4caed7f524137ac4e8ef4d2a1ed88a6c, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 639799861
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4caed7f524137ac4e8ef4d2a1ed88a6c, type: 3}
 --- !u!1 &598396843
 GameObject:
   m_ObjectHideFlags: 0
@@ -8630,3 +8675,4 @@ SceneRoots:
   - {fileID: 289284348}
   - {fileID: 1348840524}
   - {fileID: 412573641}
+  - {fileID: 561205875}

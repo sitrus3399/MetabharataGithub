@@ -1,8 +1,6 @@
 using System.Threading.Tasks;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
-using Unity.Networking.Transport.Relay;
-using Unity.Services.Core;
 using Unity.Services.Relay;
 using Unity.Services.Relay.Models;
 using UnityEngine;
@@ -10,23 +8,34 @@ using UnityEngine.SceneManagement;
 
 public class ClientGameManager : MonoBehaviour
 {
+    public static ClientGameManager Instance { get; private set; }
+
     private JoinAllocation allocation;
 
     private const string MenuSceneName = "MainMenu";
     [SerializeField] private string gameSceneName = "GamePlay";
 
+    private async void Awake()
+    {
+        // Singleton pattern
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+            return;
+        }
+        Instance = this;
+        DontDestroyOnLoad(this);
+        await InitAsync();
+    }
+
     public async Task<bool> InitAsync()
     {
-        await UnityServices.InitializeAsync();
-
-        AuthState authState = await AuthenticationWrapper.DoAuth();
-
-        if (authState == AuthState.Authenticated)
+        if (!NetworkServiceSystem.Instance.IsSystemReady())
         {
-            return true;
+            await NetworkServiceSystem.Instance.InitializeSystemAsync();
         }
 
-        return false;
+        return NetworkServiceSystem.Instance.IsSystemReady();
     }
 
     public void GoToMenu()
@@ -48,27 +57,16 @@ public class ClientGameManager : MonoBehaviour
 
         UnityTransport transport = NetworkManager.Singleton.GetComponent<UnityTransport>();
 
-        transport.SetRelayServerData(
-            allocation.RelayServer.IpV4,
-            (ushort)allocation.RelayServer.Port,
-            allocation.AllocationIdBytes,
-            allocation.Key,
-            allocation.ConnectionData,
-            allocation.HostConnectionData, // Menggunakan ConnectionData sebagai HostConnectionData
-            isSecure: true
-        );
+        transport.SetRelayServerData(allocation.ToRelayServerData("dtls"));
 
         if (NetworkManager.Singleton.StartClient())
         {
             Debug.Log("Client started successfully.");
-            NetworkManager.Singleton.SceneManager.LoadScene(gameSceneName, LoadSceneMode.Single);
+            // Do NOT call LoadScene here. The server will handle scene changes.
         }
         else
         {
             Debug.LogError("Failed to start client.");
         }
-
-
-        //NetworkManager.Singleton.SceneManager.LoadScene(gameSceneName, LoadSceneMode.Single); //Go To Gameplay
     }
 }
