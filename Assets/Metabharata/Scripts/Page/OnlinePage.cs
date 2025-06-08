@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,7 +16,7 @@ public class OnlinePage : Page
     {
         base.Start();
 
-        backButton.onClick.AddListener(() => ClosePage());
+        backButton.onClick.AddListener(ClosePage);
 
         createRoomButton.onClick.AddListener(() => { OpenOnlineSubPage(1); });
         searchRoomButton.onClick.AddListener(() => { OpenOnlineSubPage(2); });
@@ -25,42 +24,20 @@ public class OnlinePage : Page
 
     public async void StartHost()
     {
-        await HostSingleton.Instance.gameManager.StartHostAsync();
+        await HostGameManager.Instance.StartHostAsync();
     }
 
     public async void StartClient(string joinCode)
     {
-        await ClientSingleton.Instance.gameManager.StartClientAsync(joinCode);
+        await ClientGameManager.Instance.StartClientAsync(joinCode);
     }
 
-    void OpenOnlineSubPage(int index)
+    private void OpenOnlineSubPage(int index)
     {
-        if (index == 1)
-        {
-            createRoomPage.gameObject.SetActive(true);
-            searchRoomPage.gameObject.SetActive(false);
-        }
-        else if (index == 2)
-        {
-            createRoomPage.gameObject.SetActive(false);
-            searchRoomPage.gameObject.SetActive(true);
-        }
+        createRoomPage.gameObject.SetActive(index == 1);
+        searchRoomPage.gameObject.SetActive(index == 2);
     }
 
-    protected override void OnEnable()
-    {
-        base.OnEnable();
-    }
-
-    protected override void OnDisable()
-    {
-        base.OnDisable();
-    }
-
-    protected override void Update()
-    {
-        base.Update();
-    }
     public override void Show()
     {
         base.Show();
@@ -69,11 +46,6 @@ public class OnlinePage : Page
         searchRoomPage.gameObject.SetActive(false);
 
         leaderboardPage.CreadeListCard();
-    }
-
-    public override void Hide()
-    {
-        base.Hide();
     }
 
     public void ClosePage()

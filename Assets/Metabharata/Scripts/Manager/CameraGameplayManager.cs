@@ -21,12 +21,7 @@ public class CameraGameplayManager : MonoBehaviour
 
     void LateUpdate()
     {
-        if (GameplayManager.Manager.CharacterOnGameplay.Count < 2)
-        {
-            Debug.LogWarning($"Player detect under 2"); //Masih menunggu relay beres karena mengambil data list player di room harus selesai relay
-            return;
-        }
-        
+        if (GameplayManager.Manager.CharacterOnGameplay.Count == 0) return;
         if (GameplayManager.Manager.CharacterOnGameplay[0] == null || GameplayManager.Manager.CharacterOnGameplay[1].transform.position == null) return;
 
         // Hitung titik tengah

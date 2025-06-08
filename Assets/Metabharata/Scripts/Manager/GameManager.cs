@@ -1,9 +1,10 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+
+    [Header("Settings")]
     public BahasaType bahasaType;
     public StageType stageType;
     public float volume;
@@ -22,18 +23,20 @@ public class GameManager : MonoBehaviour
     public CharacterData characterDataOnlineHost;
     public CharacterData characterDataOnlineClient;
 
+    #region Unity Lifecycle
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
         {
-            Destroy(this);
+            Destroy(gameObject);
+            return;
         }
-        else if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
+        DontDestroyOnLoad(this);
+        Instance = this;
     }
+
+    #endregion
 
     public void GantiBahasa(BahasaType tmpBahasaType)
     {

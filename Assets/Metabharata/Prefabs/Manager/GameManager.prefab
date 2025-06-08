@@ -45,5 +45,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bahasaType: 0
+  stageType: 1
   volume: 5
-  storyDataSelected: {fileID: 0}
+  storyDataSelected: {fileID: 11400000, guid: 044db591129927c41a725d53ff23258c, type: 2}
+  characterDataFreeBattle1: {fileID: 11400000, guid: 75360f3b940957d45837a451d39d3a8c, type: 2}
+  characterDataFreeBattle2: {fileID: 11400000, guid: 2cb0a21339bb7cd4984eba69ac87ce75, type: 2}
+  backgroundFreeBattle: {fileID: 21300000, guid: 20709c4a5aed1ab4ab9584d99a663e78, type: 3}
+  joinCode: 
+  nameRoom: 

@@ -119,6 +119,8 @@ public class CharacterController : NetworkBehaviour
 
         if (currentState != CharacterState.Idle && currentState != CharacterState.Walk && currentState != CharacterState.Crouch) { return; }
 
+        if (joystick == null) return;
+
         float horizontal = joystick.Horizontal;
         float vertical = joystick.Vertical;
 

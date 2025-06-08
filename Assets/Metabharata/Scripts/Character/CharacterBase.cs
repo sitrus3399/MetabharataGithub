@@ -64,8 +64,11 @@ public class CharacterBase : NetworkBehaviour
 
     void Start()
     {
-        currentHP.Value = maxHP;
-        currentSkill.Value = 0;
+        if (IsServer)
+        {
+            currentHP.Value = maxHP;
+            currentSkill.Value = 0;
+        }
         //playerPanel = GameplayManager.Manager.GetPlayerPanel(this);
 
         if (GameManager.Instance.stageType == StageType.Online)
@@ -121,7 +124,7 @@ public class CharacterBase : NetworkBehaviour
     {
         if (GameManager.Instance.stageType == StageType.Online)
         {
-            Debug.LogWarning($"Sementara dimatikan sampai online beres");
+            //Debug.LogWarning($"Sementara dimatikan sampai online beres");
             return;
         }
 
@@ -242,8 +245,11 @@ public class CharacterBase : NetworkBehaviour
 
     public void SetRestart()
     {
-        currentHP.Value = maxHP;
-        currentSkill.Value = 0;
+        if (IsServer)
+        {
+            currentHP.Value = maxHP;
+            currentSkill.Value = 0;
+        }
         skillPoint = 0;
 
         isDead = false;
@@ -262,5 +268,19 @@ public class CharacterBase : NetworkBehaviour
     {
         audioSource.clip = clip;
         audioSource.Play();
+    }
+
+    public override void OnNetworkSpawn()
+    {
+        base.OnNetworkSpawn();
+        currentHP.OnValueChanged += (oldValue, newValue) =>
+        {
+            playerPanel?.SetHPBar(newValue, maxHP);
+            if (newValue <= 0)
+            {
+                isDead = true;
+                characterHealth.Dead();
+            }
+        };
     }
 }
