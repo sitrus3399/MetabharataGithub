@@ -103,8 +103,24 @@ public class CharacterBase : NetworkBehaviour
                     InitSpawnLocation(GameplayManager.Manager.CharacterRightLocation.position);
                     InitOwned(true, false);
                 }
+
+                GameplayManager.Manager.joinRoom += SetCharacterAttackData;
+                GameplayManager.Manager.joinRoom?.Invoke(SearchEnemy()); //Cari enemy
             }
         }
+    }
+
+    CharacterBase SearchEnemy()
+    {
+        foreach (CharacterBase cBase in GameplayManager.Manager.CharacterOnGameplay)
+        {
+            if (cBase != isOwned)
+            {
+                return cBase;
+            }
+        }
+
+        return null;
     }
 
     CharacterCollect SearchCharacter(CharacterData tmpCharacter)

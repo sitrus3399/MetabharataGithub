@@ -25,8 +25,17 @@ public class CharacterAttack : MonoBehaviour
 
     public void Init(CharacterData tmpData)
     {
-        GameObject target = characterBase.Target.gameObject;
+        GameObject target = null;
 
+        if (characterBase.Target != null)
+        {
+            target = characterBase.Target.gameObject;
+        }
+        else
+        {
+            target = gameObject;
+        }
+        
         punchHitBoxLocation = tmpData.punchHitBoxLocation;
         punchComboHitBoxLocation = tmpData.punchComboHitBoxLocation;
         kickHitBoxLocation = tmpData.kickHitBoxLocation;
