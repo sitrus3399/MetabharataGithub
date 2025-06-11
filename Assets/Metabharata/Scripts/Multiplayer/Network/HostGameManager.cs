@@ -1,3 +1,4 @@
+using Metabharata.Network.Multiplayer.NetworkServiceSystem;
 using System;
 using System.Collections.Generic;
 using System.Threading;
@@ -50,7 +51,6 @@ public class HostGameManager : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(this);
-        await InitAsync();
     }
 
     private void Update()
@@ -59,20 +59,6 @@ public class HostGameManager : MonoBehaviour
         {
             float timeSinceStart = Time.time - hostStartTime;
             // Debug.Log($"[HOST] Running for {timeSinceStart} seconds");
-        }
-    }
-
-    #endregion
-
-    #region Initialization
-
-    public async Task InitAsync()
-    {
-        // TODO: Authenticate Player
-
-        if (!NetworkServiceSystem.Instance.IsSystemReady())
-        {
-            await NetworkServiceSystem.Instance.InitializeSystemAsync();
         }
     }
 
@@ -148,7 +134,7 @@ public class HostGameManager : MonoBehaviour
 
     private async Task WaitForNetworkServiceInitialization()
     {
-        if (!NetworkServiceSystem.Instance.IsInitialized)
+        if (!NetworkServiceInitiator.Instance.IsInitialized)
         {
             var cancellationToken = new CancellationTokenSource(5000);
             while (UnityServices.State == ServicesInitializationState.Initializing)

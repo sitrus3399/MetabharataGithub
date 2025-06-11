@@ -25,17 +25,6 @@ public class ClientGameManager : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(this);
-        await InitAsync();
-    }
-
-    public async Task<bool> InitAsync()
-    {
-        if (!NetworkServiceSystem.Instance.IsSystemReady())
-        {
-            await NetworkServiceSystem.Instance.InitializeSystemAsync();
-        }
-
-        return NetworkServiceSystem.Instance.IsSystemReady();
     }
 
     public void GoToMenu()
