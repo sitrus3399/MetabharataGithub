@@ -142,7 +142,9 @@ MonoBehaviour:
   storyNumber: {fileID: 8145699981623521754}
   interactButton: {fileID: 1517524929444612343}
   storyActive: {fileID: 21300000, guid: 84302350482830641819a5751dfcc962, type: 3}
+  storySelected: {fileID: 21300000, guid: fca90806c9a213c468fb7d623d28dacf, type: 3}
   storyNonActive: {fileID: 21300000, guid: fc6b5eb195fee4643832a3b8f9726b01, type: 3}
+  isActive: 0
 --- !u!114 &7668930592687995404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,15 +242,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
-  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1634dcfbffcd3d49abd55cc8bb44599, type: 2}
+  m_sharedMaterial: {fileID: 5837710638286381409, guid: f1634dcfbffcd3d49abd55cc8bb44599, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 2516582400
-  m_fontColor: {r: 0, g: 0, b: 0, a: 0.5882353}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -265,8 +267,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 110
-  m_fontSizeBase: 110
+  m_fontSize: 78
+  m_fontSizeBase: 78
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
