@@ -12,6 +12,9 @@ public class OnlinePage : Page
     [SerializeField] private Button createRoomButton;
     [SerializeField] private Button searchRoomButton;
 
+    [SerializeField] private string roomPassword = "123";
+    [SerializeField] private bool isRoomPrivate;
+
     protected override void Start()
     {
         base.Start();
@@ -22,14 +25,15 @@ public class OnlinePage : Page
         searchRoomButton.onClick.AddListener(() => { OpenOnlineSubPage(2); });
     }
 
-    public async void StartHost()
+    public async void JoinLobby(string joinCode)
     {
-        await HostGameManager.Instance.StartHostAsync();
+        await LobbySystemInitiator.Instance.System.JoinLobbyByCodeAsync(joinCode, roomPassword);
+        pageManager.OpenPage(PageType.OnlineRoom);
     }
 
-    public async void StartClient(string joinCode)
+    public async void LeaveLobby()
     {
-        await ClientGameManager.Instance.StartClientAsync(joinCode);
+        await LobbySystemInitiator.Instance.System.LeaveLobby();
     }
 
     private void OpenOnlineSubPage(int index)
@@ -50,6 +54,7 @@ public class OnlinePage : Page
 
     public void ClosePage()
     {
+        LeaveLobby();
         pageManager.OpenPage(PageType.MainMenu);
     }
 }

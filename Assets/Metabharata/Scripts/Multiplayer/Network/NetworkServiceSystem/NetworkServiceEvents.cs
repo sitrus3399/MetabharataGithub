@@ -1,26 +1,55 @@
-using System;
+using Metabharata.Network.Multiplayer.NetworkServiceSystem;
+using NyxMachina.Shared.EventFramework;
+using NyxMachina.Shared.EventFramework.Core.Payloads;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
 using UnityEngine;
 
-namespace Metabharata.Network.Multiplayer.NetworkServiceSystem
-{
-    /// <summary>
-    /// Handles network service-related events and authentication callbacks.
-    /// </summary>
-    public static class NetworkServiceEvents
+public static class NetworkServiceEvents
     {
         #region Events
 
-        /// <summary>
-        /// Occurs when the authentication status changes.
-        /// </summary>
-        public static event Action<NetworkServiceData.AuthenticationStatus> AuthenticationStatusChanged;
+        public class AuthenticationStatusChanged : IPayload
+        {
+            public NetworkServiceData.AuthenticationStatus Status;
 
-        /// <summary>
-        /// Occurs when Unity services are initialized.
-        /// </summary>
-        public static event Action ServicesInitialized;
+            public AuthenticationStatusChanged(NetworkServiceData.AuthenticationStatus status)
+            {
+                Status = status;
+            }
+
+            public static void Publish(AuthenticationStatusChanged payload)
+            {
+                EventMessenger.Main.Publish(payload);
+            }
+
+            public static AuthenticationStatusChanged GetState()
+            {
+                return EventMessenger.Main.GetState<AuthenticationStatusChanged>();
+            }
+        }
+
+        public class ServiceInitializedEvent : IPayload
+        {
+            public bool IsInitialized;
+            public NetworkServiceSystem System;
+
+            public ServiceInitializedEvent(bool isInitialized, NetworkServiceSystem system)
+            {
+                IsInitialized = isInitialized;
+                System = system;
+            }
+
+            public static void Publish(ServiceInitializedEvent payload)
+            {
+                EventMessenger.Main.Publish(payload);
+            }
+
+            public static ServiceInitializedEvent GetState()
+            {
+                return EventMessenger.Main.GetState<ServiceInitializedEvent>();
+            }
+        }
 
         #endregion
 
@@ -46,18 +75,6 @@ namespace Metabharata.Network.Multiplayer.NetworkServiceSystem
             AuthenticationService.Instance.SignInFailed -= OnSignInFailed;
         }
 
-        /// <summary>
-        /// Invokes the <see cref="ServicesInitialized"/> event.
-        /// </summary>
-        public static void InvokeServicesInitialized() => ServicesInitialized?.Invoke();
-
-        /// <summary>
-        /// Invokes the <see cref="AuthenticationStatusChanged"/> event with the given status.
-        /// </summary>
-        /// <param name="status">The new authentication status.</param>
-        public static void InvokeAuthStatusChanged(NetworkServiceData.AuthenticationStatus status) =>
-            AuthenticationStatusChanged?.Invoke(status);
-
         #endregion
 
         #region Private Event Handlers
@@ -65,21 +82,23 @@ namespace Metabharata.Network.Multiplayer.NetworkServiceSystem
         private static void OnSignedIn()
         {
             Debug.Log($"Signed in: {AuthenticationService.Instance.PlayerId}");
-            AuthenticationStatusChanged?.Invoke(NetworkServiceData.AuthenticationStatus.Authenticated);
+            var authenticationState = NetworkServiceData.AuthenticationStatus.Authenticated;
+            AuthenticationStatusChanged.Publish(new AuthenticationStatusChanged(authenticationState));
         }
 
         private static void OnSignedOut()
         {
             Debug.Log("Signed out");
-            AuthenticationStatusChanged?.Invoke(NetworkServiceData.AuthenticationStatus.Unauthenticated);
+            var authenticationState = NetworkServiceData.AuthenticationStatus.Unauthenticated;
+            AuthenticationStatusChanged.Publish(new AuthenticationStatusChanged(authenticationState));
         }
 
         private static void OnSignInFailed(RequestFailedException error)
         {
             Debug.LogError($"Sign in failed: {error}");
-            AuthenticationStatusChanged?.Invoke(NetworkServiceData.AuthenticationStatus.Unauthenticated);
+            var authenticationState = NetworkServiceData.AuthenticationStatus.Unauthenticated;
+            AuthenticationStatusChanged.Publish(new AuthenticationStatusChanged(authenticationState));
         }
 
         #endregion
     }
-}

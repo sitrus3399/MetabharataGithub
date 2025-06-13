@@ -41,7 +41,7 @@ namespace Metabharata.Network.Multiplayer.NetworkServiceSystem
         /// <summary>
         /// Indicates whether the network system is initialized.
         /// </summary>
-        public bool IsInitialized => _system != null && _system.IsInitialized;
+        public bool IsInitialized => _system is { IsInitialized: true };
 
         /// <summary>
         /// Gets the current authentication status.

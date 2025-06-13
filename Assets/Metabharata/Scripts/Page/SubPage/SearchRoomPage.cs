@@ -20,7 +20,7 @@ public class SearchRoomPage : MonoBehaviour
     {
         GameManager.Instance.stageType = StageType.Online;
 
-        onlinePage.StartClient(joinText.text);
+        onlinePage.JoinLobby(joinText.text);
     }
 
     void Update()

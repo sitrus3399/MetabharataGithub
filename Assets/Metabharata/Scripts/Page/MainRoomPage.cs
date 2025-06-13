@@ -1,6 +1,9 @@
+using NyxMachina.Shared.EventFramework;
 using TMPro;
+using Unity.Services.Authentication;
 using UnityEngine;
 using UnityEngine.UI;
+
 
 public class MainRoomPage : Page
 {
@@ -34,7 +37,7 @@ public class MainRoomPage : Page
     void OnClickStart()
     {
         //Check Client sudah join atau tidak
-        pageManager.OpenPage(PageType.SelectCharacterRoom);
+        //pageManager.OpenPage(PageType.SelectCharacterRoom);
     }
 
     void OnClickKick()
@@ -42,19 +45,49 @@ public class MainRoomPage : Page
         //Remove Client
     }
 
-    void OnClickBack()
+    async void OnClickBack()
     {
-        widgetManager.OpenWidget(WidgetType.ExitRoom);
+        await LobbySystemInitiator.Instance.System.LeaveLobby();
+        pageManager.OpenPage(PageType.OnlinePage);
     }
 
     protected override void OnEnable()
     {
         base.OnEnable();
+        EventMessenger.Main.Subscribe<LobbySystemEvent.LobbyChangedEvent>(OnLobbyChanged);
+        EventMessenger.Main.Subscribe<LobbySystemEvent.LobbyCreatedEvent>(OnLobbyCreated);
+    }
+
+    private void OnLobbyCreated(LobbySystemEvent.LobbyCreatedEvent obj)
+    {
+        roomCodeText.text = obj.CurrentLobby.Lobby.LobbyCode;
+        roomNameText.text = obj.CurrentLobby.Lobby.Name;
+        publicityStatusText.text = obj.CurrentLobby.LobbySetting.IsLocked ? "Private" : "Public";
+
+        //var hostNameString = LobbySystemInitiator.Instance.System.CurrentLobby.Lobby?.GetHostPlayerData()?.Profile.Name;
+        //var clientNameString = LobbySystemInitiator.Instance.System.CurrentLobby.Lobby?.GetNonHostPlayer()?.Profile.Name;
+
+        hostName.text = "Host";
+        clientName.text = "Client";
+    }
+
+    private void OnLobbyChanged(LobbySystemEvent.LobbyChangedEvent obj)
+    {
+        roomCodeText.text = obj.CurrentLobby.Lobby.LobbyCode;
+        roomNameText.text = obj.CurrentLobby.Lobby.Name;
+        publicityStatusText.text = obj.CurrentLobby.LobbySetting.IsLocked ? "Private" : "Public";
+
+        //var hostNameString = LobbySystemInitiator.Instance.System.CurrentLobby.Lobby?.GetHostPlayerData()?.Profile.Name;
+        //var clientNameString = LobbySystemInitiator.Instance.System.CurrentLobby.Lobby?.GetNonHostPlayer()?.Profile.Name;
+
+        hostName.text = "Host";
+        clientName.text = "Client";
     }
 
     protected override void OnDisable()
     {
         base.OnDisable();
+        EventMessenger.Main.Unsubscribe<LobbySystemEvent.LobbyChangedEvent>(OnLobbyChanged);
     }
 
     protected override void Update()

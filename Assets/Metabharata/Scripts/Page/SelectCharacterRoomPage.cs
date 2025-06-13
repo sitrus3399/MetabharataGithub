@@ -2,8 +2,6 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using Unity.Netcode;
-using System.Xml;
 
 public class SelectCharacterRoomPage : Page
 {
@@ -58,7 +56,7 @@ public class SelectCharacterRoomPage : Page
 
     public void InitCharacter(CharacterData tmpCharacterData)
     {
-        if (IsHost)
+        if (LobbySystemInitiator.Instance.System.IsHost)
         {
             characterImage1.sprite = tmpCharacterData.characterSprite;
             characterImage1.color = Color.white;
@@ -66,7 +64,7 @@ public class SelectCharacterRoomPage : Page
             characterAnimator1.runtimeAnimatorController = tmpCharacterData.previewAnimator;
             GameManager.Instance.characterDataFreeBattle1 = tmpCharacterData;
         }
-        else if (IsClient)
+        else if (LobbySystemInitiator.Instance.System.IsClient)
         {
             characterImage2.sprite = tmpCharacterData.characterSprite;
             characterImage2.color = Color.white;
@@ -74,34 +72,23 @@ public class SelectCharacterRoomPage : Page
             characterAnimator2.runtimeAnimatorController = tmpCharacterData.previewAnimator;
             GameManager.Instance.characterDataFreeBattle2 = tmpCharacterData;
         }
-        else // Cek tidak pakai login
-        {
-            Debug.LogWarning($"Belum masuk Server / Test Tanpa Login");
-            characterImage1.sprite = tmpCharacterData.characterSprite;
-            characterImage1.color = Color.white;
-            characterText1.text = tmpCharacterData.characterName;
-            characterAnimator1.runtimeAnimatorController = tmpCharacterData.previewAnimator;
-            GameManager.Instance.characterDataFreeBattle1 = tmpCharacterData;
-        }
     }
 
     public GameObject SelectIcon()
     {
-        if (IsClient)
+        if (LobbySystemInitiator.Instance.System.IsHost)
         {
-            return selectIconPlayer2.gameObject;
-        }
-        else if (IsHost)
-        {
-            return selectIconPlayer1.gameObject;
-        }
-        else // Cek tidak pakai login
-        {
-            Debug.LogWarning($"Belum masuk Server / Test Tanpa Login");
             return selectIconPlayer1.gameObject;
         }
 
-        return null;
+        if (LobbySystemInitiator.Instance.System.IsClient)
+        {
+            return selectIconPlayer2.gameObject;
+        }
+
+        // Cek tidak pakai login
+        Debug.LogWarning($"Belum masuk Server / Test Tanpa Login");
+        return selectIconPlayer1.gameObject;
     }
 
     void OnClickBack()
@@ -147,20 +134,6 @@ public class SelectCharacterRoomPage : Page
         selectArenaPanel.gameObject.SetActive(false);
     }
 
-    protected override void OnEnable()
-    {
-        base.OnEnable();
-    }
-
-    protected override void OnDisable()
-    {
-        base.OnDisable();
-    }
-
-    protected override void Update()
-    {
-        base.Update();
-    }
     public override void Show()
     {
         base.Show();
@@ -180,11 +153,6 @@ public class SelectCharacterRoomPage : Page
         {
             roomCards[i].Init(CharacterManager.Manager.characterDatas[i].data, CharacterManager.Manager.characterDatas[i].owned, this);
         }
-    }
-
-    public override void Hide()
-    {
-        base.Hide();
     }
 
     void EmptyCharacter1()
