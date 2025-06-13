@@ -34,6 +34,7 @@ public class GameplayManager : MonoBehaviour
     [Header("Winner")]
     [SerializeField] private CharacterBase winner;
     [SerializeField] private int winnerNumber;
+    [SerializeField] private GameObject winnerPanel;
     [SerializeField] private TMP_Text winnerNotif;
     [SerializeField] private WidgetManager widgetManager;
 
@@ -72,6 +73,8 @@ public class GameplayManager : MonoBehaviour
 
     private void Start()
     {
+        winnerPanel.gameObject.SetActive(false);
+
         roundText.text = $"Round {roundNumber}";
 
         AudioManager.Manager.PlaySFX("AudioBattle");
@@ -291,7 +294,7 @@ public class GameplayManager : MonoBehaviour
 
         AudioManager.Manager.PlaySFX("AudioBattle");
 
-        winnerNotif.gameObject.SetActive(false);
+        winnerPanel.gameObject.SetActive(false);
 
         foreach (CharacterBase character in characterOnGameplay)
         {
@@ -319,7 +322,7 @@ public class GameplayManager : MonoBehaviour
     IEnumerator InitNextRound()
     {
         gameEnd = false;
-        winnerNotif.gameObject.SetActive(true);
+        winnerPanel.gameObject.SetActive(true);
         winnerNotif.text = $"Player {winnerNumber} \n {winner.BaseData.characterName} \n WIN ";
 
         yield return new WaitForSeconds(5);
@@ -328,7 +331,7 @@ public class GameplayManager : MonoBehaviour
 
         roundText.text = $"Round {roundNumber}";
 
-        winnerNotif.gameObject.SetActive(false);
+        winnerPanel.gameObject.SetActive(false);
 
         foreach (CharacterBase character in characterOnGameplay)
         {
@@ -353,7 +356,7 @@ public class GameplayManager : MonoBehaviour
     IEnumerator InitNextStory()
     {
         gameEnd = false;
-        winnerNotif.gameObject.SetActive(true);
+        winnerPanel.gameObject.SetActive(true);
         winnerNotif.text = $"Next Story \n Story {storyNumber} \n vs {GameManager.Instance.storyDataSelected.stageList[storyNumber - 1].enemy.characterName}";
 
         yield return new WaitForSeconds(5);
@@ -362,7 +365,7 @@ public class GameplayManager : MonoBehaviour
 
         roundText.text = $"Round {roundNumber}";
 
-        winnerNotif.gameObject.SetActive(false);
+        winnerPanel.gameObject.SetActive(false);
 
         foreach (CharacterBase character in characterOnGameplay)
         {

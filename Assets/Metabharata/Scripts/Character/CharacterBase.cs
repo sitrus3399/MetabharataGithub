@@ -64,11 +64,11 @@ public class CharacterBase : NetworkBehaviour
 
     void Start()
     {
-        if (IsServer)
-        {
+        //if (IsServer)
+        //{
             currentHP.Value = maxHP;
             currentSkill.Value = 0;
-        }
+        //}
         //playerPanel = GameplayManager.Manager.GetPlayerPanel(this);
 
         if (GameManager.Instance.stageType == StageType.Online)
