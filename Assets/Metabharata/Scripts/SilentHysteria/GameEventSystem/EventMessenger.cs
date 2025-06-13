@@ -43,8 +43,16 @@ namespace NyxMachina.Shared.EventFramework
         /// <returns>Instance of the Messenger</returns>
         public IEventMessengerPublish Publish<T>(T payload) where T : IPayload
         {
-            payload.LastInvokeCount = payload.CurrentInvokeCount;
-            payload.CurrentInvokeCount++;
+            // Intentionally check for invoke state support on payloads.
+            // Some payloads may not implement IPayloadInvokeState.
+            // ReSharper disable SuspiciousTypeConversion.Global
+            if (payload is IPayloadInvokeState invokeState)
+                
+            {
+                invokeState.LastInvokeCount = invokeState.CurrentInvokeCount;
+                invokeState.CurrentInvokeCount++;
+            }
+            // ReSharper restore SuspiciousTypeConversion.Global
 
             // if calling thread is same as main thread, call "PublishInternal" directly
             if(Thread.CurrentThread.ManagedThreadId == MainThreadDispatcher.Main.ThreadId)

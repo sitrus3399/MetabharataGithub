@@ -7,25 +7,24 @@ namespace NyxMachina.Shared.EventFramework.Core.Payloads
     /// </summary>
     public interface IPayload
     {
-        public int CurrentInvokeCount { get; set; }
-        public int LastInvokeCount { get; set; }
+        
     }
 
     public static class PayloadExtension
     {
-        public static void ResetInvokeCount(this IPayload payload)
+        public static void ResetInvokeCount(this IPayloadInvokeState payload)
         {
             payload.LastInvokeCount = 0;
             payload.CurrentInvokeCount = 0;
         }
 
-        public static void SetInvokeCount(this IPayload payload, int count)
+        public static void SetInvokeCount(this IPayloadInvokeState payload, int count)
         {
             payload.LastInvokeCount = count;
             payload.CurrentInvokeCount = count;
         }
 
-        public static bool IsInvoked(this IPayload payload)
+        public static bool IsInvoked(this IPayloadInvokeState payload)
         {
             if (payload == null)
                 return false;
