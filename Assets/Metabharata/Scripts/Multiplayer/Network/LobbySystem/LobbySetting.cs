@@ -3,22 +3,30 @@ using UnityEngine;
 
 public class LobbySetting
 {
-    private int _maxPlayers;
+    private int _maxPlayers = 2;
 
     public int MaxPlayers
     {
-        get => _maxPlayers;
+        get
+        {
+            if (_maxPlayers is > 0 and < 2)
+            {
+                return _maxPlayers;
+            }
+
+            Debug.LogWarning("MaxPlayers must be between 1 and 2. Returning default value of 2.");
+            return 2; // Default value
+        }
         set
         {
             if (value is > 0 and < 2)
             {
                 _maxPlayers = value;
+                return;
             }
-            else
-            {
-                Debug.LogWarning("MaxPlayers must be between 1 and 2. Setting to default value of 2.");
-                _maxPlayers = 2; // Default value
-            }
+
+            Debug.LogWarning("MaxPlayers must be between 1 and 2. Setting to default value of 2.");
+            _maxPlayers = 2; // Default value
         }
     }
 

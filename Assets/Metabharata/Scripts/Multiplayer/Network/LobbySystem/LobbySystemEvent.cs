@@ -22,7 +22,6 @@ public class LobbySystemEvent
         {
             EventMessenger.Main.Publish(payload);
         }
-
         public static LobbyChangedEvent GetState()
         {
             return EventMessenger.Main.GetState<LobbyChangedEvent>();
