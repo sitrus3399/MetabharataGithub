@@ -4,6 +4,8 @@ using Unity.Netcode;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
 using UnityEngine;
+using AuthenticationStatusChanged = NetworkServiceEvents.AuthenticationStatusChanged;
+using ServiceInitializedEvent = NetworkServiceEvents.ServiceInitializedEvent;
 
 // ReSharper disable once CheckNamespace
 namespace Metabharata.Network.Multiplayer.NetworkServiceSystem
@@ -13,6 +15,8 @@ namespace Metabharata.Network.Multiplayer.NetworkServiceSystem
     /// </summary>
     public class NetworkServiceSystem
     {
+        public static Action OnInitializationFinished;
+
         #region Fields & Properties
 
         /// <summary>
@@ -46,11 +50,7 @@ namespace Metabharata.Network.Multiplayer.NetworkServiceSystem
 
         public NetworkServiceSystem(NetworkManager networkManagerPrefab)
         {
-            this.NetworkManagerPrefab = networkManagerPrefab;
-
-            // Ensure no duplicate subscriptions
-            NetworkServiceEvents.AuthenticationStatusChanged -= SetAuthenticationStatus;
-            NetworkServiceEvents.AuthenticationStatusChanged += SetAuthenticationStatus;
+            NetworkManagerPrefab = networkManagerPrefab;
         }
 
         #endregion
@@ -62,11 +62,11 @@ namespace Metabharata.Network.Multiplayer.NetworkServiceSystem
         /// </summary>
         public async Task InitializeSystemAsync()
         {
-            if (this.IsInitializing || this.IsInitialized ||
-                this.CurrentAuthStatus == NetworkServiceData.AuthenticationStatus.Authenticating)
+            if (IsInitializing || IsInitialized ||
+                CurrentAuthStatus == NetworkServiceData.AuthenticationStatus.Authenticating)
                 return;
 
-            this.IsInitializing = true;
+            IsInitializing = true;
 
             try
             {
@@ -74,7 +74,7 @@ namespace Metabharata.Network.Multiplayer.NetworkServiceSystem
                 if (UnityServices.State == ServicesInitializationState.Uninitialized)
                     await UnityServices.InitializeAsync();
 
-                NetworkServiceEvents.InvokeServicesInitialized();
+                ServiceInitializedEvent.Publish(new ServiceInitializedEvent(true, this));
 
                 // Unregister and re-register authentication event handlers to avoid duplicates
                 NetworkServiceEvents.UnregisterAuthEventHandlers();
@@ -87,30 +87,26 @@ namespace Metabharata.Network.Multiplayer.NetworkServiceSystem
                 if (!AuthenticationService.Instance.IsAuthorized && AuthenticationService.Instance.AccessToken == null)
                     await TryLoginGuest();
 
-                // Update authentication status based on sign-in result
-                if (AuthenticationService.Instance.IsSignedIn && AuthenticationService.Instance.IsAuthorized)
-                    SetAuthenticationStatus(NetworkServiceData.AuthenticationStatus.Authenticated);
-                else
-                    SetAuthenticationStatus(NetworkServiceData.AuthenticationStatus.Unauthenticated);
-
                 // Instantiate and persist the NetworkManager if needed
-                if (this.NetworkManagerInstance == null)
+                if (NetworkManagerInstance == null)
                 {
-                    this.NetworkManagerInstance = UnityEngine.Object.Instantiate(this.NetworkManagerPrefab);
-                    this.NetworkManagerInstance.SetSingleton();
-                    UnityEngine.Object.DontDestroyOnLoad(this.NetworkManagerInstance);
+                    NetworkManagerInstance = UnityEngine.Object.Instantiate(NetworkManagerPrefab);
+                    NetworkManagerInstance.SetSingleton();
+                    UnityEngine.Object.DontDestroyOnLoad(NetworkManagerInstance);
                 }
 
-                this.IsInitialized = true;
+                IsInitialized = true;
             }
             catch (Exception ex)
             {
-                Debug.LogError($"NetworkServiceSystem initialization failed: {ex}");
-                this.IsInitialized = false;
+                Debug.LogError($"NetworkServiceSystem initialization failed...\n" +
+                               $"Log: {ex}");
+                IsInitialized = false;
             }
             finally
             {
-                this.IsInitializing = false;
+                IsInitializing = false;
+                OnInitializationFinished?.Invoke();
             }
         }
 
@@ -150,11 +146,11 @@ namespace Metabharata.Network.Multiplayer.NetworkServiceSystem
         /// </summary>
         private void SetAuthenticationStatus(NetworkServiceData.AuthenticationStatus status)
         {
-            if (this.CurrentAuthStatus == status)
+            if (CurrentAuthStatus == status)
                 return;
 
-            this.CurrentAuthStatus = status;
-            NetworkServiceEvents.InvokeAuthStatusChanged(status);
+            CurrentAuthStatus = status;
+            AuthenticationStatusChanged.Publish(new AuthenticationStatusChanged(status));
         }
 
         #endregion
@@ -166,8 +162,8 @@ namespace Metabharata.Network.Multiplayer.NetworkServiceSystem
         /// </summary>
         public bool IsSystemReady()
         {
-            return this.IsInitialized &&
-                   this.CurrentAuthStatus == NetworkServiceData.AuthenticationStatus.Authenticated;
+            return IsInitialized &&
+                   CurrentAuthStatus == NetworkServiceData.AuthenticationStatus.Authenticated;
         }
 
         #endregion

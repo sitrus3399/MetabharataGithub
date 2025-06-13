@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Metabharata.Network.Multiplayer.NetworkServiceSystem;
+using NyxMachina.Shared.EventFramework;
+using NyxMachina.Shared.EventFramework.Core.Messenger;
+using NyxMachina.Shared.EventFramework.Core.Payloads;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
 using Unity.Services.Authentication;
@@ -13,11 +16,6 @@ using UnityEngine;
 
 public class LobbySystem
 {
-    public static Action OnLobbyChanged;
-    public static Action OnLobbyCreated;
-    public static Action OnPlayerJoined;
-    public static Action OnPlayerLeft;
-
     /// <summary>
     /// Indicates if the system is currently initializing.
     /// </summary>
@@ -45,6 +43,16 @@ public class LobbySystem
             if (!NetworkServiceInitiator.Instance.IsInitialized)
                 return string.Empty;
             return AuthenticationService.Instance.PlayerId;
+        }
+    }
+
+    public string CurrentPlayerName
+    {
+        get
+        {
+            if (!NetworkServiceInitiator.Instance.IsInitialized)
+                return string.Empty;
+            return AuthenticationService.Instance.PlayerName;
         }
     }
 
@@ -100,12 +108,6 @@ public class LobbySystem
         IsInitializing = false;
         _userInputPassword = null;
 
-        // Optionally, clear event subscriptions if needed
-        OnLobbyChanged = null;
-        OnLobbyCreated = null;
-        OnPlayerJoined = null;
-        OnPlayerLeft = null;
-
         Debug.Log("Lobby system shutdown complete.");
     }
 
@@ -150,7 +152,7 @@ public class LobbySystem
 
             CurrentLobby = new LobbyWrapper(lobby);
 
-            OnLobbyCreated?.Invoke();
+            LobbySystemEvent.LobbyCreatedEvent.Publish(new LobbySystemEvent.LobbyCreatedEvent(CurrentLobby, CurrentJoinAllocation));
 
             // Start host
             if (NetworkManager.Singleton.StartHost())
@@ -192,6 +194,8 @@ public class LobbySystem
 
         await LobbyService.Instance.SubscribeToLobbyEventsAsync(CurrentLobby.Id, _lobbyEvent);
         await StartClientAsync(CurrentLobby.RelayJoinCode);
+
+        LobbySystemEvent.PlayerJoinedEvent.Publish(new LobbySystemEvent.PlayerJoinedEvent(CurrentPlayerId, CurrentPlayerName));
     }
 
     public async Task JoinLobbyByCodeAsync(string joinCode, string password = "")
@@ -215,6 +219,8 @@ public class LobbySystem
 
         await LobbyService.Instance.SubscribeToLobbyEventsAsync(CurrentLobby.Id, _lobbyEvent);
         await StartClientAsync(CurrentLobby.RelayJoinCode);
+
+        LobbySystemEvent.PlayerJoinedEvent.Publish(new LobbySystemEvent.PlayerJoinedEvent(CurrentPlayerId, CurrentPlayerName));
     }
 
     public async Task StartClientAsync(string joinCode)
@@ -296,7 +302,7 @@ public class LobbySystem
             CurrentJoinAllocation = null;
 
             // Raise event
-            OnPlayerLeft?.Invoke();
+            LobbySystemEvent.PlayerLeftEvent.Publish(new LobbySystemEvent.PlayerLeftEvent(CurrentPlayerId, AuthenticationService.Instance.PlayerName));
 
             Debug.Log("Left the lobby successfully.");
         }
@@ -346,7 +352,7 @@ public class LobbySystem
 
             // Notify listeners
             LobbyWrapper.OnSettingChanged?.Invoke(setting);
-            OnLobbyChanged?.Invoke();
+            LobbySystemEvent.LobbyChangedEvent.Publish(new LobbySystemEvent.LobbyChangedEvent(CurrentLobby, CurrentJoinAllocation, IsHost, IsClient));
 
             Debug.Log("Lobby settings updated successfully.");
         }
@@ -408,7 +414,7 @@ public class LobbySystem
             await LobbyService.Instance.UpdatePlayerAsync(CurrentLobby.Id, CurrentPlayerId, options);
 
             Debug.Log($"Set ready status to {isReady} for player {CurrentPlayerId}.");
-            OnLobbyChanged?.Invoke();
+            LobbySystemEvent.LobbyChangedEvent.Publish(new LobbySystemEvent.LobbyChangedEvent(CurrentLobby, CurrentJoinAllocation, IsHost, IsClient));
         }
         catch (Exception e)
         {
@@ -452,7 +458,7 @@ public class LobbySystem
             // Optionally, trigger a local event or call game manager logic here
             // HostGameManager.Instance.StartGame(); // Uncomment if you have such logic
 
-            OnLobbyChanged?.Invoke();
+            LobbySystemEvent.LobbyChangedEvent.Publish(new LobbySystemEvent.LobbyChangedEvent(CurrentLobby, CurrentJoinAllocation, IsHost, IsClient));
         }
         catch (Exception e)
         {
@@ -495,5 +501,15 @@ public class LobbySystem
     public bool IsSystemReady()
     {
         return IsInitialized;
+    }
+}
+
+public struct JoinPasswordMessage : INetworkSerializable
+{
+    public string Password;
+
+    public void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter
+    {
+        serializer.SerializeValue(ref Password);
     }
 }
