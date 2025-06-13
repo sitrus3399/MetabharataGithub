@@ -5,6 +5,21 @@ public class PageManager : MonoBehaviour
 {
     [SerializeField] private List<Page> pages;
 
+    public static PageManager Instance { get; private set; }
+    private void Awake()
+    {
+        // If there is an instance, and it's not me, delete myself.
+
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
     public void OpenPage(PageType tmpType)
     {
         foreach (Page page in pages)
@@ -31,5 +46,6 @@ public enum PageType
     Almanak,
     OnlinePage,
     MainRoom,
-    SelectCharacterRoom
+    SelectCharacterRoom,
+    OnlineRoom
 }

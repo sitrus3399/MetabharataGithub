@@ -21,7 +21,7 @@ public class HostGameManager : MonoBehaviour
 
     private Allocation allocation;
     private string joinCode;
-    private Lobby currentLobby;
+    public Lobby currentLobby;
 
     private const int maxConnections = 1;
     [SerializeField] private string gameSceneName = "GamePlay";
@@ -36,6 +36,9 @@ public class HostGameManager : MonoBehaviour
     private CancellationTokenSource lobbyPollTokenSource;
     private string lastLobbyPlayerIds = "";
     private HashSet<string> lastLobbyPlayerIdSet = new HashSet<string>();
+
+    // Add a field to store the password (optional, for reference)
+    private string lobbyPassword;
 
     #endregion
 
@@ -55,7 +58,7 @@ public class HostGameManager : MonoBehaviour
 
     private void Update()
     {
-        if (NetworkManager.Singleton is {IsHost: true})
+        if (NetworkManager.Singleton is { IsHost: true })
         {
             float timeSinceStart = Time.time - hostStartTime;
             // Debug.Log($"[HOST] Running for {timeSinceStart} seconds");
@@ -66,22 +69,23 @@ public class HostGameManager : MonoBehaviour
 
     #region Host Start Logic
 
-    public async Task StartHostAsync()
+    // Add a new method overload to accept a password
+    public async Task StartHostAsync(string password = null)
     {
+        lobbyPassword = password;
         hostRetryCount = 0;
-        await TryStartHostAsync();
+        await TryStartHostAsync(password);
     }
 
-    private async Task TryStartHostAsync()
+    // Update TryStartHostAsync to accept the password
+    private async Task TryStartHostAsync(string password = null)
     {
         await WaitForNetworkServiceInitialization();
 
         try
         {
-            // Allocate relay with maxConnections
             allocation = await RelayService.Instance.CreateAllocationAsync(maxConnections);
 
-            // Set relay server data using the new RelayServerData object
             var relayServerData = allocation.ToRelayServerData("dtls");
             UnityTransport transport = NetworkManager.Singleton.GetComponent<UnityTransport>();
             if (transport == null)
@@ -90,33 +94,46 @@ public class HostGameManager : MonoBehaviour
                 return;
             }
 
-            // Subscribe to transport failure event (unsubscribe first to avoid duplicates)
             transport.OnTransportEvent -= OnTransportEvent;
             transport.OnTransportEvent += OnTransportEvent;
 
             transport.SetRelayServerData(relayServerData);
 
-            // Get join code and update lobby if needed
             joinCode = await RelayService.Instance.GetJoinCodeAsync(allocation.AllocationId);
             GameManager.Instance.joinCode = joinCode;
             Debug.Log($"Join code: {joinCode}");
 
-            // Example: Update lobby with join code if you have a lobby system
-            if (currentLobby != null)
+            // Create lobby with password option
+            var lobbyOptions = new CreateLobbyOptions
             {
-                currentLobby.Data["relay"] = new DataObject(DataObject.VisibilityOptions.Public, joinCode, 0);
-                await LobbyService.Instance.UpdateLobbyAsync(currentLobby.Id, new UpdateLobbyOptions()
-                {
-                    Data = currentLobby.Data
-                });
+                IsPrivate = false,
+                Data = new Dictionary<string, DataObject>
+            {
+                { "relay", new DataObject(DataObject.VisibilityOptions.Public, joinCode) }
             }
+            };
+
+            if (!string.IsNullOrEmpty(password))
+            {
+                // Store the password with private visibility
+                lobbyOptions.Data.Add("password", new DataObject(DataObject.VisibilityOptions.Private, password));
+                // Set a public flag indicating the lobby is password protected
+                lobbyOptions.Data.Add("hasPassword", new DataObject(DataObject.VisibilityOptions.Public, "true"));
+            }
+            else
+            {
+                // Explicitly set hasPassword to false if no password is provided
+                lobbyOptions.Data.Add("hasPassword", new DataObject(DataObject.VisibilityOptions.Public, "false"));
+            }
+
+            currentLobby = await LobbyService.Instance.CreateLobbyAsync("MyLobby", maxConnections + 1, lobbyOptions);
+            Debug.Log($"Created lobby with Join Code: {currentLobby.LobbyCode}");
 
             if (NetworkManager.Singleton.StartHost())
             {
+                RegisterPasswordCheckHandler();
                 Debug.Log("Host started successfully.");
                 hostStartTime = Time.time;
-
-                // Load the GamePlay scene as host
                 NetworkManager.Singleton.SceneManager.LoadScene(gameSceneName, UnityEngine.SceneManagement.LoadSceneMode.Single);
             }
             else
@@ -130,6 +147,11 @@ public class HostGameManager : MonoBehaviour
             Debug.LogError($"Host start error: {ex}");
             await RetryStartHostAsync();
         }
+    }
+
+    private void RegisterPasswordCheckHandler()
+    {
+        //NetworkManager.Singleton.CustomMessagingManager.RegisterNamedMessageHandler("CheckJoinPassword", OnCheckJoinPassword);
     }
 
     private async Task WaitForNetworkServiceInitialization()
@@ -151,6 +173,7 @@ public class HostGameManager : MonoBehaviour
         }
     }
 
+    // Update RetryStartHostAsync to pass the password
     private async Task RetryStartHostAsync()
     {
         hostRetryCount++;
@@ -158,12 +181,11 @@ public class HostGameManager : MonoBehaviour
         {
             Debug.LogWarning($"Retrying to start host... Attempt {hostRetryCount}/{maxHostRetries}");
             await Task.Delay(TimeSpan.FromSeconds(retryDelaySeconds));
-            await TryStartHostAsync();
+            await TryStartHostAsync(lobbyPassword);
         }
         else
         {
             Debug.LogError("Max host start retries reached. Could not start host.");
-            // Optionally notify user or take further action
         }
     }
 
@@ -185,7 +207,7 @@ public class HostGameManager : MonoBehaviour
 
     #region Platform Detection
 
-    public static bool isMobilePlatform()
+    public static bool IsMobilePlatform()
     {
         // Runtime platform detection
         return Application.isMobilePlatform || IsRunningOnMobile();

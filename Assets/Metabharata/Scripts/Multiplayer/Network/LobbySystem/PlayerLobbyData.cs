@@ -7,7 +7,7 @@ public class PlayerLobbyData
 
     public string PlayerId { get; set; }
     public string PlayerName { get; set; }
-    public string PlayerAvatar { get; set; }
+    public Sprite PlayerAvatar { get; set; }
     public bool IsReady { get; set; }
     public bool IsHost { get; set; }
 }

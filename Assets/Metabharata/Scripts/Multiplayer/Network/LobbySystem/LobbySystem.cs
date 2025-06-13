@@ -52,7 +52,7 @@ public class LobbySystem
         {
             if (!NetworkServiceInitiator.Instance.IsInitialized)
                 return string.Empty;
-            return AuthenticationService.Instance.PlayerName;
+            return AuthenticationService.Instance?.PlayerName;
         }
     }
 
@@ -132,6 +132,20 @@ public class LobbySystem
             var allocation = await RelayService.Instance.CreateAllocationAsync(setting.MaxPlayers);
             var relayJoinCode = await RelayService.Instance.GetJoinCodeAsync(allocation.AllocationId);
 
+            //var playerLobbyDataList = new List<PlayerLobbyData>()
+            //{
+            //    // Initialize host player data
+            //    new()
+            //    {
+            //        PlayerId = CurrentPlayerId,
+            //        PlayerName = CurrentPlayerName,
+            //        IsReady = false, // Default to not ready
+            //        IsHost = true
+            //    }
+            //};
+
+            //var playerLobbyJson = playerLobbyDataList.ToJson();
+
             var data = new Dictionary<string, DataObject>
             {
                 { LobbyWrapper.RelayJoinCodeKey, new DataObject(DataObject.VisibilityOptions.Member, relayJoinCode) },
@@ -140,12 +154,17 @@ public class LobbySystem
                 { LobbyWrapper.IsLockedKey, new DataObject(DataObject.VisibilityOptions.Public, setting.IsLocked.ToString()) },
                 { LobbyWrapper.PasswordKey, new DataObject(DataObject.VisibilityOptions.Private, setting.Password) },
                 { LobbyWrapper.GameModeKey, new DataObject(DataObject.VisibilityOptions.Public, setting.GameMode) },
-                { LobbyWrapper.MapKey, new DataObject(DataObject.VisibilityOptions.Public, setting.Map) }
+                { LobbyWrapper.MapKey, new DataObject(DataObject.VisibilityOptions.Public, setting.Map) },
+                //{ LobbyWrapper.PlayerLobbyDataKey, new DataObject(DataObject.VisibilityOptions.Public, playerLobbyJson) } // Initialize empty player data}
             };
 
             var lobbyOptions = new CreateLobbyOptions
             {
-                Data = data
+                Data = data,
+                //Player =
+                //{
+                //    Profile = new PlayerProfile(CurrentPlayerName)
+                //}
             };
 
             var lobby = await LobbyService.Instance.CreateLobbyAsync(setting.LobbyName, setting.MaxPlayers, lobbyOptions);
@@ -181,6 +200,10 @@ public class LobbySystem
             return;
         }
         _userInputPassword = password;
+        //var joinLobbyOptions = new JoinLobbyByIdOptions()
+        //{
+        //    Player = new Player(CurrentPlayerId, null, null, null, DateTime.Now, DateTime.Now, new PlayerProfile(CurrentPlayerName))
+        //};
         try
         {
             CurrentLobby = await LobbyService.Instance.JoinLobbyByIdAsync(lobbyId);
@@ -206,6 +229,12 @@ public class LobbySystem
             return;
         }
         _userInputPassword = password;
+
+        //var joinLobbyOptions = new JoinLobbyByCodeOptions()
+        //{
+        //    Player = new Player(CurrentPlayerId, null, null, null, DateTime.Now, DateTime.Now, new PlayerProfile(CurrentPlayerName))
+        //};
+
         try
         {
             CurrentLobby = await LobbyService.Instance.JoinLobbyByCodeAsync(joinCode);

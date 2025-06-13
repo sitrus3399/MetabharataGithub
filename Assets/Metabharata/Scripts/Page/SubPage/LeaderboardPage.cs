@@ -1,18 +1,11 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class LeaderboardPage : MonoBehaviour
 {
-    [SerializeField] private OnlinePage onlinePage;
     [SerializeField] private LeaderboardCard leaderboardCard;
     [SerializeField] private List<LeaderboardCard> leaderboardCardList;
     [SerializeField] private Transform leaderboardCardLocation;
-
-    private void Start()
-    {
-        
-    }
 
     public void CreadeListCard()
     {
@@ -26,7 +19,7 @@ public class LeaderboardPage : MonoBehaviour
         for (int i = 0; i < 6; i++)
         {
             LeaderboardCard newCard = Instantiate(leaderboardCard, leaderboardCardLocation);
-
+            newCard.gameObject.SetActive(true);
             leaderboardCardList.Add(newCard);
         }
     }

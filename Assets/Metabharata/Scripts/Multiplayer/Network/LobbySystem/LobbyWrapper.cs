@@ -11,6 +11,8 @@ public class LobbyWrapper
     public static readonly string PasswordKey = "LobbyPassword";
     public static readonly string GameModeKey = "GameMode";
     public static readonly string MapKey = "Map";
+    public static readonly string PlayerLobbyDataKey = "PlayerLobbyDataList";
+
 
     public static Action<LobbySetting> OnSettingChanged;
 
@@ -28,6 +30,8 @@ public class LobbyWrapper
             OnSettingChanged?.Invoke(_lobbySetting);
         }
     }
+
+    //public List<PlayerLobbyData> PlayerLobbyDataList = new();
 
     public string RelayJoinCode => Lobby?.Data[RelayJoinCodeKey]?.Value;
     public string Id => Lobby?.Id;
@@ -70,3 +74,63 @@ public class LobbyWrapper
     }
 }
 
+public static class LobbyWrapperExtension
+{
+    public static Player GetHostPlayerData(this Lobby lobby)
+    {
+        // Get the host player by comparing HostId with Player.Id in Lobby's Players list
+        if (lobby?.HostId == null || lobby.Players == null)
+            return null;
+        foreach (var player in lobby.Players)
+        {
+            if (player.Id == lobby.HostId)
+            {
+                return player;
+            }
+        }
+        return null;
+    }
+
+    public static Player GetNonHostPlayer(this Lobby lobby)
+    {
+        // Get the first player that is not the host
+        if (lobby?.Players == null || lobby.Players.Count < 2)
+            return null;
+        foreach (var player in lobby.Players)
+        {
+            if (player.Id != lobby.HostId)
+            {
+                return player;
+            }
+        }
+        return null;
+    }
+
+    public static Player GetPlayerById(this Lobby lobby, string playerId)
+    {
+        // Get the player by their ID
+        if (lobby?.Players == null)
+            return null;
+        foreach (var player in lobby.Players)
+        {
+            if (player.Id == playerId)
+            {
+                return player;
+            }
+        }
+        return null;
+    }
+
+    //public static string ToJson(this List<PlayerLobbyData> target)
+    //{
+    //    var json = Newtonsoft.Json.JsonConvert.SerializeObject(target);
+    //    return json;
+    //}
+
+    //public static List<PlayerLobbyData> FromJson(this string json)
+    //{
+    //    if (string.IsNullOrEmpty(json)) return new List<PlayerLobbyData>();
+    //    var data = Newtonsoft.Json.JsonConvert.DeserializeObject<List<PlayerLobbyData>>(json);
+    //    return data ?? new List<PlayerLobbyData>();
+    //}
+}

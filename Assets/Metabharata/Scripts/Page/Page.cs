@@ -1,7 +1,7 @@
 using Unity.Netcode;
 using UnityEngine;
 
-public class Page : NetworkBehaviour
+public class Page : MonoBehaviour
 {
     public PageType type;
     public Vector3 pointShow;
