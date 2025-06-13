@@ -33,7 +33,7 @@ public class MainPage : Page
 
         indexStartGame = 0;
         modeGameText.text = modeGameName[indexStartGame];
-
+        accountButton.onClick.AddListener(() => { OpenAccount(); });
         academyButton.onClick.AddListener(() => { pageManager.OpenPage(PageType.Academy); });
         almanacButton.onClick.AddListener(() => { pageManager.OpenPage(PageType.Almanak); });
         settingsButton.onClick.AddListener(() => { widgetManager.OpenWidget(WidgetType.Setting); });
@@ -64,6 +64,11 @@ public class MainPage : Page
             default:
                 break;
         }
+    }
+
+    void OpenAccount()
+    {
+        widgetManager.OpenWidget(WidgetType.ChangeAccount);
     }
 
     void NextFunction()

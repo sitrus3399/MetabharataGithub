@@ -12,6 +12,7 @@ public class StoryModePage : Page
     [SerializeField] private TMP_Text enemyBossName;
     [SerializeField] private TMP_Text enemyBossQuotes;
     [SerializeField] private Image storyIcon;
+    [SerializeField] private TMP_Text storySelectedNumber;
     [SerializeField] private TMP_Text storyTitle;
     [SerializeField] private TMP_Text storyDescription;
     [SerializeField] private SelectStoryCard prefabSelectStoryCard;
@@ -36,7 +37,7 @@ public class StoryModePage : Page
 
         if (prefabSelectStoryCardList.Count > 0)
         {
-            InitData(prefabSelectStoryCardList[0].StoryData);
+            InitData(prefabSelectStoryCardList[0].StoryData, prefabSelectStoryCardList[0]);
             GameManager.Instance.SelectStoryData(prefabSelectStoryCardList[0].StoryData);
         }
     }
@@ -48,7 +49,7 @@ public class StoryModePage : Page
         SceneManager.LoadScene("GamePlay");
     }
 
-    public void InitData(StoryData tmpStoryData)
+    public void InitData(StoryData tmpStoryData, SelectStoryCard selectedCard)
     {
         selectedStoryData = tmpStoryData;
         enemyBossImage.sprite = tmpStoryData.enemyBossData.characterSprite;
@@ -57,6 +58,20 @@ public class StoryModePage : Page
         storyIcon.sprite = tmpStoryData.storyIcon;
         storyTitle.text = tmpStoryData.storyName;
         storyDescription.text = tmpStoryData.storyDescription;
+        storySelectedNumber.text = selectedCard.StoryData.storyNumber.ToString();
+
+        foreach (SelectStoryCard card in prefabSelectStoryCardList)
+        {
+            if (card.isActive)
+            {
+                card.SetDeselected();
+            }
+
+            if (card == selectedCard)
+            {
+                card.SetSelected();
+            }
+        }
     }
 
     protected override void OnEnable()
@@ -86,6 +101,8 @@ public class StoryModePage : Page
         {
             prefabSelectStoryCardList[i].SetUnlock();
         }
+
+        InitData(prefabSelectStoryCardList[0].StoryData, prefabSelectStoryCardList[0]);
     }
 
     public override void Hide()
