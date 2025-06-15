@@ -9,7 +9,7 @@ public class LobbySetting
     {
         get
         {
-            if (_maxPlayers is > 0 and < 2)
+            if (_maxPlayers is > 0 and < 3)
             {
                 return _maxPlayers;
             }
@@ -19,7 +19,7 @@ public class LobbySetting
         }
         set
         {
-            if (value is > 0 and < 2)
+            if (value is > 0 and < 3)
             {
                 _maxPlayers = value;
                 return;

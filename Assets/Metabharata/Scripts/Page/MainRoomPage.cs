@@ -73,6 +73,7 @@ public class MainRoomPage : Page
 
     private void OnLobbyChanged(LobbySystemEvent.LobbyChangedEvent obj)
     {
+        if (obj.CurrentLobby == null) return;
         roomCodeText.text = obj.CurrentLobby.Lobby.LobbyCode;
         roomNameText.text = obj.CurrentLobby.Lobby.Name;
         publicityStatusText.text = obj.CurrentLobby.LobbySetting.IsLocked ? "Private" : "Public";

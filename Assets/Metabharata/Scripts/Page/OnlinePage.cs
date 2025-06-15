@@ -13,6 +13,7 @@ public class OnlinePage : Page
     [SerializeField] private Button searchRoomButton;
 
     [SerializeField] private string roomPassword = "123";
+    public string RoomPassword => roomPassword;
     [SerializeField] private bool isRoomPrivate;
 
     protected override void Start()

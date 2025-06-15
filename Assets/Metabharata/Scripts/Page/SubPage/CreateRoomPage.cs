@@ -39,6 +39,7 @@ public class CreateRoomPage : MonoBehaviour
         GameManager.Instance.stageType = StageType.Online;
         GameManager.Instance.nameRoom = nameRoom.text;
         _lobbySetting.LobbyName = nameRoom.text;
+        _lobbySetting.Password = _lobbySetting.IsLocked ? onlinePage.RoomPassword : string.Empty;
         CreateLobby();
     }
 

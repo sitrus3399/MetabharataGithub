@@ -1,4 +1,7 @@
 using System;
+using System.Threading.Tasks;
+using Metabharata.Network.Multiplayer.NetworkServiceSystem;
+using NyxMachina.Shared.EventFramework;
 using UnityEngine;
 
 public class LobbySystemInitiator : MonoBehaviour
@@ -24,6 +27,15 @@ public class LobbySystemInitiator : MonoBehaviour
 
         Instance = this;
         _system = new LobbySystem();
+
+        EventMessenger.Main.Subscribe<NetworkServiceEvents.ServiceInitializedEvent>(OnServiceInitialized);
+
+        if (NetworkServiceInitiator.Instance.IsInitialized)
+            _system.InitializeSystem();
+    }
+
+    private async void OnServiceInitialized(NetworkServiceEvents.ServiceInitializedEvent evt)
+    {
         _system.InitializeSystem();
     }
 
