@@ -443,7 +443,14 @@ public class GameplayManager : MonoBehaviour
 
         rewardText.text = $"{reward}";
 
-        widgetManager.OpenWidget(WidgetType.EndGame);
+        if (GameManager.Instance.stageType == StageType.FreeBattle || GameManager.Instance.stageType == StageType.Story)
+        {
+            widgetManager.OpenWidget(WidgetType.EndGame);
+        }
+        else if (GameManager.Instance.stageType == StageType.Online)
+        {
+            widgetManager.OpenWidget(WidgetType.EndGameOnline);
+        }
     }
 
     public void PlaySpecialSkillVideo(VideoClip videoClip)

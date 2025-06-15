@@ -32,5 +32,6 @@ public enum WidgetType
     ConfirmBuy,
     PinRoom,
     ExitRoom,
-    ChangeAccount
+    ChangeAccount,
+    EndGameOnline
 }

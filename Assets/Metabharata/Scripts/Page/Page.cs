@@ -22,6 +22,11 @@ public class Page : MonoBehaviour
         {
             pageManager = GetComponentInParent<PageManager>();
         }
+
+        if (pageManager == null)
+        {
+            pageManager = PageManager.Instance;
+        }
     }
 
     protected virtual void OnEnable()
