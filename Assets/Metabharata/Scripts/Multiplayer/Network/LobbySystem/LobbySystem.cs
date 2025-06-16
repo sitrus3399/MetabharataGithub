@@ -1,14 +1,10 @@
+using Metabharata.Multiplayer.Network.LobbySystem;
+using Metabharata.Network.Multiplayer.NetworkServiceSystem;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Metabharata.Multiplayer.Network.LobbySystem;
-using Metabharata.Network.Multiplayer.NetworkServiceSystem;
-using NyxMachina.Shared.EventFramework;
-using NyxMachina.Shared.EventFramework.Core.Messenger;
-using NyxMachina.Shared.EventFramework.Core.Payloads;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
-using Unity.Networking.Transport.Relay;
 using Unity.Services.Authentication;
 using Unity.Services.Lobbies;
 using Unity.Services.Lobbies.Models;
@@ -22,14 +18,38 @@ public class LobbySystem
 
     public bool IsInitializing { get; set; }
     public bool IsInitialized { get; set; }
-    public List<LobbyWrapper> LobbyList { get; set; }
-    public LobbyWrapper CurrentLobby { get; set; }
-    public JoinAllocation CurrentJoinAllocation { get; set; }
-    public Player CurrentPlayerData;
+
+    public LobbyWrapper CurrentLobby
+    {
+        get => _lobbyContext.CurrentLobby;
+        set => _lobbyContext.SetCurrentLobby(value);
+    }
+    public List<LobbyWrapper> LobbyList
+    {
+        get => _lobbyContext.LobbyList;
+        set => _lobbyContext.SetLobbyList(value);
+    }
+    public Player CurrentPlayerData
+    {
+        get => _lobbyContext.CurrentPlayerData;
+        set => _lobbyContext.CurrentPlayerData = value;
+    }
+    public JoinAllocation CurrentJoinAllocation
+    {
+        get => _lobbyContext.CurrentJoinAllocation;
+        set => _lobbyContext.CurrentJoinAllocation = value;
+    }
 
     private readonly LobbyEventCallbacks _lobbyEventCallback = new();
     private ILobbyEvents _lobbyEvent;
-    private string _userInputPassword;
+
+    private LobbyEventManager _eventManager;
+    private LobbyMessageHandler _messageHandler;
+    private LobbyDataSyncService _lobbyDataSyncService;
+    private readonly LobbyContext _lobbyContext = new();
+    private LobbyPlayerManager _playerManager;
+    private NetworkRelaySetupService _networkRelaySetupService;
+    internal readonly LobbyPasswordHandler _passwordHandler = new();
 
     public string CurrentPlayerId =>
         NetworkServiceInitiator.Instance.IsInitialized ? AuthenticationService.Instance.PlayerId : string.Empty;
@@ -65,9 +85,14 @@ public class LobbySystem
         IsInitialized = true;
         IsInitializing = false;
 
-        AddLobbyEventListener();
+        _eventManager = new LobbyEventManager(this, _lobbyEventCallback);
+        _eventManager.AddLobbyEventListener();
 
-        EventMessenger.Main.Subscribe<LobbySystemEvent.PlayerJoinedEvent>(OnPlayerJoinedEvent);
+        _messageHandler = new LobbyMessageHandler(this);
+        _lobbyDataSyncService = new LobbyDataSyncService(NetworkManager.Singleton);
+        _playerManager = new LobbyPlayerManager(this, _messageHandler);
+        _networkRelaySetupService = new NetworkRelaySetupService(NetworkManager.Singleton, _messageHandler);
+
         Debug.Log("Lobby system initialized.");
     }
 
@@ -93,9 +118,9 @@ public class LobbySystem
         LobbyList = null;
         IsInitialized = false;
         IsInitializing = false;
-        _userInputPassword = null;
+        _passwordHandler.ClearUserInputPassword();
 
-        RemoveLobbyEventListener();
+        _eventManager?.RemoveLobbyEventListener();
 
         Debug.Log("Lobby system shutdown complete.");
     }
@@ -114,20 +139,11 @@ public class LobbySystem
 
         try
         {
-            var allocation = await RelayService.Instance.CreateAllocationAsync(setting.MaxPlayers);
-            var relayJoinCode = await RelayService.Instance.GetJoinCodeAsync(allocation.AllocationId);
-            var relayServerData = allocation.ToRelayServerData("dtls");
-
-            NetworkManager.Singleton.GetComponent<UnityTransport>().SetRelayServerData(relayServerData);
-
-            NetworkManager.Singleton.OnConnectionEvent -= HandleOnConnectionEvent;
-            NetworkManager.Singleton.OnConnectionEvent += HandleOnConnectionEvent;
-            NetworkManager.Singleton.OnPreShutdown -= PreShutdownHandle;
-            NetworkManager.Singleton.OnPreShutdown += PreShutdownHandle;
-
-            if (NetworkManager.Singleton.StartHost())
+            var (allocation, relayJoinCode) = await _networkRelaySetupService.CreateRelayAllocationAsync(setting.MaxPlayers);
+            _networkRelaySetupService.SetupHostTransport(allocation);
+            if (_networkRelaySetupService.StartHost())
             {
-                RegisterPasswordCheckHandler();
+                _messageHandler.RegisterPasswordCheckHandler();
                 Debug.Log("Host started...");
             }
 
@@ -178,7 +194,7 @@ public class LobbySystem
             CurrentLobby = new LobbyWrapper(lobby);
             _lobbyEvent = await LobbyService.Instance.SubscribeToLobbyEventsAsync(CurrentLobby.Id, _lobbyEventCallback);
 
-            LobbySystemEvent.LobbyCreatedEvent.Publish(new LobbySystemEvent.LobbyCreatedEvent(CurrentLobby, CurrentJoinAllocation));
+            LobbyCreatedEvent.Publish(new LobbyCreatedEvent(CurrentLobby, CurrentJoinAllocation));
             Debug.Log($"Lobby '{setting.LobbyName}' created successfully with code: {lobby.LobbyCode}");
         }
         catch (Exception e)
@@ -197,7 +213,7 @@ public class LobbySystem
             Debug.LogError("Lobby ID cannot be null or empty.");
             return;
         }
-        _userInputPassword = password;
+        _passwordHandler.SetUserInputPassword(password);
 
         var clientLobbyData = new PlayerLobbyData
         {
@@ -256,7 +272,7 @@ public class LobbySystem
         }
 
         await StartClientAsync(CurrentLobby.RelayJoinCode);
-        LobbySystemEvent.PlayerJoinedEvent.Publish(new LobbySystemEvent.PlayerJoinedEvent(CurrentPlayerId, CurrentPlayerName));
+        PlayerJoinedLobbyEvent.Publish(new PlayerJoinedLobbyEvent(CurrentPlayerId, CurrentPlayerName));
     }
 
     public async Task JoinLobbyByCodeAsync(string joinCode, string password = "")
@@ -266,7 +282,7 @@ public class LobbySystem
             Debug.LogError("Join code cannot be null or empty.");
             return;
         }
-        _userInputPassword = password;
+        _passwordHandler.SetUserInputPassword(password);
 
         var clientLobbyData = new PlayerLobbyData
         {
@@ -326,39 +342,15 @@ public class LobbySystem
         }
 
         await StartClientAsync(CurrentLobby.RelayJoinCode);
-        LobbySystemEvent.PlayerJoinedEvent.Publish(new LobbySystemEvent.PlayerJoinedEvent(CurrentPlayerId, CurrentPlayerName));
+        PlayerJoinedLobbyEvent.Publish(new PlayerJoinedLobbyEvent(CurrentPlayerId, CurrentPlayerName));
     }
 
     public async Task StartClientAsync(string joinCode)
     {
-        try
-        {
-            CurrentJoinAllocation = await RelayService.Instance.JoinAllocationAsync(joinCode);
-        }
-        catch (Exception e)
-        {
-            Debug.Log($"Failed to Join Relay...\nLog: {e}");
-            throw;
-        }
-
-        var transport = NetworkManager.Singleton.GetComponent<UnityTransport>();
-        transport.SetRelayServerData(CurrentJoinAllocation.ToRelayServerData("dtls"));
-
-        NetworkManager.Singleton.OnConnectionEvent -= HandleOnConnectionEvent;
-        NetworkManager.Singleton.OnConnectionEvent += HandleOnConnectionEvent;
-        NetworkManager.Singleton.OnPreShutdown -= PreShutdownHandle;
-        NetworkManager.Singleton.OnPreShutdown += PreShutdownHandle;
-
-        try
-        {
-            if (NetworkManager.Singleton.StartClient())
-                Debug.Log("Client started successfully.");
-        }
-        catch (Exception e)
-        {
-            Debug.LogError($"Failed to start client...\nLog:  {e}");
-            throw;
-        }
+        CurrentJoinAllocation = await _networkRelaySetupService.JoinRelayAsync(joinCode);
+        _networkRelaySetupService.SetupClientTransport(CurrentJoinAllocation);
+        if (_networkRelaySetupService.StartClient())
+            Debug.Log("Client started successfully.");
     }
 
     public async Task LeaveLobby(string playerId = null)
@@ -390,7 +382,7 @@ public class LobbySystem
         CurrentLobby = null;
         CurrentJoinAllocation = null;
 
-        LobbySystemEvent.PlayerLeftEvent.Publish(new LobbySystemEvent.PlayerLeftEvent(CurrentPlayerId, CurrentPlayerName));
+        PlayerLeftLobbyEvent.Publish(new PlayerLeftLobbyEvent(CurrentPlayerId, CurrentPlayerName));
     }
 
     public async void SetLobbySettings(LobbySetting setting)
@@ -426,7 +418,7 @@ public class LobbySystem
             CurrentLobby = new LobbyWrapper(updatedLobby);
 
             LobbyWrapper.OnSettingChanged?.Invoke(setting);
-            LobbySystemEvent.LobbyChangedEvent.Publish(new LobbySystemEvent.LobbyChangedEvent(CurrentLobby, CurrentJoinAllocation, IsHost, IsClient));
+            LobbyChangedEvent.Publish(new LobbyChangedEvent(CurrentLobby, CurrentJoinAllocation, IsHost, IsClient));
             Debug.Log("Lobby settings updated successfully.");
         }
         catch (Exception e)
@@ -435,83 +427,9 @@ public class LobbySystem
         }
     }
 
-    public async Task KickPlayer(string playerId)
-    {
-        if (CurrentLobby == null)
-        {
-            Debug.LogWarning("No lobby available.");
-            return;
-        }
-        if (string.IsNullOrEmpty(playerId))
-        {
-            Debug.LogWarning("playerId cannot be null or empty.");
-            return;
-        }
+    public Task KickPlayer(string playerId) => _playerManager.KickPlayerAsync(playerId);
 
-        try
-        {
-            ulong? clientId = null;
-            foreach (var playerLobbyData in CurrentLobby.PlayerLobbyDataList)
-            {
-                if (playerLobbyData.PlayerId == playerId)
-                {
-                    clientId = playerLobbyData.LocalClientId;
-                    break;
-                }
-            }
-
-            if (clientId.HasValue)
-                SendKickPlayerMessage(clientId.Value, "Kicked by host");
-
-            await LobbyService.Instance.RemovePlayerAsync(CurrentLobby.Id, playerId);
-            Debug.Log($"Player {playerId} kicked from the lobby.");
-        }
-        catch (Exception e)
-        {
-            Debug.LogError($"Failed to kick player: {e}");
-        }
-    }
-
-    public async void SetReady(bool isReady)
-    {
-        if (CurrentLobby == null)
-        {
-            Debug.LogWarning("No lobby available.");
-            return;
-        }
-        if (string.IsNullOrEmpty(CurrentPlayerId))
-        {
-            Debug.LogWarning("Current player ID is not available.");
-            return;
-        }
-
-        try
-        {
-            var playerDataInstance = CurrentPlayerData;
-            if (playerDataInstance == null)
-            {
-                Debug.LogWarning("Current player data is not available.");
-                return;
-            }
-
-            var playerLobbyData = playerDataInstance.Data.GetPlayerLobbyData();
-            playerLobbyData.IsReady = isReady;
-            var playerData = new Dictionary<string, PlayerDataObject>
-            {
-                { PlayerLobbyData.PlayerLobbyDataKey, new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member, playerLobbyData) }
-            };
-
-            var options = new UpdatePlayerOptions { Data = playerData };
-            await LobbyService.Instance.UpdatePlayerAsync(CurrentLobby.Id, CurrentPlayerId, options);
-
-            Debug.Log($"Set ready status to {isReady} for player {CurrentPlayerId}.");
-            LobbySystemEvent.LobbyChangedEvent.Publish(new LobbySystemEvent.LobbyChangedEvent(CurrentLobby, CurrentJoinAllocation, IsHost, IsClient));
-        }
-        catch (Exception e)
-        {
-            Debug.LogError($"Failed to set ready status...\nLog: {e}");
-        }
-    }
+    public Task SetReady(bool isReady) => _playerManager.SetReadyAsync(isReady);
 
     public async void StartGame()
     {
@@ -537,7 +455,7 @@ public class LobbySystem
             await LobbyService.Instance.UpdateLobbyAsync(CurrentLobby.Id, options);
 
             Debug.Log("Game started! Notified all players via lobby data.");
-            LobbySystemEvent.LobbyChangedEvent.Publish(new LobbySystemEvent.LobbyChangedEvent(CurrentLobby, CurrentJoinAllocation, IsHost, IsClient));
+            LobbyChangedEvent.Publish(new LobbyChangedEvent(CurrentLobby, CurrentJoinAllocation, IsHost, IsClient));
         }
         catch (Exception e)
         {
@@ -545,74 +463,88 @@ public class LobbySystem
         }
     }
 
-    public bool IsSystemReady() => IsInitialized;
-
     #endregion
 
-    #region Event Handlers
+    #region Event Handlers (called by LobbyEventManager)
 
-    private void OnPlayerJoinedEvent(LobbySystemEvent.PlayerJoinedEvent obj)
+    internal void OnPlayerJoinedEvent(PlayerJoinedLobbyEvent obj)
     {
         // TODO: Kicked the player in here, not OnConnected NetworkManager
     }
 
-    private void OnLobbyPlayerDataChanged(Dictionary<int, Dictionary<string, ChangedOrRemovedLobbyValue<PlayerDataObject>>> obj)
+    internal void OnLobbyPlayerDataChanged(Dictionary<int, Dictionary<string, ChangedOrRemovedLobbyValue<PlayerDataObject>>> obj)
     {
         SendCurrentLobbyDataToServer();
         Debug.Log("Lobby player data changed.");
-        LobbySystemEvent.LobbyChangedEvent.Publish(new LobbySystemEvent.LobbyChangedEvent(CurrentLobby, CurrentJoinAllocation, IsHost, IsClient));
+
+        LobbyPlayerDataChangedEvent.Publish(new LobbyPlayerDataChangedEvent(CurrentLobby, obj));
+
+        LobbyChangedEvent.Publish(new LobbyChangedEvent(CurrentLobby, CurrentJoinAllocation, IsHost, IsClient));
     }
 
-    private void OnLobbyDataChanged(Dictionary<string, ChangedOrRemovedLobbyValue<DataObject>> obj)
+    // Replace the original check in OnLobbyDataChanged with the new method
+    internal void OnLobbyDataChanged(Dictionary<string, ChangedOrRemovedLobbyValue<DataObject>> obj)
     {
-        if (CurrentLobby?.Lobby?.Data != null)
+        if (HasValidLobbyDataModel())
         {
-            if (CurrentLobby.Lobby.Data.TryGetValue(LobbyDataModel.LobbyDataModelKey, out var lobbyDataObj) &&
-                !string.IsNullOrWhiteSpace(lobbyDataObj.Value))
+            var lobbyDataObj = CurrentLobby.Lobby.Data[LobbyDataModel.LobbyDataModelKey];
+            var model = _lobbyDataSyncService.DeserializeLobbyData(lobbyDataObj.Value);
+            if (model != null)
             {
-                var model = lobbyDataObj.Value.ToLobbyDataModel();
-                if (model != null)
-                {
-                    CurrentLobby.PlayerLobbyDataList = model.PlayerLobbyDataList;
-                    CurrentLobby.LobbySetting = model.LobbySetting;
-                }
+                CurrentLobby.PlayerLobbyDataList = model.PlayerLobbyDataList;
+                CurrentLobby.LobbySetting = model.LobbySetting;
             }
         }
         Debug.Log("Lobby data changed.");
-        LobbySystemEvent.LobbyChangedEvent.Publish(new LobbySystemEvent.LobbyChangedEvent(CurrentLobby, CurrentJoinAllocation, IsHost, IsClient));
+
+        LobbyDataChangedEvent.Publish(
+            new LobbyDataChangedEvent(CurrentLobby, obj)
+        );
+
+        LobbyChangedEvent.Publish(
+            new LobbyChangedEvent(CurrentLobby, CurrentJoinAllocation, IsHost, IsClient)
+        );
+        return;
     }
 
-    private void OnLobbyChanged(ILobbyChanges obj)
+    internal void OnLobbyChanged(ILobbyChanges obj)
     {
         SendCurrentLobbyDataToServer();
         Debug.Log("Lobby changed (general).");
-        LobbySystemEvent.LobbyChangedEvent.Publish(new LobbySystemEvent.LobbyChangedEvent(CurrentLobby, CurrentJoinAllocation, IsHost, IsClient));
+
+        LobbyChangedEvent.Publish(
+            new LobbyChangedEvent(CurrentLobby, CurrentJoinAllocation, IsHost, IsClient)
+        );
     }
 
-    private void OnLobbyEventConnectionStateChanged(LobbyEventConnectionState state)
+    internal void OnLobbyEventConnectionStateChanged(LobbyEventConnectionState state)
     {
         Debug.Log($"Lobby event connection state changed: {state}");
         if (state == LobbyEventConnectionState.Unsynced)
             Debug.LogWarning("Lost connection to lobby events. You may need to rejoin or refresh.");
 
+        LobbyConnectionStateChangedEvent.Publish(
+            new LobbyConnectionStateChangedEvent(state)
+        );
+
         switch (state)
         {
             case LobbyEventConnectionState.Subscribed: break;
-            case LobbyEventConnectionState.Unsubscribed: RemoveLobbyEventListener(); break;
+            case LobbyEventConnectionState.Unsubscribed: _eventManager?.RemoveLobbyEventListener(); break;
         }
     }
 
-    private void OnPlayerKickedFromLobby()
+    internal void OnPlayerKickedFromLobby()
     {
         Debug.LogWarning("You have been kicked from the lobby.");
         CurrentLobby = null;
         CurrentJoinAllocation = null;
-        LobbySystemEvent.PlayerLeftEvent.Publish(new LobbySystemEvent.PlayerLeftEvent(CurrentPlayerId, CurrentPlayerName));
-        _lobbyEvent.UnsubscribeAsync();
+        _lobbyEvent?.UnsubscribeAsync();
         _lobbyEvent = null;
+        PlayerLeftLobbyEvent.Publish(new PlayerLeftLobbyEvent(CurrentPlayerId, CurrentPlayerName));
     }
 
-    private void OnPlayerJoinLobby(List<LobbyPlayerJoined> players)
+    internal void OnPlayerJoinLobby(List<LobbyPlayerJoined> players)
     {
         foreach (var player in players)
         {
@@ -624,10 +556,10 @@ public class LobbySystem
             CurrentLobby.PlayerLobbyDataList.Add(playerData);
         }
         SendCurrentLobbyDataToServer();
-        LobbySystemEvent.PlayerJoinedEvent.Publish(new LobbySystemEvent.PlayerJoinedEvent(CurrentPlayerId, CurrentPlayerName));
+        PlayerJoinedLobbyEvent.Publish(new PlayerJoinedLobbyEvent(CurrentPlayerId, CurrentPlayerName));
     }
 
-    private void OnPlayerLeftLobby(List<int> playerIndex)
+    internal void OnPlayerLeftLobby(List<int> playerIndex)
     {
         if (CurrentLobby is { PlayerLobbyDataList: not null })
         {
@@ -647,214 +579,33 @@ public class LobbySystem
             }
         }
         SendCurrentLobbyDataToServer();
-        LobbySystemEvent.PlayerLeftEvent.Publish(new LobbySystemEvent.PlayerLeftEvent(CurrentPlayerId, CurrentPlayerName));
-    }
-
-    #endregion
-
-    #region Lobby Event Listener Registration
-
-    private void AddLobbyEventListener()
-    {
-        _lobbyEventCallback.PlayerJoined += OnPlayerJoinLobby;
-        _lobbyEventCallback.PlayerLeft += OnPlayerLeftLobby;
-        _lobbyEventCallback.KickedFromLobby += OnPlayerKickedFromLobby;
-        _lobbyEventCallback.LobbyChanged += OnLobbyChanged;
-        _lobbyEventCallback.DataAdded += OnLobbyDataChanged;
-        _lobbyEventCallback.DataChanged += OnLobbyDataChanged;
-        _lobbyEventCallback.DataRemoved += OnLobbyDataChanged;
-        _lobbyEventCallback.PlayerDataAdded += OnLobbyPlayerDataChanged;
-        _lobbyEventCallback.PlayerDataChanged += OnLobbyPlayerDataChanged;
-        _lobbyEventCallback.PlayerDataRemoved += OnLobbyPlayerDataChanged;
-        _lobbyEventCallback.LobbyEventConnectionStateChanged += OnLobbyEventConnectionStateChanged;
-    }
-
-    private void RemoveLobbyEventListener()
-    {
-        _lobbyEventCallback.PlayerJoined -= OnPlayerJoinLobby;
-        _lobbyEventCallback.PlayerLeft -= OnPlayerLeftLobby;
-        _lobbyEventCallback.KickedFromLobby -= OnPlayerKickedFromLobby;
-        _lobbyEventCallback.LobbyChanged -= OnLobbyChanged;
-        _lobbyEventCallback.DataAdded -= OnLobbyDataChanged;
-        _lobbyEventCallback.DataChanged -= OnLobbyDataChanged;
-        _lobbyEventCallback.DataRemoved -= OnLobbyDataChanged;
-        _lobbyEventCallback.PlayerDataAdded -= OnLobbyPlayerDataChanged;
-        _lobbyEventCallback.PlayerDataChanged -= OnLobbyPlayerDataChanged;
-        _lobbyEventCallback.PlayerDataRemoved -= OnLobbyPlayerDataChanged;
-        _lobbyEventCallback.LobbyEventConnectionStateChanged -= OnLobbyEventConnectionStateChanged;
-    }
-
-    #endregion
-
-    #region Network Message Handlers
-
-    private void RegisterLobbyDataHandler()
-    {
-        NetworkManager.Singleton.CustomMessagingManager.UnregisterNamedMessageHandler(nameof(ReceiveLobbyData));
-        NetworkManager.Singleton.CustomMessagingManager.RegisterNamedMessageHandler(nameof(ReceiveLobbyData), ReceiveLobbyData);
-    }
-
-    private void UnregisterLobbyDataHandler()
-    {
-        NetworkManager.Singleton.CustomMessagingManager.UnregisterNamedMessageHandler(nameof(ReceiveLobbyData));
-    }
-
-    private void RegisterKickPlayerHandler()
-    {
-        NetworkManager.Singleton.CustomMessagingManager.UnregisterNamedMessageHandler(nameof(ReceiveKickPlayer));
-        NetworkManager.Singleton.CustomMessagingManager.RegisterNamedMessageHandler(nameof(ReceiveKickPlayer), ReceiveKickPlayer);
-    }
-
-    private void UnregisterKickPlayerHandler()
-    {
-        NetworkManager.Singleton.CustomMessagingManager.UnregisterNamedMessageHandler(nameof(ReceiveKickPlayer));
-    }
-
-    private void RegisterPasswordCheckHandler()
-    {
-        NetworkManager.Singleton.CustomMessagingManager.UnregisterNamedMessageHandler(nameof(CheckJoinPassword));
-        NetworkManager.Singleton.CustomMessagingManager.RegisterNamedMessageHandler(nameof(CheckJoinPassword), CheckJoinPassword);
-    }
-
-    private void UnregisterPasswordCheckHandler()
-    {
-        NetworkManager.Singleton.CustomMessagingManager.UnregisterNamedMessageHandler(nameof(CheckJoinPassword));
-    }
-
-    private void HandleOnConnectionEvent(NetworkManager networkManager, ConnectionEventData eventData)
-    {
-        var isLocalClient = eventData.ClientId == networkManager.LocalClientId;
-        var isClientConnected = eventData.EventType == ConnectionEvent.ClientConnected;
-        var isClient = IsClient;
-
-        if (!isLocalClient || !isClientConnected || !isClient) 
-            return;
-
-        RegisterLobbyDataHandler();
-        RegisterKickPlayerHandler();
-        SendPassword();
-    }
-
-    private void PreShutdownHandle()
-    {
-        if (NetworkManager.Singleton == null) 
-            return;
-
-        if (IsHost)
-            UnregisterPasswordCheckHandler();
-
-        if (IsClient)
-        {
-            UnregisterLobbyDataHandler();
-            UnregisterKickPlayerHandler();
-        }
-    }
-
-    private void SendPassword()
-    {
-        if (string.IsNullOrWhiteSpace(_userInputPassword)) return;
-
-        var msg = new JoinPasswordMessage { Password = _userInputPassword };
-        using var writer = new FastBufferWriter(sizeof(int) + (msg.Password?.Length ?? 0) * sizeof(char), Unity.Collections.Allocator.Temp);
-        writer.WriteNetworkSerializable(msg);
-        NetworkManager.Singleton.CustomMessagingManager.SendNamedMessage(nameof(CheckJoinPassword), NetworkManager.ServerClientId, writer);
-    }
-
-    private async void ReceiveKickPlayer(ulong senderClientId, FastBufferReader reader)
-    {
-        reader.ReadValueSafe(out KickPlayerMessage msg);
-        Debug.LogWarning($"You have been kicked from the lobby. Reason: {msg.Reason}");
-
-        await LeaveLobby();
-
-        CurrentLobby = null;
-        CurrentJoinAllocation = null;
-        LobbySystemEvent.PlayerLeftEvent.Publish(new LobbySystemEvent.PlayerLeftEvent(CurrentPlayerId, CurrentPlayerName));
-        if (NetworkManager.Singleton.IsClient || NetworkManager.Singleton.IsConnectedClient)
-            NetworkManager.Singleton.Shutdown();
-
-        if (NetworkManager.Singleton.IsHost)
-            NetworkManager.Singleton.Shutdown();
-    }
-
-    private void SendKickPlayerMessage(ulong clientId, string reason = "Kicked by host")
-    {
-        var msg = new KickPlayerMessage { Reason = reason };
-        using var writer = new FastBufferWriter(sizeof(int) + (msg.Reason?.Length ?? 0) * sizeof(char), Unity.Collections.Allocator.Temp);
-        writer.WriteNetworkSerializable(msg);
-        NetworkManager.Singleton.CustomMessagingManager.SendNamedMessage(nameof(ReceiveKickPlayer), clientId, writer);
-    }
-
-    private void ReceiveLobbyData(ulong senderClientId, FastBufferReader reader)
-    {
-        var bytesToRead = reader.Length - reader.Position;
-        var data = new byte[bytesToRead];
-        reader.ReadBytesSafe(ref data, bytesToRead);
-        var json = System.Text.Encoding.UTF8.GetString(data);
-        var model = json.ToLobbyDataModel();
-
-        if (CurrentLobby != null)
-        {
-            CurrentLobby.LobbyDataModel = model;
-            CurrentLobby.PlayerLobbyDataList = model.PlayerLobbyDataList;
-            CurrentLobby.LobbySetting = model.LobbySetting;
-        }
-    }
-
-    private async void CheckJoinPassword(ulong clientNetworkId, FastBufferReader reader)
-    {
-        reader.ReadValueSafe(out JoinPasswordMessage msg);
-        var correctPassword = CurrentLobby?.LobbySetting.Password;
-
-        if (string.IsNullOrEmpty(correctPassword) || msg.Password == correctPassword)
-        {
-            Debug.Log($"Client {clientNetworkId} joined with correct password.");
-        }
-        else
-        {
-            Debug.LogWarning($"Client {clientNetworkId} provided wrong password. Kicking...");
-            var clientPlayerId = CurrentLobby.PlayerLobbyDataList[1].PlayerId;
-            await KickPlayer(clientPlayerId);
-        }
+        PlayerLeftLobbyEvent.Publish(new PlayerLeftLobbyEvent(CurrentPlayerId, CurrentPlayerName));
     }
 
     #endregion
 
     #region Helpers
 
-    private byte[] SerializeLobbyDataModel(LobbyDataModel model) =>
-        System.Text.Encoding.UTF8.GetBytes(model.ToJson());
-
     private void SendCurrentLobbyDataToServer()
     {
         if (!IsHost || CurrentLobby?.LobbyDataModel == null)
             return;
 
-        var data = SerializeLobbyDataModel(CurrentLobby.LobbyDataModel);
+        _lobbyDataSyncService.SendLobbyDataToClients(
+            CurrentLobby.LobbyDataModel,
+            NetworkManager.Singleton.LocalClientId,
+            nameof(LobbyMessageHandler.OnReceiveLobbyData)
+        );
+    }
 
-        using var writer = new FastBufferWriter(data.Length, Unity.Collections.Allocator.Temp);
-        writer.WriteBytesSafe(data, data.Length);
+    internal string GetUserInputPassword() => _passwordHandler.GetUserInputPassword();
 
-        foreach (var clientId in NetworkManager.Singleton.ConnectedClientsIds)
-        {
-            if (clientId == NetworkManager.Singleton.LocalClientId) continue;
-            NetworkManager.Singleton.CustomMessagingManager.SendNamedMessage(nameof(ReceiveLobbyData), clientId, writer);
-        }
+    private bool HasValidLobbyDataModel()
+    {
+        return CurrentLobby is { Lobby: { Data: not null } } &&
+               CurrentLobby.Lobby.Data.TryGetValue(LobbyDataModel.LobbyDataModelKey, out var lobbyDataObj) &&
+               !string.IsNullOrWhiteSpace(lobbyDataObj.Value);
     }
 
     #endregion
-}
-
-public struct JoinPasswordMessage : INetworkSerializable
-{
-    public string Password;
-    public void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter =>
-        serializer.SerializeValue(ref Password);
-}
-
-public struct KickPlayerMessage : INetworkSerializable
-{
-    public string Reason;
-    public void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter =>
-        serializer.SerializeValue(ref Reason);
 }
