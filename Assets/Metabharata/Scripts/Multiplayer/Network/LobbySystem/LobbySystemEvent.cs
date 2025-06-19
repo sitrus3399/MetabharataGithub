@@ -53,10 +53,13 @@ public class PlayerJoinedLobbyEvent : IPayload
 {
     public string PlayerId { get; set; }
     public string PlayerName { get; set; }
-    public PlayerJoinedLobbyEvent(string playerId, string playerName)
+    public LobbyWrapper JoinedLobby { get; set; }
+
+    public PlayerJoinedLobbyEvent(string playerId, string playerName, LobbyWrapper joinedLobby)
     {
         PlayerId = playerId;
         PlayerName = playerName;
+        JoinedLobby = joinedLobby;
     }
     public static void Publish(PlayerJoinedLobbyEvent payload)
     {
@@ -72,10 +75,13 @@ public class PlayerLeftLobbyEvent : IPayload
 {
     public string PlayerId { get; set; }
     public string PlayerName { get; set; }
-    public PlayerLeftLobbyEvent(string playerId, string playerName)
+    public LobbyWrapper LastJoinedLobby { get; set; }
+
+    public PlayerLeftLobbyEvent(string playerId, string playerName, LobbyWrapper lastJoinedLobby)
     {
         PlayerId = playerId;
         PlayerName = playerName;
+        LastJoinedLobby = lastJoinedLobby;
     }
     public static void Publish(PlayerLeftLobbyEvent payload)
     {

@@ -246,6 +246,7 @@ public class LobbySystem
         try
         {
             CurrentLobby = await LobbyService.Instance.JoinLobbyByIdAsync(lobbyId, joinLobbyOptions);
+            CurrentLobby.PlayerLobbyDataList.Add(clientLobbyData);
         }
         catch (Exception e)
         {
@@ -275,7 +276,7 @@ public class LobbySystem
         }
 
         await StartClientAsync(CurrentLobby.RelayJoinCode);
-        PlayerJoinedLobbyEvent.Publish(new PlayerJoinedLobbyEvent(CurrentPlayerId, CurrentPlayerName));
+        PlayerJoinedLobbyEvent.Publish(new PlayerJoinedLobbyEvent(CurrentPlayerId, CurrentPlayerName, CurrentLobby));
     }
 
     public async Task JoinLobbyByCodeAsync(string joinCode, string password = "")
@@ -315,6 +316,7 @@ public class LobbySystem
         try
         {
             CurrentLobby = await LobbyService.Instance.JoinLobbyByCodeAsync(joinCode, joinLobbyOption);
+            CurrentLobby.PlayerLobbyDataList.Add(clientLobbyData);
             SendCurrentLobbyDataToServer();
         }
         catch (Exception e)
@@ -345,7 +347,7 @@ public class LobbySystem
         }
 
         await StartClientAsync(CurrentLobby.RelayJoinCode);
-        PlayerJoinedLobbyEvent.Publish(new PlayerJoinedLobbyEvent(CurrentPlayerId, CurrentPlayerName));
+        PlayerJoinedLobbyEvent.Publish(new PlayerJoinedLobbyEvent(CurrentPlayerId, CurrentPlayerName, CurrentLobby));
     }
 
     public async Task StartClientAsync(string joinCode)
@@ -382,10 +384,11 @@ public class LobbySystem
         if (NetworkManager.Singleton.IsHost)
             NetworkManager.Singleton.Shutdown();
 
+        var lastLobby = CurrentLobby;
         CurrentLobby = null;
         CurrentJoinAllocation = null;
 
-        PlayerLeftLobbyEvent.Publish(new PlayerLeftLobbyEvent(CurrentPlayerId, CurrentPlayerName));
+        PlayerLeftLobbyEvent.Publish(new PlayerLeftLobbyEvent(CurrentPlayerId, CurrentPlayerName, lastLobby));
     }
 
     public async void SetLobbySettings(LobbySetting setting)
@@ -533,18 +536,20 @@ public class LobbySystem
         switch (state)
         {
             case LobbyEventConnectionState.Subscribed: break;
-            case LobbyEventConnectionState.Unsubscribed: _eventManager?.RemoveLobbyEventListener(); break;
+            case LobbyEventConnectionState.Unsubscribed: break;
         }
     }
 
     internal void OnPlayerKickedFromLobby()
     {
         Debug.LogWarning("You have been kicked from the lobby.");
+
+        var lastLobby = CurrentLobby;
         CurrentLobby = null;
         CurrentJoinAllocation = null;
         _lobbyEvent?.UnsubscribeAsync();
         _lobbyEvent = null;
-        PlayerLeftLobbyEvent.Publish(new PlayerLeftLobbyEvent(CurrentPlayerId, CurrentPlayerName));
+        //PlayerLeftLobbyEvent.Publish(new PlayerLeftLobbyEvent(CurrentPlayerId, CurrentPlayerName, lastLobby));
     }
 
     internal void OnPlayerJoinLobby(List<LobbyPlayerJoined> players)
@@ -559,11 +564,14 @@ public class LobbySystem
             CurrentLobby.PlayerLobbyDataList.Add(playerData);
         }
         SendCurrentLobbyDataToServer();
-        PlayerJoinedLobbyEvent.Publish(new PlayerJoinedLobbyEvent(CurrentPlayerId, CurrentPlayerName));
+        PlayerJoinedLobbyEvent.Publish(new PlayerJoinedLobbyEvent(CurrentPlayerId, CurrentPlayerName, CurrentLobby));
     }
 
     internal void OnPlayerLeftLobby(List<int> playerIndex)
     {
+        var lastLobby = CurrentLobby;
+        var leftPlayerId = string.Empty;
+        var leftPlayerName = string.Empty;
         if (CurrentLobby is { PlayerLobbyDataList: not null })
         {
             playerIndex.Sort((a, b) => b.CompareTo(a));
@@ -572,7 +580,8 @@ public class LobbySystem
                 if (index >= 0 && index < CurrentLobby.PlayerLobbyDataList.Count)
                 {
                     var leftPlayer = CurrentLobby.PlayerLobbyDataList[index];
-                    Debug.Log($"Player left: {leftPlayer.PlayerId} ({leftPlayer.PlayerName})");
+                    leftPlayerId = leftPlayer.PlayerId;
+                    leftPlayerName = leftPlayer.PlayerName;
                     CurrentLobby.PlayerLobbyDataList.RemoveAt(index);
                 }
                 else
@@ -582,7 +591,8 @@ public class LobbySystem
             }
         }
         SendCurrentLobbyDataToServer();
-        PlayerLeftLobbyEvent.Publish(new PlayerLeftLobbyEvent(CurrentPlayerId, CurrentPlayerName));
+        PlayerLeftLobbyEvent.Publish(new PlayerLeftLobbyEvent(leftPlayerId, leftPlayerName, lastLobby));
+        Debug.Log($"Player left: \nId:'{leftPlayerId}' \nName:'{leftPlayerName}'");
     }
 
     #endregion

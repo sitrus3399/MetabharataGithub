@@ -2,6 +2,7 @@ using Metabharata.Multiplayer.Network.LobbySystem;
 using System;
 using System.Collections.Generic;
 using Unity.Services.Lobbies.Models;
+using UnityEngine;
 
 public class LobbyWrapper
 {
@@ -55,29 +56,25 @@ public class LobbyWrapper
 
 public static class LobbyWrapperExtension
 {
-    public static Player GetHostPlayerData(this Lobby lobby)
+    public static PlayerLobbyData GetHostPlayerData(this LobbyWrapper lobby)
     {
-        // Get the host player by comparing HostId with Player.Id in Lobby's Players list
-        if (lobby?.HostId == null || lobby.Players == null)
-            return null;
-        foreach (var player in lobby.Players)
+        foreach (var player in lobby.PlayerLobbyDataList)
         {
-            if (player.Id == lobby.HostId)
+            if (player.IsHost)
             {
                 return player;
             }
         }
+
         return null;
     }
 
-    public static Player GetNonHostPlayer(this Lobby lobby)
+    public static PlayerLobbyData GetNonHostPlayer(this LobbyWrapper lobby)
     {
         // Get the first player that is not the host
-        if (lobby?.Players == null || lobby.Players.Count < 2)
-            return null;
-        foreach (var player in lobby.Players)
+        foreach (var player in lobby.PlayerLobbyDataList)
         {
-            if (player.Id != lobby.HostId)
+            if (!player.IsHost)
             {
                 return player;
             }

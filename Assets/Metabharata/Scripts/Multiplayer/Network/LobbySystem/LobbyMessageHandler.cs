@@ -151,16 +151,6 @@ public class LobbyMessageHandler
         Debug.LogWarning($"You have been kicked from the lobby. Reason: {msg.Reason}");
 
         await _lobbySystem.LeaveLobby();
-
-        _lobbySystem.CurrentLobby = null;
-        _lobbySystem.CurrentJoinAllocation = null;
-        PlayerLeftLobbyEvent.Publish(new PlayerLeftLobbyEvent(_lobbySystem.CurrentPlayerId, _lobbySystem.CurrentPlayerName));
-
-        if (NetworkManager.Singleton.IsClient || NetworkManager.Singleton.IsConnectedClient)
-            NetworkManager.Singleton.Shutdown();
-
-        if (NetworkManager.Singleton.IsHost)
-            NetworkManager.Singleton.Shutdown();
     }
 
     /// <summary>
