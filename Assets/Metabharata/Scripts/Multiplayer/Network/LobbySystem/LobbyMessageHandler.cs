@@ -28,7 +28,10 @@ public class LobbyMessageHandler
 
     public void UnregisterLobbyDataHandler()
     {
-        NetworkManager.Singleton.CustomMessagingManager.UnregisterNamedMessageHandler(nameof(OnReceiveLobbyData));
+        if (NetworkManager.Singleton.CustomMessagingManager is null) return;
+
+        var messageManager = NetworkManager.Singleton.CustomMessagingManager;
+        messageManager.UnregisterNamedMessageHandler(nameof(OnReceiveLobbyData));
     }
 
     /// <summary>
@@ -43,7 +46,10 @@ public class LobbyMessageHandler
 
     public void UnregisterKickPlayerHandler()
     {
-        NetworkManager.Singleton.CustomMessagingManager.UnregisterNamedMessageHandler(nameof(OnReceiveKickPlayer));
+        if (NetworkManager.Singleton.CustomMessagingManager is null) return;
+
+        var messageManager = NetworkManager.Singleton.CustomMessagingManager;
+        messageManager.UnregisterNamedMessageHandler(nameof(OnReceiveKickPlayer));
     }
 
     /// <summary>
@@ -58,7 +64,10 @@ public class LobbyMessageHandler
 
     public void UnregisterPasswordCheckHandler()
     {
-        NetworkManager.Singleton.CustomMessagingManager.UnregisterNamedMessageHandler(nameof(OnCheckJoinPassword));
+        if (NetworkManager.Singleton.CustomMessagingManager is null) return;
+
+        var messageManager = NetworkManager.Singleton.CustomMessagingManager;
+        messageManager.UnregisterNamedMessageHandler(nameof(OnCheckJoinPassword));
     }
 
     #endregion
@@ -178,7 +187,8 @@ public class LobbyMessageHandler
     /// </summary>
     private async void OnCheckJoinPassword(ulong clientNetworkId, FastBufferReader reader)
     {
-        var isNeedPassword = _lobbySystem._passwordHandler.IsPasswordRequired(_lobbySystem.CurrentLobby?.LobbySetting);
+        var currentLobbySetting = _lobbySystem.CurrentLobby?.LobbySetting;
+        var isNeedPassword = currentLobbySetting?.IsLocked ?? false;
         if (!isNeedPassword)
         {
             Debug.Log($"Client {clientNetworkId} joined without password requirement.");
@@ -188,7 +198,7 @@ public class LobbyMessageHandler
         reader.ReadValueSafe(out JoinPasswordMessage msg);
         var correctPassword = _lobbySystem.CurrentLobby?.LobbySetting.Password;
         
-        if (_lobbySystem._passwordHandler.ValidatePassword(msg.Password, correctPassword))
+        if (_lobbySystem.PasswordHandler.ValidatePassword(msg.Password, correctPassword))
         {
             Debug.Log($"Client {clientNetworkId} joined with correct password.");
         }

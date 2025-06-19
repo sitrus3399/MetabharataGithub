@@ -49,7 +49,7 @@ public class LobbySystem
     private readonly LobbyContext _lobbyContext = new();
     private LobbyPlayerManager _playerManager;
     private NetworkRelaySetupService _networkRelaySetupService;
-    internal readonly LobbyPasswordHandler _passwordHandler = new();
+    public readonly LobbyPasswordHandler PasswordHandler = new();
 
     public string CurrentPlayerId =>
         NetworkServiceInitiator.Instance.IsInitialized ? AuthenticationService.Instance.PlayerId : string.Empty;
@@ -72,7 +72,7 @@ public class LobbySystem
 
     #region Public API
 
-    public void InitializeSystem()
+    public async void InitializeSystem()
     {
         if (IsInitialized || IsInitializing)
         {
@@ -89,8 +89,11 @@ public class LobbySystem
         _eventManager.AddLobbyEventListener();
 
         _messageHandler = new LobbyMessageHandler(this);
-        _lobbyDataSyncService = new LobbyDataSyncService(NetworkManager.Singleton);
         _playerManager = new LobbyPlayerManager(this, _messageHandler);
+
+        await NetworkServiceInitiator.Instance.WaitUntilInitializationFinished();
+
+        _lobbyDataSyncService = new LobbyDataSyncService(NetworkManager.Singleton);
         _networkRelaySetupService = new NetworkRelaySetupService(NetworkManager.Singleton, _messageHandler);
 
         Debug.Log("Lobby system initialized.");
@@ -118,7 +121,7 @@ public class LobbySystem
         LobbyList = null;
         IsInitialized = false;
         IsInitializing = false;
-        _passwordHandler.ClearUserInputPassword();
+        PasswordHandler.ClearUserInputPassword();
 
         _eventManager?.RemoveLobbyEventListener();
 
@@ -213,7 +216,7 @@ public class LobbySystem
             Debug.LogError("Lobby ID cannot be null or empty.");
             return;
         }
-        _passwordHandler.SetUserInputPassword(password);
+        PasswordHandler.SetUserInputPassword(password);
 
         var clientLobbyData = new PlayerLobbyData
         {
@@ -282,7 +285,7 @@ public class LobbySystem
             Debug.LogError("Join code cannot be null or empty.");
             return;
         }
-        _passwordHandler.SetUserInputPassword(password);
+        PasswordHandler.SetUserInputPassword(password);
 
         var clientLobbyData = new PlayerLobbyData
         {
@@ -598,7 +601,7 @@ public class LobbySystem
         );
     }
 
-    internal string GetUserInputPassword() => _passwordHandler.GetUserInputPassword();
+    internal string GetUserInputPassword() => PasswordHandler.GetUserInputPassword();
 
     private bool HasValidLobbyDataModel()
     {
