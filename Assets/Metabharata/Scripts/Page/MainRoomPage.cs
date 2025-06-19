@@ -54,11 +54,11 @@ public class MainRoomPage : Page
     protected override void OnEnable()
     {
         base.OnEnable();
-        EventMessenger.Main.Subscribe<LobbySystemEvent.LobbyChangedEvent>(OnLobbyChanged);
-        EventMessenger.Main.Subscribe<LobbySystemEvent.LobbyCreatedEvent>(OnLobbyCreated);
+        EventMessenger.Main.Subscribe<LobbyChangedEvent>(OnLobbyChanged);
+        EventMessenger.Main.Subscribe<LobbyCreatedEvent>(OnLobbyCreated);
     }
 
-    private void OnLobbyCreated(LobbySystemEvent.LobbyCreatedEvent obj)
+    private void OnLobbyCreated(LobbyCreatedEvent obj)
     {
         roomCodeText.text = obj.CurrentLobby.Lobby.LobbyCode;
         roomNameText.text = obj.CurrentLobby.Lobby.Name;
@@ -71,7 +71,7 @@ public class MainRoomPage : Page
         clientName.text = "Client";
     }
 
-    private void OnLobbyChanged(LobbySystemEvent.LobbyChangedEvent obj)
+    private void OnLobbyChanged(LobbyChangedEvent obj)
     {
         if (obj.CurrentLobby == null) return;
         roomCodeText.text = obj.CurrentLobby.Lobby.LobbyCode;
@@ -88,7 +88,7 @@ public class MainRoomPage : Page
     protected override void OnDisable()
     {
         base.OnDisable();
-        EventMessenger.Main.Unsubscribe<LobbySystemEvent.LobbyChangedEvent>(OnLobbyChanged);
+        EventMessenger.Main.Unsubscribe<LobbyChangedEvent>(OnLobbyChanged);
     }
 
     protected override void Update()

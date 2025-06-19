@@ -1,4 +1,8 @@
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 using Unity.Netcode;
+using Unity.Services.Core;
 using UnityEngine;
 
 namespace Metabharata.Network.Multiplayer.NetworkServiceSystem
@@ -75,6 +79,29 @@ namespace Metabharata.Network.Multiplayer.NetworkServiceSystem
         /// </summary>
         /// <returns>True if the system is ready; otherwise, false.</returns>
         public bool IsSystemReady() => _system != null && _system.IsSystemReady();
+
+        #endregion
+
+        #region Utility Method
+
+        public async Task WaitUntilInitializationFinished()
+        {
+            if (!Instance.IsInitialized)
+            {
+                var cancellationToken = new CancellationTokenSource(5000);
+                while (!Instance.IsInitialized)
+                {
+                    if (cancellationToken.IsCancellationRequested)
+                    {
+                        throw new Exception()
+                        {
+                            Source = "Request Timed Out when waiting for initialization..."
+                        };
+                    }
+                    await Task.Yield();
+                }
+            }
+        }
 
         #endregion
     }

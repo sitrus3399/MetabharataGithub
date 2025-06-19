@@ -80,7 +80,7 @@ public class HostGameManager : MonoBehaviour
     // Update TryStartHostAsync to accept the password
     private async Task TryStartHostAsync(string password = null)
     {
-        await WaitForNetworkServiceInitialization();
+        await NetworkServiceInitiator.Instance.WaitUntilInitializationFinished();
 
         try
         {
@@ -152,25 +152,6 @@ public class HostGameManager : MonoBehaviour
     private void RegisterPasswordCheckHandler()
     {
         //NetworkManager.Singleton.CustomMessagingManager.RegisterNamedMessageHandler("CheckJoinPassword", OnCheckJoinPassword);
-    }
-
-    private async Task WaitForNetworkServiceInitialization()
-    {
-        if (!NetworkServiceInitiator.Instance.IsInitialized)
-        {
-            var cancellationToken = new CancellationTokenSource(5000);
-            while (UnityServices.State == ServicesInitializationState.Initializing)
-            {
-                if (cancellationToken.IsCancellationRequested)
-                {
-                    throw new Exception()
-                    {
-                        Source = "Request Timed Out when waiting for initialization..."
-                    };
-                }
-                await Task.Yield();
-            }
-        }
     }
 
     // Update RetryStartHostAsync to pass the password

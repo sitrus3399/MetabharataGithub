@@ -45,7 +45,7 @@ public class LobbySystemInitiator : MonoBehaviour
     /// Checks if the network system is ready.
     /// </summary>
     /// <returns>True if the system is ready; otherwise, false.</returns>
-    public bool IsSystemReady() => _system != null && _system.IsSystemReady();
+    public bool IsSystemReady() => _system is { IsInitialized: true };
 
     #endregion
 }
